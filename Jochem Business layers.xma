@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MM_Document version="2.0" format="XML" includeMetaModels="false" xmlns:builtins="http://www.bizzdesign.com/metamodels/builtins" xmlns:Base="http://www.bizzdesign.com/metamodels/Base" xmlns:MM_ModelPackage="http://www.bizzdesign.com/metamodels/MM_ModelPackage" xmlns:Component="http://www.bizzdesign.com/metamodels/Component" xmlns:MM_Diagram="http://www.bizzdesign.com/metamodels/MM_Diagram" xmlns:ArchiMate="http://www.bizzdesign.com/metamodels/ArchiMate2.0" xmlns:Amber="http://www.bizzdesign.com/metamodels/Amber" xmlns:TDM="http://www.bizzdesign.com/metamodels/TDM" xmlns:ERD="http://www.bizzdesign.com/metamodels/ERD" xmlns:Lean="http://www.bizzdesign.com/metamodels/Lean" xmlns:BPMN="http://www.bizzdesign.com/metamodels/BPMN" xmlns:BMC="http://www.bizzdesign.com/metamodels/BMC">
+<MM_StorageUnit fqn="">
+<MM_ModelPackage:MM_ModelPackage id="0">
+<nm>jochem's Model package 2</nm>
+<MM_ModelPackage:MM_Models name="models" id="1">
+<ArchiMate:ArchiMateMM_Model id="2">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Empty model with total view extended</MM_Value>
+</MM_ProfileValues>
+<MM_ModelPackage:MM_Modules name="modules" id="3">
+<MM_ModelPackage:MM_Module id="4" nm="SemanticModule" metaModel="ArchiMate">
+<ArchiMate:ArchiMateComponent name="root" id="5">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Empty model with total view extended</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:DomainDataSet name="domainDataSet" id="6"/>
+<ArchiMate:AbstractCommandContainers name="commandContainers" id="7"/>
+<ArchiMate:AbstractSchemes name="schemes" id="8">
+<ArchiMate:MotivationScheme id="9">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Motivation extension</MM_Value>
+</MM_ProfileValues>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:MotivationScheme>
+<ArchiMate:TechnicalInfrastructureScheme id="10">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Technology layer</MM_Value>
+</MM_ProfileValues>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:TechnicalInfrastructureScheme>
+<ArchiMate:ApplicationScheme id="11">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Application layer</MM_Value>
+</MM_ProfileValues>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:ApplicationScheme>
+<ArchiMate:BusinessScheme id="12">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Business layer</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessProducts name="products" id="13">
+<ArchiMate:BusinessProduct id="14">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Lamps</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
+<ArchiMate:BusinessProduct id="15">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Incandescent ligh-bulb for household use</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
+<ArchiMate:BusinessProduct id="39">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Incandescent light-bulb for graphic sector</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
+<ArchiMate:BusinessProduct id="50">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Incandescent light bulbs for corporate and industrial use</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
+<ArchiMate:BusinessProduct id="51">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Sodium-vapor lamps for industrial use</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
+</ArchiMate:BusinessProducts>
+<ArchiMate:Relations name="relations" id="40">
+<ArchiMate:BusinessProductBusinessProductSpecialization id="41" from="15" to="14"/>
+<ArchiMate:BusinessProductBusinessProductSpecialization id="52" from="39" to="14"/>
+<ArchiMate:BusinessProductBusinessProductSpecialization id="53" from="50" to="14"/>
+<ArchiMate:BusinessProductBusinessProductSpecialization id="54" from="51" to="14"/>
+</ArchiMate:Relations>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:BusinessScheme>
+<ArchiMate:IMScheme id="16">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Implementation and migration extension</MM_Value>
+</MM_ProfileValues>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:IMScheme>
+</ArchiMate:AbstractSchemes>
+<ArchiMate:AbstractViews name="views" id="17"/>
+<ArchiMate:AbstractFolders name="folders" id="18">
+<ArchiMate:AbstractFolder id="19">
+<nm>Views</nm>
+<ArchiMate:AbstractSchemes name="schemes" id="20"/>
+<ArchiMate:AbstractViews name="views" id="21">
+<ArchiMate:AllExtendedView id="22">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Total view extended</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:RefObjects name="refObjects" id="23">
+<ArchiMate:BusinessProductRef id="24" to="14"/>
+<ArchiMate:BusinessProductRef id="25" to="15"/>
+<ArchiMate:BusinessProductBusinessProductSpecializationRef id="42" to="41"/>
+<ArchiMate:BusinessProductRef id="43" to="39"/>
+<ArchiMate:BusinessProductBusinessProductSpecializationRef id="55" to="52"/>
+<ArchiMate:BusinessProductRef id="56" to="50"/>
+<ArchiMate:BusinessProductBusinessProductSpecializationRef id="57" to="53"/>
+<ArchiMate:BusinessProductRef id="58" to="51"/>
+<ArchiMate:BusinessProductBusinessProductSpecializationRef id="59" to="54"/>
+</ArchiMate:RefObjects>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:AllExtendedView>
+</ArchiMate:AbstractViews>
+<ArchiMate:AbstractFolders name="folders" id="26"/>
+</ArchiMate:AbstractFolder>
+</ArchiMate:AbstractFolders>
+</ArchiMate:ArchiMateComponent>
+</MM_ModelPackage:MM_Module>
+<MM_ModelPackage:MM_Module id="27" nm="GraphicalModule" metaModel="MM_Diagram">
+<MM_Diagram:MM_Diagram name="root" id="28">
+<MM_Diagram:MM_Node name="mm_canvas" id="29" mm_graphicType="5" mm_concept="Canvas" mm_semanticObject="22">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="30">
+<MM_Diagram:MM_Node id="31" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="24">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="32">
+<MM_Diagram:MM_Decoration id="33" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="840" y="140" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="34" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="25">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="35">
+<MM_Diagram:MM_Decoration id="36" mm_graphicType="2" mm_concept="label" mm_frameStrategy="68"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="140" y="440" w="400" h="180"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="44" mm_from="34" mm_to="31" mm_fromx="200" mm_fromy="80" mm_tox="200" mm_toy="140" mm_graphicType="7" mm_concept="BusinessProductBusinessProductSpecialization" mm_semanticObject="42">
+<MM_Diagram:MM_MultiLine name="mm_line" id="45">
+<MM_Diagram:MM_Point id="46" mm_x="340" mm_y="280"/>
+</MM_Diagram:MM_MultiLine>
+</MM_Diagram:MM_DirectedRel>
+<MM_Diagram:MM_Node id="47" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="43">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="48">
+<MM_Diagram:MM_Decoration id="49" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="620" y="440" w="400" h="180"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="60" mm_from="47" mm_to="31" mm_fromx="300" mm_fromy="0" mm_tox="80" mm_toy="160" mm_graphicType="7" mm_concept="BusinessProductBusinessProductSpecialization" mm_semanticObject="55"/>
+<MM_Diagram:MM_Node id="61" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="56">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="62">
+<MM_Diagram:MM_Decoration id="63" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1080" y="440" w="400" h="180"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="64" mm_from="61" mm_to="31" mm_fromx="80" mm_fromy="0" mm_tox="320" mm_toy="160" mm_graphicType="7" mm_concept="BusinessProductBusinessProductSpecialization" mm_semanticObject="57"/>
+<MM_Diagram:MM_Node id="65" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="58">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="66">
+<MM_Diagram:MM_Decoration id="67" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1520" y="440" w="400" h="180"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="68" mm_from="65" mm_to="31" mm_fromx="200" mm_fromy="100" mm_tox="400" mm_toy="140" mm_graphicType="7" mm_concept="BusinessProductBusinessProductSpecialization" mm_semanticObject="59">
+<MM_Diagram:MM_MultiLine name="mm_line" id="69">
+<MM_Diagram:MM_Point id="70" mm_x="1720" mm_y="280"/>
+</MM_Diagram:MM_MultiLine>
+</MM_Diagram:MM_DirectedRel>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="0" y="0" w="2147483647" h="2147483647"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Diagram>
+<Any name="tag"><Objectref value="22"/></Any>
+</MM_ModelPackage:MM_Module>
+</MM_ModelPackage:MM_Modules>
+<Any name="taggedValues"><Structure><String name="createdBy">Architect 4.5.1 Academic 14-15</String></Structure></Any>
+</ArchiMate:ArchiMateMM_Model>
+</MM_ModelPackage:MM_Models>
+<MM_ModelPackage:MM_Languages name="languages" id="37">
+<MM_ModelPackage:MM_Language id="38" isDefault="true">
+<nm>en</nm>
+</MM_ModelPackage:MM_Language>
+</MM_ModelPackage:MM_Languages>
+<MM_ModelPackage:MM_Users name="users" id="71">
+<MM_ModelPackage:MM_User id="72">
+<nm>jochem</nm>
+<Any name="taggedValues"><Structure><List name="viewSettings"><Structure><Objectref value="22" name="diagObj"/><List name="selectedObjects"/></Structure></List></Structure></Any>
+</MM_ModelPackage:MM_User>
+</MM_ModelPackage:MM_Users>
+<Any name="taggedValues"><Structure><Structure name="grid"><Long value="20" name="y"/><Long value="20" name="x"/></Structure><String name="lastSavedWith">Architect 4.5.1 Academic 14-15</String></Structure></Any>
+</MM_ModelPackage:MM_ModelPackage>
+</MM_StorageUnit>
+</MM_Document>
