@@ -65,12 +65,23 @@
 <MM_Value name="nm" type="string" xml:lang="en">Sodium-vapor lamps for industrial use</MM_Value>
 </MM_ProfileValues>
 </ArchiMate:BusinessProduct>
+<ArchiMate:BusinessProduct id="73">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Maintenance</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
+<ArchiMate:BusinessProduct id="74">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Maintenance including emergency service</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
 </ArchiMate:BusinessProducts>
 <ArchiMate:Relations name="relations" id="40">
 <ArchiMate:BusinessProductBusinessProductSpecialization id="41" from="15" to="14"/>
 <ArchiMate:BusinessProductBusinessProductSpecialization id="52" from="39" to="14"/>
 <ArchiMate:BusinessProductBusinessProductSpecialization id="53" from="50" to="14"/>
 <ArchiMate:BusinessProductBusinessProductSpecialization id="54" from="51" to="14"/>
+<ArchiMate:BusinessProductBusinessProductSpecialization id="75" from="74" to="73"/>
 </ArchiMate:Relations>
 <Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
 </ArchiMate:BusinessScheme>
@@ -101,6 +112,9 @@
 <ArchiMate:BusinessProductBusinessProductSpecializationRef id="57" to="53"/>
 <ArchiMate:BusinessProductRef id="58" to="51"/>
 <ArchiMate:BusinessProductBusinessProductSpecializationRef id="59" to="54"/>
+<ArchiMate:BusinessProductRef id="76" to="73"/>
+<ArchiMate:BusinessProductRef id="77" to="74"/>
+<ArchiMate:BusinessProductBusinessProductSpecializationRef id="78" to="75"/>
 </ArchiMate:RefObjects>
 <Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
 </ArchiMate:AllExtendedView>
@@ -156,6 +170,19 @@
 <MM_Diagram:MM_Point id="70" mm_x="1720" mm_y="280"/>
 </MM_Diagram:MM_MultiLine>
 </MM_Diagram:MM_DirectedRel>
+<MM_Diagram:MM_Node id="79" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="76">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="80">
+<MM_Diagram:MM_Decoration id="81" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="2100" y="160" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="82" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="77">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="83">
+<MM_Diagram:MM_Decoration id="84" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="2100" y="440" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="85" mm_from="82" mm_to="79" mm_fromx="200" mm_fromy="80" mm_tox="200" mm_toy="140" mm_graphicType="7" mm_concept="BusinessProductBusinessProductSpecialization" mm_semanticObject="78"/>
 </MM_Diagram:MM_Graphics>
 <MM_Rect name="mm_rect" x="0" y="0" w="2147483647" h="2147483647"/>
 </MM_Diagram:MM_Node>
