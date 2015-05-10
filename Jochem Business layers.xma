@@ -75,6 +75,11 @@
 <MM_Value name="nm" type="string" xml:lang="en">Maintenance including emergency service</MM_Value>
 </MM_ProfileValues>
 </ArchiMate:BusinessProduct>
+<ArchiMate:BusinessProduct id="86">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Consultancy</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
 </ArchiMate:BusinessProducts>
 <ArchiMate:Relations name="relations" id="40">
 <ArchiMate:BusinessProductBusinessProductSpecialization id="41" from="15" to="14"/>
@@ -115,6 +120,7 @@
 <ArchiMate:BusinessProductRef id="76" to="73"/>
 <ArchiMate:BusinessProductRef id="77" to="74"/>
 <ArchiMate:BusinessProductBusinessProductSpecializationRef id="78" to="75"/>
+<ArchiMate:BusinessProductRef id="87" to="86"/>
 </ArchiMate:RefObjects>
 <Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
 </ArchiMate:AllExtendedView>
@@ -183,6 +189,12 @@
 <MM_Rect name="mm_rect" x="2100" y="440" w="400" h="160"/>
 </MM_Diagram:MM_Node>
 <MM_Diagram:MM_DirectedRel id="85" mm_from="82" mm_to="79" mm_fromx="200" mm_fromy="80" mm_tox="200" mm_toy="140" mm_graphicType="7" mm_concept="BusinessProductBusinessProductSpecialization" mm_semanticObject="78"/>
+<MM_Diagram:MM_Node id="88" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="87">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="89">
+<MM_Diagram:MM_Decoration id="90" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="2600" y="160" w="400" h="160"/>
+</MM_Diagram:MM_Node>
 </MM_Diagram:MM_Graphics>
 <MM_Rect name="mm_rect" x="0" y="0" w="2147483647" h="2147483647"/>
 </MM_Diagram:MM_Node>
