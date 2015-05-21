@@ -446,10 +446,16 @@
 <ArchiMate:ApplicationFunctionApplicationServiceRealisationRef id="552" to="553"/>
 </ArchiMate:RefObjects>
 </ArchiMate:ApplicationBehaviourView>
+<ArchiMate:InformationStructureView id="616">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Information structure view</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InformationStructureView>
 </ArchiMate:ArchitectViews>
 <ArchiMate:ViewGraphics name="viewGraphics" id="126"/>
 <ArchiMate:Relations name="relations" id="161">
 <ArchiMate:ElementElementAssociation id="186" from="0" to="175"/>
+<ArchiMate:ElementElementAssociation id="617" from="0" to="616"/>
 </ArchiMate:Relations>
 <ArchiMate:RefObjects name="refObjects" id="23"/>
 <Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
@@ -735,6 +741,14 @@
 </MM_Diagram:MM_Diagram>
 <Any name="tag"><Objectref value="175"/></Any>
 </MM_ModelPackage:MM_Module>
+<MM_ModelPackage:MM_Module id="618" nm="GraphicalModule" metaModel="MM_Diagram">
+<MM_Diagram:MM_Diagram name="root" id="619">
+<MM_Diagram:MM_Node name="mm_canvas" id="620" mm_graphicType="5" mm_concept="Canvas" mm_semanticObject="616">
+<MM_Rect name="mm_rect" x="0" y="0" w="2147483647" h="2147483647"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Diagram>
+<Any name="tag"><Objectref value="616"/></Any>
+</MM_ModelPackage:MM_Module>
 </MM_ModelPackage:MM_Modules>
 <Any name="taggedValues"><Structure><String name="createdBy">Architect 4.5.1 Academic 14-15</String></Structure></Any>
 </ArchiMate:ArchiMateMM_Model>
@@ -747,7 +761,7 @@
 <MM_ModelPackage:MM_Users name="users" id="614">
 <MM_ModelPackage:MM_User id="615">
 <nm>kyle</nm>
-<Any name="taggedValues"><Structure><List name="viewSettings"><Structure><Objectref value="0" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="175" name="diagObj"/><List name="selectedObjects"/></Structure></List></Structure></Any>
+<Any name="taggedValues"><Structure><List name="viewSettings"><Structure><Objectref value="175" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="0" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="616" name="diagObj"/><List name="selectedObjects"/></Structure></List></Structure></Any>
 </MM_ModelPackage:MM_User>
 </MM_ModelPackage:MM_Users>
 <Any name="taggedValues"><Structure><Structure name="grid"><Long value="20" name="x"/><Long value="20" name="y"/></Structure><String name="lastSavedWith">Architect 4.5.1 Academic 14-15</String></Structure></Any>
