@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MM_Document version="2.0" format="XML" includeMetaModels="false" xmlns:builtins="http://www.bizzdesign.com/metamodels/builtins" xmlns:Base="http://www.bizzdesign.com/metamodels/Base" xmlns:MM_ModelPackage="http://www.bizzdesign.com/metamodels/MM_ModelPackage" xmlns:Component="http://www.bizzdesign.com/metamodels/Component" xmlns:ArchiMate="http://www.bizzdesign.com/metamodels/ArchiMate2.0" xmlns:MM_Diagram="http://www.bizzdesign.com/metamodels/MM_Diagram" xmlns:Amber="http://www.bizzdesign.com/metamodels/Amber" xmlns:ERD="http://www.bizzdesign.com/metamodels/ERD" xmlns:Lean="http://www.bizzdesign.com/metamodels/Lean" xmlns:BPMN="http://www.bizzdesign.com/metamodels/BPMN" xmlns:BMC="http://www.bizzdesign.com/metamodels/BMC" xmlns:TDM="http://www.bizzdesign.com/metamodels/TDM">
+<MM_Document version="2.0" format="XML" includeMetaModels="false" xmlns:builtins="http://www.bizzdesign.com/metamodels/builtins" xmlns:Base="http://www.bizzdesign.com/metamodels/Base" xmlns:MM_ModelPackage="http://www.bizzdesign.com/metamodels/MM_ModelPackage" xmlns:Component="http://www.bizzdesign.com/metamodels/Component" xmlns:ArchiMate="http://www.bizzdesign.com/metamodels/ArchiMate2.0" xmlns:MM_Diagram="http://www.bizzdesign.com/metamodels/MM_Diagram" xmlns:Amber="http://www.bizzdesign.com/metamodels/Amber" xmlns:BPMN="http://www.bizzdesign.com/metamodels/BPMN" xmlns:BMC="http://www.bizzdesign.com/metamodels/BMC" xmlns:TDM="http://www.bizzdesign.com/metamodels/TDM" xmlns:Lean="http://www.bizzdesign.com/metamodels/Lean" xmlns:ERD="http://www.bizzdesign.com/metamodels/ERD">
 <MM_StorageUnit fqn="">
 <MM_ModelPackage:MM_ModelPackage id="0">
 <nm>luizrebelomoreiraj's Model package 2</nm>
@@ -17,12 +17,6 @@
 <ArchiMate:DomainDataSet name="domainDataSet" id="6"/>
 <ArchiMate:AbstractCommandContainers name="commandContainers" id="7"/>
 <ArchiMate:AbstractSchemes name="schemes" id="8">
-<ArchiMate:IMScheme id="17">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Implementation and migration extension</MM_Value>
-</MM_ProfileValues>
-<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
-</ArchiMate:IMScheme>
 <ArchiMate:MotivationScheme id="9">
 <MM_ProfileValues>
 <MM_Value name="nm" type="string" xml:lang="en">Motivation extension</MM_Value>
@@ -347,23 +341,6 @@
 <MM_Value name="nm" type="string" xml:lang="en">ICT support</MM_Value>
 </MM_ProfileValues>
 </ArchiMate:BusinessFunction>
-<ArchiMate:BusinessFunction id="2244">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Production</MM_Value>
-</MM_ProfileValues>
-<ArchiMate:BusinessFunctions name="functions" id="2245">
-<ArchiMate:BusinessFunction id="2246">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Distribution</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessFunction>
-<ArchiMate:BusinessFunction id="2247">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Accounting</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessFunction>
-</ArchiMate:BusinessFunctions>
-</ArchiMate:BusinessFunction>
 </ArchiMate:BusinessFunctions>
 <ArchiMate:BusinessObjects name="objects" id="124">
 <ArchiMate:BusinessContract id="1259">
@@ -381,65 +358,10 @@
 <MM_Value name="nm" type="string" xml:lang="en">Specific contract (agreement)</MM_Value>
 </MM_ProfileValues>
 </ArchiMate:BusinessContract>
-<ArchiMate:BusinessObject id="2279">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Overview</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessObject>
-<ArchiMate:BusinessObject id="2280">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Schedule</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessObject>
-<ArchiMate:BusinessObject id="2281">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Production run code</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessObject>
-<ArchiMate:BusinessObject id="2282">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Batch number</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessObject>
-<ArchiMate:BusinessObject id="2283">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Order number</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessObject>
 </ArchiMate:BusinessObjects>
-<ArchiMate:BusinessRepresentations name="representations" id="126">
-<ArchiMate:BusinessRepresentation id="2284">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Label</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessRepresentation>
-</ArchiMate:BusinessRepresentations>
-<ArchiMate:BusinessProcesses name="processes" id="1275">
-<ArchiMate:BusinessProcess id="2285">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Process information</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessProcess>
-<ArchiMate:BusinessProcess id="2286">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Filament and base production</MM_Value>
-</MM_ProfileValues>
-<ArchiMate:BusinessProcesses name="processes" id="2287"/>
-</ArchiMate:BusinessProcess>
-<ArchiMate:BusinessProcess id="2288">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Determine production schedule</MM_Value>
-</MM_ProfileValues>
-<ArchiMate:BusinessProcesses name="processes" id="2289"/>
-</ArchiMate:BusinessProcess>
-</ArchiMate:BusinessProcesses>
-<ArchiMate:BusinessEvents name="events" id="1357">
-<ArchiMate:BusinessEvent id="2290">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Start of the day</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessEvent>
-</ArchiMate:BusinessEvents>
+<ArchiMate:BusinessRepresentations name="representations" id="126"/>
+<ArchiMate:BusinessProcesses name="processes" id="1275"/>
+<ArchiMate:BusinessEvents name="events" id="1357"/>
 <ArchiMate:BusinessInteractions name="interactions" id="1233"/>
 <ArchiMate:BusinessActivities name="activities" id="1424"/>
 <ArchiMate:BusinessProducts name="products" id="768">
@@ -571,6 +493,40 @@
 </ArchiMate:BusinessValue>
 </ArchiMate:BusinessValues>
 <ArchiMate:Relations name="relations" id="49">
+<ArchiMate:UseRelation id="918" from="901" to="798"/>
+<ArchiMate:UseRelation id="919" from="900" to="798"/>
+<ArchiMate:BusinessServiceBusinessRoleUse id="955" from="925" to="798"/>
+<ArchiMate:BusinessServiceBusinessRoleUse id="956" from="926" to="798"/>
+<ArchiMate:BusinessServiceBusinessRoleUse id="993" from="925" to="992"/>
+<ArchiMate:BusinessServiceBusinessRoleUse id="994" from="926" to="992"/>
+<ArchiMate:BusinessServiceBusinessRoleUse id="995" from="977" to="992"/>
+<ArchiMate:BusinessProductBusinessProductComposition id="1661" from="1638" to="1659"/>
+<ArchiMate:BusinessProductBusinessProductSpecialization id="1662" from="1638" to="1452"/>
+<ArchiMate:BusinessProductBusinessProductSpecialization id="1663" from="1660" to="1452"/>
+<ArchiMate:BusinessRoleBusinessRoleSpecialization id="1679" from="798" to="16"/>
+<ArchiMate:BusinessRoleBusinessRoleSpecialization id="1680" from="797" to="16"/>
+<ArchiMate:BusinessRoleBusinessRoleSpecialization id="1681" from="42" to="16"/>
+<ArchiMate:UseRelation id="1688" from="1640" to="797"/>
+<ArchiMate:UseRelation id="1689" from="1659" to="16"/>
+<ArchiMate:BusinessRoleBusinessRoleSpecialization id="1698" from="16" to="1697"/>
+<ArchiMate:BusinessRoleBusinessRoleSpecialization id="1699" from="796" to="1697"/>
+<ArchiMate:UseRelation id="1700" from="1660" to="798"/>
+<ArchiMate:UseRelation id="1701" from="1660" to="42"/>
+<ArchiMate:UseRelation id="1720" from="1719" to="16">
+<MM_ProfileValues>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fprq15\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Regular customer? (2.2. amiguity)\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:UseRelation>
+<ArchiMate:UseRelation id="1736" from="1728" to="16"/>
+<ArchiMate:ElementElementAssociation id="1748" from="1719" to="1277"/>
+<ArchiMate:ElementElementAssociation id="1760" from="977" to="1759"/>
+<ArchiMate:BusinessInterfaceBusinessServiceAssignment id="1189" from="1182" to="1188"/>
+<ArchiMate:BusinessInterfaceBusinessServiceAssignment id="1225" from="1213" to="1214"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="2208" from="2157" to="74"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="2214" from="67" to="2211"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="2228" from="2211" to="2226"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="2229" from="2211" to="2227"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="2240" from="2211" to="75"/>
 <ArchiMate:BusinessActorBusinessRoleAssignment id="51" from="14" to="16"/>
 <ArchiMate:BusinessActorBusinessRoleAssignment id="52" from="14" to="42"/>
 <ArchiMate:BusinessActorBusinessRoleAssignment id="97" from="67" to="73"/>
@@ -641,45 +597,15 @@
 <ArchiMate:UseRelation id="889" from="879" to="16"/>
 <ArchiMate:UseRelation id="890" from="878" to="798"/>
 <ArchiMate:UseRelation id="891" from="879" to="798"/>
-<ArchiMate:UseRelation id="918" from="901" to="798"/>
-<ArchiMate:UseRelation id="919" from="900" to="798"/>
-<ArchiMate:BusinessServiceBusinessRoleUse id="955" from="925" to="798"/>
-<ArchiMate:BusinessServiceBusinessRoleUse id="956" from="926" to="798"/>
-<ArchiMate:BusinessServiceBusinessRoleUse id="993" from="925" to="992"/>
-<ArchiMate:BusinessServiceBusinessRoleUse id="994" from="926" to="992"/>
-<ArchiMate:BusinessServiceBusinessRoleUse id="995" from="977" to="992"/>
-<ArchiMate:BusinessProductBusinessProductComposition id="1661" from="1638" to="1659"/>
-<ArchiMate:BusinessProductBusinessProductSpecialization id="1662" from="1638" to="1452"/>
-<ArchiMate:BusinessProductBusinessProductSpecialization id="1663" from="1660" to="1452"/>
-<ArchiMate:BusinessRoleBusinessRoleSpecialization id="1679" from="798" to="16"/>
-<ArchiMate:BusinessRoleBusinessRoleSpecialization id="1680" from="797" to="16"/>
-<ArchiMate:BusinessRoleBusinessRoleSpecialization id="1681" from="42" to="16"/>
-<ArchiMate:UseRelation id="1688" from="1640" to="797"/>
-<ArchiMate:UseRelation id="1689" from="1659" to="16"/>
-<ArchiMate:BusinessRoleBusinessRoleSpecialization id="1698" from="16" to="1697"/>
-<ArchiMate:BusinessRoleBusinessRoleSpecialization id="1699" from="796" to="1697"/>
-<ArchiMate:UseRelation id="1700" from="1660" to="798"/>
-<ArchiMate:UseRelation id="1701" from="1660" to="42"/>
-<ArchiMate:UseRelation id="1720" from="1719" to="16">
-<MM_ProfileValues>
-<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fprq15\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Regular customer? (2.2. amiguity)\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:UseRelation>
-<ArchiMate:UseRelation id="1736" from="1728" to="16"/>
-<ArchiMate:ElementElementAssociation id="1748" from="1719" to="1277"/>
-<ArchiMate:ElementElementAssociation id="1760" from="977" to="1759"/>
-<ArchiMate:BusinessInterfaceBusinessServiceAssignment id="1189" from="1182" to="1188"/>
-<ArchiMate:BusinessInterfaceBusinessServiceAssignment id="1225" from="1213" to="1214"/>
-<ArchiMate:BusinessActorBusinessRoleAssignment id="2208" from="2157" to="74"/>
-<ArchiMate:BusinessActorBusinessActorComposition id="2214" from="67" to="2211"/>
-<ArchiMate:BusinessActorBusinessActorComposition id="2228" from="2211" to="2226"/>
-<ArchiMate:BusinessActorBusinessActorComposition id="2229" from="2211" to="2227"/>
-<ArchiMate:BusinessActorBusinessRoleAssignment id="2240" from="2211" to="75"/>
-<ArchiMate:BusinessEventBusinessProcessTriggering id="2291" from="2290" to="2288"/>
-<ArchiMate:AssignmentRelation id="2248" from="664" to="2244"/>
 </ArchiMate:Relations>
 <Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
 </ArchiMate:BusinessScheme>
+<ArchiMate:IMScheme id="17">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Implementation and migration extension</MM_Value>
+</MM_ProfileValues>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:IMScheme>
 </ArchiMate:AbstractSchemes>
 <ArchiMate:AbstractViews name="views" id="18"/>
 <ArchiMate:AbstractFolders name="folders" id="19">
@@ -807,14 +733,6 @@
 </ArchiMate:ViewGraphic>
 </ArchiMate:ViewGraphics>
 <ArchiMate:RefObjects name="refObjects" id="1487">
-<ArchiMate:BusinessContractRef id="1744" to="1277">
-<MM_ProfileValues>
-<MM_Value name="formattednm" type="string" xml:lang="en">SLA&#xa;Regular service contract (standard contract for regular clients) - Maintenance activity type - Timeframe to respond to service request - Quality (num. errors / 10.000 burns hour)</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessContractRef>
-<ArchiMate:ElementElementAssociationRef id="1749" to="1748"/>
-<ArchiMate:BusinessValueRef id="1761" to="1759"/>
-<ArchiMate:ElementElementAssociationRef id="1762" to="1760"/>
 <ArchiMate:BusinessRoleRef id="1489" to="16">
 <ArchiMate:MM_RefObjects name="childRefObjects" id="1490"/>
 </ArchiMate:BusinessRoleRef>
@@ -842,6 +760,14 @@
 <ArchiMate:UseRelationRef id="1706" to="1701"/>
 <ArchiMate:UseRelationRef id="1723" to="1720"/>
 <ArchiMate:UseRelationRef id="1737" to="1736"/>
+<ArchiMate:BusinessContractRef id="1744" to="1277">
+<MM_ProfileValues>
+<MM_Value name="formattednm" type="string" xml:lang="en">SLA&#xa;Regular service contract (standard contract for regular clients) - Maintenance activity type - Timeframe to respond to service request - Quality (num. errors / 10.000 burns hour)</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessContractRef>
+<ArchiMate:ElementElementAssociationRef id="1749" to="1748"/>
+<ArchiMate:BusinessValueRef id="1761" to="1759"/>
+<ArchiMate:ElementElementAssociationRef id="1762" to="1760"/>
 </ArchiMate:RefObjects>
 </ArchiMate:BusinessProductView>
 <ArchiMate:OrganisationStructureView id="1838">
@@ -858,7 +784,6 @@
 <ArchiMate:BusinessActorRef id="2151" to="470"/>
 <ArchiMate:BusinessActorRef id="1843" to="67">
 <ArchiMate:MM_RefObjects name="childRefObjects" id="1844">
-<ArchiMate:BusinessActorBusinessRoleAssignmentRef id="2241" to="2240"/>
 <ArchiMate:BusinessRoleRef id="1845" to="74"/>
 <ArchiMate:BusinessRoleRef id="1846" to="75"/>
 <ArchiMate:BusinessActorRef id="1854" to="218"/>
@@ -918,42 +843,16 @@
 <ArchiMate:BusinessActorBusinessRoleAssignmentRef id="2209" to="2208"/>
 <ArchiMate:BusinessActorRef id="2215" to="2211">
 <ArchiMate:MM_RefObjects name="childRefObjects" id="2216">
-<ArchiMate:BusinessActorRef id="2231" to="2227"/>
 <ArchiMate:BusinessActorRef id="2217" to="2213"/>
 <ArchiMate:BusinessActorRef id="2230" to="2226"/>
+<ArchiMate:BusinessActorRef id="2231" to="2227"/>
 </ArchiMate:MM_RefObjects>
 </ArchiMate:BusinessActorRef>
+<ArchiMate:BusinessActorBusinessRoleAssignmentRef id="2241" to="2240"/>
 </ArchiMate:MM_RefObjects>
 </ArchiMate:BusinessActorRef>
 </ArchiMate:RefObjects>
 </ArchiMate:OrganisationStructureView>
-<ArchiMate:BusinessProcessView id="2249">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Business process view</MM_Value>
-</MM_ProfileValues>
-<ArchiMate:RefObjects name="refObjects" id="2250">
-<ArchiMate:BusinessFunctionRef id="2251" to="2244">
-<ArchiMate:MM_RefObjects name="childRefObjects" id="2252">
-<ArchiMate:BusinessFunctionRef id="2253" to="2246"/>
-<ArchiMate:BusinessFunctionRef id="2254" to="2247"/>
-<ArchiMate:BusinessProcessRef id="2292" to="2288"/>
-<ArchiMate:BusinessProcessRef id="2293" to="2286"/>
-<ArchiMate:BusinessRepresentationRef id="2294" to="2284"/>
-<ArchiMate:BusinessObjectRef id="2295" to="2283"/>
-<ArchiMate:BusinessObjectRef id="2296" to="2282"/>
-<ArchiMate:BusinessObjectRef id="2297" to="2281"/>
-<ArchiMate:BusinessObjectRef id="2298" to="2280"/>
-<ArchiMate:BusinessObjectRef id="2299" to="2279"/>
-<ArchiMate:BusinessEventRef id="2300" to="2290"/>
-<ArchiMate:BusinessEventBusinessProcessTriggeringRef id="2301" to="2291"/>
-</ArchiMate:MM_RefObjects>
-</ArchiMate:BusinessFunctionRef>
-<ArchiMate:BusinessActorRef id="2255" to="664">
-<ArchiMate:MM_RefObjects name="childRefObjects" id="2256"/>
-</ArchiMate:BusinessActorRef>
-<ArchiMate:AssignmentRelationRef id="2257" to="2248"/>
-</ArchiMate:RefObjects>
-</ArchiMate:BusinessProcessView>
 </ArchiMate:AbstractViews>
 <ArchiMate:AbstractFolders name="folders" id="27"/>
 </ArchiMate:AbstractFolder>
@@ -1557,102 +1456,6 @@
 </MM_Diagram:MM_Diagram>
 <Any name="tag"><Objectref value="1459"/></Any>
 </MM_ModelPackage:MM_Module>
-<MM_ModelPackage:MM_Module id="2258" nm="GraphicalModule" metaModel="MM_Diagram">
-<MM_Diagram:MM_Diagram name="root" id="2259">
-<MM_Diagram:MM_Node name="mm_canvas" id="2260" mm_graphicType="5" mm_concept="Canvas" mm_semanticObject="2249">
-<MM_Diagram:MM_Graphics name="mm_graphics" id="2261">
-<MM_Diagram:MM_Node id="2262" mm_graphicType="5" mm_concept="BusinessFunction" mm_semanticObject="2251">
-<MM_Diagram:MM_Graphics name="mm_graphics" id="2263">
-<MM_Diagram:MM_Decoration id="2264" mm_graphicType="2" mm_concept="icon"/>
-<MM_Diagram:MM_Node id="2265" mm_graphicType="5" mm_concept="BusinessFunction" mm_semanticObject="2253">
-<MM_Diagram:MM_Graphics name="mm_graphics" id="2266">
-<MM_Diagram:MM_Decoration id="2267" mm_graphicType="2" mm_concept="icon"/>
-<MM_Diagram:MM_Decoration id="2268" mm_graphicType="2" mm_concept="label"/>
-</MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="30" y="80" w="400" h="60"/>
-</MM_Diagram:MM_Node>
-<MM_Diagram:MM_Node id="2269" mm_graphicType="5" mm_concept="BusinessFunction" mm_semanticObject="2254">
-<MM_Diagram:MM_Graphics name="mm_graphics" id="2270">
-<MM_Diagram:MM_Decoration id="2271" mm_graphicType="2" mm_concept="icon"/>
-<MM_Diagram:MM_Decoration id="2272" mm_graphicType="2" mm_concept="label"/>
-</MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="30" y="180" w="400" h="60"/>
-</MM_Diagram:MM_Node>
-<MM_Diagram:MM_Decoration id="2273" mm_graphicType="2" mm_concept="label"/>
-<MM_Diagram:MM_Node id="2302" mm_graphicType="5" mm_concept="BusinessEvent" mm_semanticObject="2300">
-<MM_Diagram:MM_Graphics name="mm_graphics" id="2303">
-<MM_Diagram:MM_Decoration id="2304" mm_graphicType="2" mm_concept="label"/>
-</MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="60" y="320" w="400" h="60"/>
-</MM_Diagram:MM_Node>
-<MM_Diagram:MM_Node id="2305" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="2292">
-<MM_Diagram:MM_Graphics name="mm_graphics" id="2306">
-<MM_Diagram:MM_Decoration id="2307" mm_graphicType="2" mm_concept="icon"/>
-<MM_Diagram:MM_Decoration id="2308" mm_graphicType="2" mm_concept="label"/>
-</MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="520" y="320" w="400" h="160"/>
-</MM_Diagram:MM_Node>
-<MM_Diagram:MM_Node id="2309" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="2293">
-<MM_Diagram:MM_Graphics name="mm_graphics" id="2310">
-<MM_Diagram:MM_Decoration id="2311" mm_graphicType="2" mm_concept="icon"/>
-<MM_Diagram:MM_Decoration id="2312" mm_graphicType="2" mm_concept="label"/>
-</MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="980" y="880" w="400" h="160"/>
-</MM_Diagram:MM_Node>
-<MM_Diagram:MM_Node id="2313" mm_graphicType="5" mm_concept="BusinessRepresentation" mm_semanticObject="2294">
-<MM_Diagram:MM_Graphics name="mm_graphics" id="2314">
-<MM_Diagram:MM_Decoration id="2315" mm_graphicType="2" mm_concept="label"/>
-</MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="460" y="1020" w="400" h="160"/>
-</MM_Diagram:MM_Node>
-<MM_Diagram:MM_Node id="2316" mm_graphicType="5" mm_concept="BusinessObject" mm_semanticObject="2295">
-<MM_Diagram:MM_Graphics name="mm_graphics" id="2317">
-<MM_Diagram:MM_Decoration id="2318" mm_graphicType="2" mm_concept="label"/>
-</MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="660" y="1280" w="400" h="160"/>
-</MM_Diagram:MM_Node>
-<MM_Diagram:MM_Node id="2319" mm_graphicType="5" mm_concept="BusinessObject" mm_semanticObject="2296">
-<MM_Diagram:MM_Graphics name="mm_graphics" id="2320">
-<MM_Diagram:MM_Decoration id="2321" mm_graphicType="2" mm_concept="label"/>
-</MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="1060" y="1140" w="400" h="160"/>
-</MM_Diagram:MM_Node>
-<MM_Diagram:MM_Node id="2322" mm_graphicType="5" mm_concept="BusinessObject" mm_semanticObject="2297">
-<MM_Diagram:MM_Graphics name="mm_graphics" id="2323">
-<MM_Diagram:MM_Decoration id="2324" mm_graphicType="2" mm_concept="label"/>
-</MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="160" y="1140" w="400" h="160"/>
-</MM_Diagram:MM_Node>
-<MM_Diagram:MM_Node id="2325" mm_graphicType="5" mm_concept="BusinessObject" mm_semanticObject="2298">
-<MM_Diagram:MM_Graphics name="mm_graphics" id="2326">
-<MM_Diagram:MM_Decoration id="2327" mm_graphicType="2" mm_concept="label"/>
-</MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="520" y="600" w="220" h="100"/>
-</MM_Diagram:MM_Node>
-<MM_Diagram:MM_Node id="2328" mm_graphicType="5" mm_concept="BusinessObject" mm_semanticObject="2299">
-<MM_Diagram:MM_Graphics name="mm_graphics" id="2329">
-<MM_Diagram:MM_Decoration id="2330" mm_graphicType="2" mm_concept="label"/>
-</MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="200" y="600" w="240" h="100"/>
-</MM_Diagram:MM_Node>
-<MM_Diagram:MM_DirectedRel id="2331" mm_from="2302" mm_to="2305" mm_fromx="200" mm_fromy="80" mm_tox="60" mm_toy="60" mm_graphicType="7" mm_concept="BusinessEventBusinessProcessTriggering" mm_semanticObject="2301"/>
-</MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="60" y="80" w="1560" h="1580"/>
-</MM_Diagram:MM_Node>
-<MM_Diagram:MM_Node id="2274" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="2255">
-<MM_Diagram:MM_Graphics name="mm_graphics" id="2275">
-<MM_Diagram:MM_Decoration id="2276" mm_graphicType="2" mm_concept="icon"/>
-<MM_Diagram:MM_Decoration id="2277" mm_graphicType="2" mm_concept="label"/>
-</MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="2160" y="40" w="460" h="510"/>
-</MM_Diagram:MM_Node>
-<MM_Diagram:MM_DirectedRel id="2278" mm_from="2274" mm_to="2262" mm_fromx="100" mm_fromy="300" mm_tox="240" mm_toy="260" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="2257"/>
-</MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="0" y="0" w="2147483647" h="2147483647"/>
-</MM_Diagram:MM_Node>
-</MM_Diagram:MM_Diagram>
-<Any name="tag"><Objectref value="2249"/></Any>
-</MM_ModelPackage:MM_Module>
 </MM_ModelPackage:MM_Modules>
 <Any name="taggedValues"><Structure><String name="createdBy">Architect 4.5.1 Academic 14-15</String></Structure></Any>
 </ArchiMate:ArchiMateMM_Model>
@@ -1669,10 +1472,10 @@
 </MM_ModelPackage:MM_User>
 <MM_ModelPackage:MM_User id="2243">
 <nm>jochem</nm>
-<Any name="taggedValues"><Structure><List name="viewSettings"><Structure><Objectref value="1838" name="diagObj"/><List name="selectedObjects"><Objectref value="1880"/></List></Structure><Structure><Objectref value="2249" name="diagObj"/><List name="selectedObjects"><Objectref value="2251"/></List></Structure></List></Structure></Any>
+<Any name="taggedValues"><Structure><List name="viewSettings"><Structure><Objectref value="23" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="1459" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="1838" name="diagObj"/><List name="selectedObjects"/></Structure></List></Structure></Any>
 </MM_ModelPackage:MM_User>
 </MM_ModelPackage:MM_Users>
-<Any name="taggedValues"><Structure><Structure name="grid"><Long value="20" name="x"/><Long value="20" name="y"/></Structure><String name="lastSavedWith">Architect 4.5.1 Academic 14-15</String></Structure></Any>
+<Any name="taggedValues"><Structure><Structure name="grid"><Long value="20" name="y"/><Long value="20" name="x"/></Structure><String name="lastSavedWith">Architect 4.5.1 Academic 14-15</String></Structure></Any>
 </MM_ModelPackage:MM_ModelPackage>
 </MM_StorageUnit>
 </MM_Document>
