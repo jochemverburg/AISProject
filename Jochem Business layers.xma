@@ -608,11 +608,6 @@
 </ArchiMate:BusinessProcess>
 </ArchiMate:BusinessProcesses>
 <ArchiMate:BusinessEvents name="events" id="747">
-<ArchiMate:BusinessEvent id="804">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Start of the day</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessEvent>
 <ArchiMate:BusinessEvent id="748">
 <MM_ProfileValues>
 <MM_Value name="nm" type="string" xml:lang="en">Start of the day</MM_Value>
@@ -1027,7 +1022,6 @@
 <MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq6\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Creates\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
 </MM_ProfileValues>
 </ArchiMate:BusinessProcessBusinessObjectAccess>
-<ArchiMate:BusinessFunctionBusinessEventComposition id="806" from="741" to="804"/>
 <ArchiMate:BusinessFunctionBusinessProcessComposition id="807" from="741" to="803"/>
 <ArchiMate:AssignmentRelation id="808" from="544" to="803"/>
 <ArchiMate:BusinessProcessBusinessProcessTriggering id="809" from="743" to="803"/>
@@ -2486,7 +2480,13 @@
 <MM_ModelPackage:MM_Users name="users" id="71">
 <MM_ModelPackage:MM_User id="72">
 <nm>jochem</nm>
-<Any name="taggedValues"><Structure><List name="viewSettings"><Structure><Objectref value="91" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="329" name="diagObj"/><List name="selectedObjects"><Objectref value="382"/></List></Structure><Structure><Objectref value="736" name="diagObj"/><List name="selectedObjects"/></Structure></List></Structure></Any>
+<Any name="taggedValues"><Structure><List name="viewSettings"/></Structure></Any>
+</MM_ModelPackage:MM_User>
+</MM_ModelPackage:MM_Users>
+<Any name="taggedValues"><Structure><Structure name="grid"><Long value="20" name="x"/><Long value="20" name="y"/></Structure><String name="lastSavedWith">Architect 4.5.1 Academic 14-15</String></Structure></Any>
+</MM_ModelPackage:MM_ModelPackage>
+</MM_StorageUnit>
+</MM_Document>ructure><Objectref value="329" name="diagObj"/><List name="selectedObjects"><Objectref value="382"/></List></Structure><Structure><Objectref value="736" name="diagObj"/><List name="selectedObjects"/></Structure></List></Structure></Any>
 </MM_ModelPackage:MM_User>
 </MM_ModelPackage:MM_Users>
 <Any name="taggedValues"><Structure><Structure name="grid"><Long value="20" name="x"/><Long value="20" name="y"/></Structure><String name="lastSavedWith">Architect 4.5.1 Academic 14-15</String></Structure></Any>
