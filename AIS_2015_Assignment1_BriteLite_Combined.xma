@@ -3073,6 +3073,11 @@
 <ArchiMate:ElementElementAssociationRef id="5195" to="5188"/>
 </ArchiMate:RefObjects>
 </ArchiMate:RequirementsRealisationView>
+<ArchiMate:InfrastructureUsageView id="5206">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Infrastructure usage view</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureUsageView>
 </ArchiMate:AbstractViews>
 <ArchiMate:AbstractFolders name="folders" id="27"/>
 </ArchiMate:AbstractFolder>
@@ -6185,7 +6190,7 @@
 <MM_Diagram:MM_Decoration id="5120" mm_graphicType="2" mm_concept="icon"/>
 <MM_Diagram:MM_Decoration id="5121" mm_graphicType="2" mm_concept="label"/>
 </MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="640" y="700" w="300" h="80"/>
+<MM_Rect name="mm_rect" x="640" y="700" w="320" h="100"/>
 </MM_Diagram:MM_Node>
 <MM_Diagram:MM_Node id="5122" mm_graphicType="5" mm_concept="MotivationRequirement" mm_semanticObject="5113">
 <MM_Diagram:MM_Graphics name="mm_graphics" id="5123">
@@ -6261,6 +6266,14 @@
 </MM_Diagram:MM_Diagram>
 <Any name="tag"><Objectref value="5010"/></Any>
 </MM_ModelPackage:MM_Module>
+<MM_ModelPackage:MM_Module id="5207" nm="GraphicalModule" metaModel="MM_Diagram">
+<MM_Diagram:MM_Diagram name="root" id="5208">
+<MM_Diagram:MM_Node name="mm_canvas" id="5209" mm_graphicType="5" mm_concept="Canvas" mm_semanticObject="5206">
+<MM_Rect name="mm_rect" x="0" y="0" w="2147483647" h="2147483647"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Diagram>
+<Any name="tag"><Objectref value="5206"/></Any>
+</MM_ModelPackage:MM_Module>
 </MM_ModelPackage:MM_Modules>
 <Any name="taggedValues"><Structure><String name="createdBy">Architect 4.5.1 Academic 14-15</String></Structure></Any>
 </ArchiMate:ArchiMateMM_Model>
@@ -6277,7 +6290,7 @@
 </MM_ModelPackage:MM_User>
 <MM_ModelPackage:MM_User id="2243">
 <nm>jochem</nm>
-<Any name="taggedValues"><Structure><List name="viewSettings"><Structure><Objectref value="1459" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="4705" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="5010" name="diagObj"/><List name="selectedObjects"/></Structure></List></Structure></Any>
+<Any name="taggedValues"><Structure><List name="viewSettings"><Structure><Objectref value="1459" name="diagObj"/><List name="selectedObjects"><Objectref value="1812"/></List></Structure><Structure><Objectref value="4705" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="5010" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="1838" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="3416" name="diagObj"/><List name="selectedObjects"><Objectref value="3428"/></List></Structure><Structure><Objectref value="4365" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="3472" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="5206" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="2249" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="3534" name="diagObj"/><List name="selectedObjects"/></Structure></List></Structure></Any>
 </MM_ModelPackage:MM_User>
 <MM_ModelPackage:MM_User id="4609">
 <nm>arif</nm>
@@ -6286,7 +6299,5 @@
 </MM_ModelPackage:MM_Users>
 <Any name="taggedValues"><Structure><Structure name="grid"><Long value="20" name="y"/><Long value="20" name="x"/></Structure><String name="lastSavedWith">Architect 4.5.1 Academic 14-15</String></Structure></Any>
 </MM_ModelPackage:MM_ModelPackage>
-</MM_StorageUnit>
-</MM_Document>age:MM_ModelPackage>
 </MM_StorageUnit>
 </MM_Document>
