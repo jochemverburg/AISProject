@@ -1,7 +1,0 @@
-1. Maintenance, to whom is it offered
-assumption corporate customers
-2. Should we model roles for the organization structure, and how to link them to the department?
-use association relation 
-3. Where are all the other departments located? not there
-4. How to implement the loops and if-statements?
-it's too much detail
