@@ -937,6 +937,11 @@
 <MM_Value name="nm" type="string" xml:lang="en">Comfort+ series (C20+, C40+ and C60+)</MM_Value>
 </MM_ProfileValues>
 </ArchiMate:BusinessProduct>
+<ArchiMate:BusinessProduct id="5210">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">LED Lamps</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
 </ArchiMate:BusinessProducts>
 <ArchiMate:Relations name="relations" id="49">
 <ArchiMate:ElementElementAssociation id="725" from="2074" to="679">
@@ -1113,6 +1118,8 @@
 <MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq7\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Conflict\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
 </MM_ProfileValues>
 </ArchiMate:ElementElementAssociation>
+<ArchiMate:CoreElementMotivationRequirementRealisation id="5215" from="5210" to="5108"/>
+<ArchiMate:BusinessProductBusinessProductSpecialization id="5216" from="5210" to="1452"/>
 </ArchiMate:Relations>
 <Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
 </ArchiMate:BusinessScheme>
@@ -3071,6 +3078,8 @@
 <ArchiMate:CoreElementMotivationRequirementRealisationRef id="5193" to="5186"/>
 <ArchiMate:ElementElementAssociationRef id="5194" to="5187"/>
 <ArchiMate:ElementElementAssociationRef id="5195" to="5188"/>
+<ArchiMate:BusinessProductRef id="5211" to="5210"/>
+<ArchiMate:CoreElementMotivationRequirementRealisationRef id="5217" to="5215"/>
 </ArchiMate:RefObjects>
 </ArchiMate:RequirementsRealisationView>
 <ArchiMate:InfrastructureUsageView id="5206">
@@ -6260,6 +6269,13 @@
 </MM_Diagram:MM_Node>
 <MM_Diagram:MM_DirectedRel id="5204" mm_from="5201" mm_to="5101" mm_fromx="130" mm_fromy="70" mm_tox="360" mm_toy="40" mm_graphicType="7" mm_concept="ElementElementAssociation" mm_semanticObject="5194"/>
 <MM_Diagram:MM_DirectedRel id="5205" mm_from="5076" mm_to="5031" mm_fromx="230" mm_fromy="40" mm_tox="220" mm_toy="40" mm_graphicType="7" mm_concept="ElementElementAssociation" mm_semanticObject="5195"/>
+<MM_Diagram:MM_Node id="5212" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="5211">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="5213">
+<MM_Diagram:MM_Decoration id="5214" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="680" y="880" w="220" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="5218" mm_from="5212" mm_to="5118" mm_fromx="120" mm_fromy="20" mm_tox="160" mm_toy="40" mm_graphicType="7" mm_concept="CoreElementMotivationRequirementRealisation" mm_semanticObject="5217"/>
 </MM_Diagram:MM_Graphics>
 <MM_Rect name="mm_rect" x="0" y="0" w="2147483647" h="2147483647"/>
 </MM_Diagram:MM_Node>
@@ -6290,7 +6306,7 @@
 </MM_ModelPackage:MM_User>
 <MM_ModelPackage:MM_User id="2243">
 <nm>jochem</nm>
-<Any name="taggedValues"><Structure><List name="viewSettings"><Structure><Objectref value="1459" name="diagObj"/><List name="selectedObjects"><Objectref value="1812"/></List></Structure><Structure><Objectref value="4705" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="5010" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="1838" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="3416" name="diagObj"/><List name="selectedObjects"><Objectref value="3428"/></List></Structure><Structure><Objectref value="4365" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="3472" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="5206" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="2249" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="3534" name="diagObj"/><List name="selectedObjects"/></Structure></List></Structure></Any>
+<Any name="taggedValues"><Structure><List name="viewSettings"><Structure><Objectref value="5010" name="diagObj"/><List name="selectedObjects"/></Structure></List></Structure></Any>
 </MM_ModelPackage:MM_User>
 <MM_ModelPackage:MM_User id="4609">
 <nm>arif</nm>
