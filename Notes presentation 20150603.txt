@@ -1,0 +1,29 @@
+Group 1: 
+Their Infrastructure Architecture is larger than ours
+Made assumptions about provided external services for certain applications (e.g. VPN)
+Changes they think are useful:
+- Also wants one large F&A department
+- IT Architecture, lots of single points of failures, no redundancy, maybe can be improved
+
+Group 2:
+Difficult to model inventory -> both staff-department and part of distribution center
+One large box for outsourcing actors, this box is used by BriteLite company -> can also be a co-ordination process
+High-level products
+Production triggers quality control but flows to resellers
+Have a lot of interfaces and connections: only a few applications -> In future: all connections have to be modelled if you want one large system
+Have grouped data: 1. Production 2. Distribution 3. CRM & Sales 4. Consultancy -> some packages use from both areas
+Infrastructure, not clear where the data is. 
+
+Quality of Czech Republic products is lower -> is this a problem? What is  the impact if part of the products is of lower quality?
+Data view: There should be matching data in the other layers (e.g. business) -> data in the application data comes from customer, should be related to some other object in the business layer.
+
+Group 3:
+Remarks by Martin:
+- You can use extra notations if necessary
+- Decisions made has an historical background -> so decide if it's still the right choice
+- Does HQ make a difference? -> changing can have an impact (like Philips)
+When model certain things like lan-connection: if you need it for proposed changes (if the change could affect it)
+
+General remarks:
+- Level of detail dependent on where some problems might be, use the amount of detail needed to show where problems are and needed to make decisions about changes
+- Mention group on report
