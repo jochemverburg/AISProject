@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MM_Document version="2.0" format="XML" includeMetaModels="false" xmlns:builtins="http://www.bizzdesign.com/metamodels/builtins" xmlns:Base="http://www.bizzdesign.com/metamodels/Base" xmlns:MM_ModelPackage="http://www.bizzdesign.com/metamodels/MM_ModelPackage" xmlns:Component="http://www.bizzdesign.com/metamodels/Component" xmlns:ArchiMate="http://www.bizzdesign.com/metamodels/ArchiMate2.0" xmlns:MM_Diagram="http://www.bizzdesign.com/metamodels/MM_Diagram" xmlns:Amber="http://www.bizzdesign.com/metamodels/Amber" xmlns:BPMN="http://www.bizzdesign.com/metamodels/BPMN" xmlns:BMC="http://www.bizzdesign.com/metamodels/BMC" xmlns:TDM="http://www.bizzdesign.com/metamodels/TDM" xmlns:Lean="http://www.bizzdesign.com/metamodels/Lean" xmlns:ERD="http://www.bizzdesign.com/metamodels/ERD">
+<MM_Document version="2.0" format="XML" includeMetaModels="false" xmlns:builtins="http://www.bizzdesign.com/metamodels/builtins" xmlns:Base="http://www.bizzdesign.com/metamodels/Base" xmlns:MM_ModelPackage="http://www.bizzdesign.com/metamodels/MM_ModelPackage" xmlns:Component="http://www.bizzdesign.com/metamodels/Component" xmlns:MM_Diagram="http://www.bizzdesign.com/metamodels/MM_Diagram" xmlns:ArchiMate="http://www.bizzdesign.com/metamodels/ArchiMate2.0" xmlns:Amber="http://www.bizzdesign.com/metamodels/Amber" xmlns:TDM="http://www.bizzdesign.com/metamodels/TDM" xmlns:ERD="http://www.bizzdesign.com/metamodels/ERD" xmlns:Lean="http://www.bizzdesign.com/metamodels/Lean" xmlns:BPMN="http://www.bizzdesign.com/metamodels/BPMN" xmlns:BMC="http://www.bizzdesign.com/metamodels/BMC">
 <MM_StorageUnit fqn="">
 <MM_ModelPackage:MM_ModelPackage id="0">
 <nm>luizrebelomoreiraj's Model package 2</nm>
@@ -36,45 +36,6 @@
 <MM_ProfileValues>
 <MM_Value name="nm" type="string" xml:lang="en">Business layer</MM_Value>
 </MM_ProfileValues>
-<ArchiMate:BusinessServices name="services" id="924">
-<ArchiMate:BusinessService id="1767">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Sale lamps</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessService>
-<ArchiMate:BusinessService id="925">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Regular service visits</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessService>
-<ArchiMate:BusinessService id="926">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">24/7 emergency service</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessService>
-<ArchiMate:BusinessService id="977">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Appliance of artificial light in professional environments</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessService>
-<ArchiMate:BusinessService id="1188">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Sell household product series</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessService>
-<ArchiMate:BusinessService id="1214">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Sell ReliaBulb series</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessService>
-</ArchiMate:BusinessServices>
-<ArchiMate:BusinessValues name="values" id="1758">
-<ArchiMate:BusinessValue id="1759">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Ergonomics and light quality imoprtant</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessValue>
-</ArchiMate:BusinessValues>
 <ArchiMate:BusinessLocations name="locations" id="118">
 <ArchiMate:BusinessLocation id="2115">
 <MM_ProfileValues>
@@ -792,6 +753,16 @@
 <MM_Value name="nm" type="string" xml:lang="en">Filament and base production</MM_Value>
 </MM_ProfileValues>
 <ArchiMate:BusinessProcesses name="processes" id="2287">
+<ArchiMate:BusinessProcess id="3249">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Transport pallet</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="3250">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Pick up empty pallet</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
 <ArchiMate:BusinessProcess id="3251">
 <MM_ProfileValues>
 <MM_Value name="nm" type="string" xml:lang="en">Monitor production process</MM_Value>
@@ -815,16 +786,6 @@
 <ArchiMate:BusinessProcess id="3248">
 <MM_ProfileValues>
 <MM_Value name="nm" type="string" xml:lang="en">Load packages</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessProcess>
-<ArchiMate:BusinessProcess id="3249">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Transport pallet</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:BusinessProcess>
-<ArchiMate:BusinessProcess id="3250">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Pick up empty pallet</MM_Value>
 </MM_ProfileValues>
 </ArchiMate:BusinessProcess>
 </ArchiMate:BusinessProcesses>
@@ -943,6 +904,45 @@
 </MM_ProfileValues>
 </ArchiMate:BusinessProduct>
 </ArchiMate:BusinessProducts>
+<ArchiMate:BusinessServices name="services" id="924">
+<ArchiMate:BusinessService id="1767">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Sale lamps</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessService>
+<ArchiMate:BusinessService id="925">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Regular service visits</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessService>
+<ArchiMate:BusinessService id="926">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">24/7 emergency service</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessService>
+<ArchiMate:BusinessService id="977">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Appliance of artificial light in professional environments</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessService>
+<ArchiMate:BusinessService id="1188">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Sell household product series</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessService>
+<ArchiMate:BusinessService id="1214">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Sell ReliaBulb series</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessService>
+</ArchiMate:BusinessServices>
+<ArchiMate:BusinessValues name="values" id="1758">
+<ArchiMate:BusinessValue id="1759">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Ergonomics and light quality imoprtant</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessValue>
+</ArchiMate:BusinessValues>
 <ArchiMate:Relations name="relations" id="49">
 <ArchiMate:ElementElementAssociation id="725" from="2074" to="679">
 <MM_ProfileValues>
@@ -1123,11 +1123,285 @@
 </ArchiMate:Relations>
 <Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
 </ArchiMate:BusinessScheme>
+<ArchiMate:TechnicalInfrastructureScheme id="4265">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Technology layer</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:InfrastructureNetworks name="networks" id="4266">
+<ArchiMate:InfrastructureNetwork id="4267">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Dordrecht LAN</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureNetwork>
+<ArchiMate:InfrastructureNetwork id="4268">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Veghel LAN</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureNetwork>
+<ArchiMate:InfrastructureNetwork id="4269">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Headquarter LAN</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureNetwork>
+<ArchiMate:InfrastructureNetwork id="4270">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Internet</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureNetwork>
+</ArchiMate:InfrastructureNetworks>
+<ArchiMate:InfrastructureNodes name="nodes" id="4271">
+<ArchiMate:InfrastructureDevice id="4272">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">HP Blade Server</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:InfrastructureNodes name="nodes" id="4273">
+<ArchiMate:InfrastructureSystemSoftware id="4274">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Oracle virtual server</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureSystemSoftware>
+</ArchiMate:InfrastructureNodes>
+</ArchiMate:InfrastructureDevice>
+<ArchiMate:InfrastructureDevice id="4275">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Firewall</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureDevice>
+<ArchiMate:InfrastructureDevice id="4276">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Firewall 2</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureDevice>
+<ArchiMate:InfrastructureDevice id="4277">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">AS400 Mainframe</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureDevice>
+<ArchiMate:InfrastructureDevice id="4278">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">UNIX Server clusters</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureDevice>
+<ArchiMate:InfrastructureDevice id="4279">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">DMS Server</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureDevice>
+<ArchiMate:InfrastructureDevice id="4280">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">UNIX Server clusters 2</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureDevice>
+<ArchiMate:InfrastructureDevice id="4281">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Cloud server</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureDevice>
+<ArchiMate:InfrastructureDevice id="4282">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Windows 2000 computer 1</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureDevice>
+<ArchiMate:InfrastructureDevice id="4283">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Windows 2000 computer 2</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureDevice>
+<ArchiMate:InfrastructureDevice id="4284">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">OTOMATIC computer</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureDevice>
+<ArchiMate:InfrastructureDevice id="4285">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">UNIX server</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureDevice>
+<ArchiMate:InfrastructureDevice id="4286">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Hosting server</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureDevice>
+<ArchiMate:InfrastructureDevice id="4287">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">CRM Server</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureDevice>
+<ArchiMate:InfrastructureDevice id="4594">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">VPN device</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureDevice>
+</ArchiMate:InfrastructureNodes>
+<ArchiMate:InfrastructureArtifacts name="artifacts" id="4288">
+<ArchiMate:InfrastructureArtifact id="4289">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Oracle DB</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureArtifact>
+<ArchiMate:InfrastructureArtifact id="4290">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Arocle CRM</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureArtifact>
+<ArchiMate:InfrastructureArtifact id="4291">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">E-Support</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureArtifact>
+<ArchiMate:InfrastructureArtifact id="4292">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">ZAP ERP 2</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureArtifact>
+<ArchiMate:InfrastructureArtifact id="4293">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">QPlus System</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureArtifact>
+<ArchiMate:InfrastructureArtifact id="4294">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">QPlus System</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureArtifact>
+<ArchiMate:InfrastructureArtifact id="4295">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">DB</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureArtifact>
+<ArchiMate:InfrastructureArtifact id="4296">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">DB</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureArtifact>
+<ArchiMate:InfrastructureArtifact id="4297">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">BriteCampaign</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureArtifact>
+<ArchiMate:InfrastructureArtifact id="4298">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">L-Info</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureArtifact>
+<ArchiMate:InfrastructureArtifact id="4299">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">ZAP ERP</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureArtifact>
+<ArchiMate:InfrastructureArtifact id="4300">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">TeilPunkt</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureArtifact>
+<ArchiMate:InfrastructureArtifact id="4301">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Simple DB</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureArtifact>
+<ArchiMate:InfrastructureArtifact id="4302">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">OTOMATIC controller</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureArtifact>
+<ArchiMate:InfrastructureArtifact id="4303">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">MySQL</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureArtifact>
+<ArchiMate:InfrastructureArtifact id="4304">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">OrderPRO</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureArtifact>
+<ArchiMate:InfrastructureArtifact id="4305">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Webshop</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureArtifact>
+<ArchiMate:InfrastructureArtifact id="4595">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">VPN</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:InfrastructureArtifact>
+</ArchiMate:InfrastructureArtifacts>
+<ArchiMate:Relations name="relations" id="4306">
+<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4332" from="4287" to="4289"/>
+<ArchiMate:ElementElementAssociation id="4333" from="4269" to="4275"/>
+<ArchiMate:ElementElementAssociation id="4334" from="4275" to="4270"/>
+<ArchiMate:ElementElementAssociation id="4335" from="4280" to="4276"/>
+<ArchiMate:ElementElementAssociation id="4336" from="4276" to="4270"/>
+<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4337" from="4287" to="4290"/>
+<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4338" from="4281" to="4291"/>
+<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4339" from="4280" to="4292"/>
+<ArchiMate:InfrastructureNodeInfrastructureNetworkAssignment id="4340" from="4284" to="4267"/>
+<ArchiMate:ElementElementAssociation id="4341" from="4284" to="4267"/>
+<ArchiMate:ElementElementAssociation id="4342" from="4267" to="4283"/>
+<ArchiMate:ElementElementAssociation id="4307" from="4269" to="4279"/>
+<ArchiMate:ElementElementAssociation id="4308" from="4269" to="4278"/>
+<ArchiMate:ElementElementAssociation id="4309" from="4269" to="4277"/>
+<ArchiMate:ElementElementAssociation id="4310" from="4269" to="4287"/>
+<ArchiMate:ElementElementAssociation id="4311" from="4269" to="4272"/>
+<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4312" from="4282" to="4293"/>
+<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4313" from="4283" to="4294"/>
+<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4314" from="4283" to="4295"/>
+<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4315" from="4282" to="4296"/>
+<ArchiMate:ElementElementAssociation id="4316" from="4285" to="4268"/>
+<ArchiMate:ElementElementAssociation id="4317" from="4268" to="4282"/>
+<ArchiMate:InfrastructureNodeInfrastructureNodeComposition id="4318" from="4272" to="4274"/>
+<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4319" from="4274" to="4297"/>
+<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4596" from="4594" to="4595"/>
+<ArchiMate:ElementElementAssociation id="4597" from="4269" to="4594"/>
+<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4320" from="4277" to="4298"/>
+<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4321" from="4278" to="4299"/>
+<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4322" from="4279" to="4300"/>
+<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4323" from="4279" to="4301"/>
+<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4324" from="4284" to="4302"/>
+<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4325" from="4284" to="4303"/>
+<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4326" from="4285" to="4304"/>
+<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4327" from="4286" to="4305"/>
+<ArchiMate:ElementElementAssociation id="4328" from="4270" to="4268"/>
+<ArchiMate:ElementElementAssociation id="4329" from="4270" to="4267"/>
+<ArchiMate:ElementElementAssociation id="4330" from="4281" to="4270"/>
+<ArchiMate:ElementElementAssociation id="4331" from="4286" to="4270"/>
+</ArchiMate:Relations>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:TechnicalInfrastructureScheme>
 <ArchiMate:ApplicationScheme id="3278">
 <MM_ProfileValues>
 <MM_Value name="nm" type="string" xml:lang="en">Application layer</MM_Value>
 </MM_ProfileValues>
 <ArchiMate:ApplicationComponents name="components" id="3279">
+<ArchiMate:ApplicationComponent id="2458">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">OTOMATIC Controller</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:ApplicationComponent>
+<ArchiMate:ApplicationComponent id="3280">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">TeilPunkt DMS</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:ApplicationComponent>
+<ArchiMate:ApplicationComponent id="3281">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Old production system</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:ApplicationComponent>
+<ArchiMate:ApplicationComponent id="3282">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">L-Info</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:ApplicationComponent>
+<ArchiMate:ApplicationComponent id="3283">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">OTOMATIC controller</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:ApplicationComponent>
+<ArchiMate:ApplicationComponent id="3284">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">QPlus System</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:ApplicationComponent>
 <ArchiMate:ApplicationComponent id="2452">
 <MM_ProfileValues>
 <MM_Value name="nm" type="string" xml:lang="en">OrderPRO</MM_Value>
@@ -1170,36 +1444,6 @@
 </MM_ProfileValues>
 </ArchiMate:ApplicationComponent>
 </ArchiMate:ApplicationComponents>
-</ArchiMate:ApplicationComponent>
-<ArchiMate:ApplicationComponent id="2458">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">OTOMATIC Controller</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:ApplicationComponent>
-<ArchiMate:ApplicationComponent id="3280">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">TeilPunkt DMS</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:ApplicationComponent>
-<ArchiMate:ApplicationComponent id="3281">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Old production system</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:ApplicationComponent>
-<ArchiMate:ApplicationComponent id="3282">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">L-Info</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:ApplicationComponent>
-<ArchiMate:ApplicationComponent id="3283">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">OTOMATIC controller</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:ApplicationComponent>
-<ArchiMate:ApplicationComponent id="3284">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">QPlus System</MM_Value>
-</MM_ProfileValues>
 </ArchiMate:ApplicationComponent>
 </ArchiMate:ApplicationComponents>
 <ArchiMate:ApplicationServices name="services" id="3285">
@@ -1445,6 +1689,41 @@
 <ArchiMate:ApplicationServiceBusinessProcessUse id="3404" from="3292" to="3058"/>
 <ArchiMate:ApplicationServiceBusinessProcessUse id="3405" from="3297" to="3060"/>
 <ArchiMate:ApplicationServiceBusinessProcessUse id="3406" from="3296" to="3063"/>
+<ArchiMate:ApplicationComponentApplicationServiceRealisation id="3398" from="2452" to="3294"/>
+<ArchiMate:UseRelation id="2500" from="2455" to="2244"/>
+<ArchiMate:UseRelation id="2501" from="2457" to="2244"/>
+<ArchiMate:UseRelation id="2502" from="2458" to="2244"/>
+<ArchiMate:UseRelation id="2503" from="2452" to="2244"/>
+<ArchiMate:UseRelation id="2504" from="2453" to="2372"/>
+<ArchiMate:UseRelation id="2505" from="2454" to="2373"/>
+<ArchiMate:ApplicationComponentApplicationComponentFlow id="2506" from="2453" to="2421">
+<MM_ProfileValues>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq7\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Case records\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:ApplicationComponentApplicationComponentFlow>
+<ArchiMate:ApplicationComponentApplicationComponentFlow id="2507" from="2421" to="2453">
+<MM_ProfileValues>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq7\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Work orders\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:ApplicationComponentApplicationComponentFlow>
+<ArchiMate:ApplicationComponentApplicationComponentFlow id="2508" from="2453" to="2455"/>
+<ArchiMate:ApplicationComponentApplicationComponentFlow id="2509" from="2422" to="2453"/>
+<ArchiMate:UseRelation id="2424" from="2420" to="2425"/>
+<ArchiMate:UseRelation id="2426" from="2420" to="2422"/>
+<ArchiMate:UseRelation id="2427" from="2422" to="2420"/>
+<ArchiMate:UseRelation id="2459" from="2422" to="2244"/>
+<ArchiMate:UseRelation id="2460" from="2421" to="294"/>
+<ArchiMate:UseRelation id="2461" from="2421" to="283"/>
+<ArchiMate:ApplicationComponentApplicationComponentComposition id="2462" from="2455" to="2457"/>
+<ArchiMate:ApplicationComponentApplicationComponentFlow id="2538" from="2455" to="2452"/>
+<ArchiMate:ApplicationComponentApplicationComponentFlow id="2539" from="2457" to="2452"/>
+<ArchiMate:ApplicationComponentApplicationComponentFlow id="2540" from="2420" to="2452">
+<MM_ProfileValues>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq7\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Webshop creates orders\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:ApplicationComponentApplicationComponentFlow>
+<ArchiMate:ApplicationComponentApplicationComponentFlow id="2541" from="2422" to="2420"/>
+<ArchiMate:ApplicationServiceBusinessProcessUse id="3334" from="3291" to="2791"/>
 <ArchiMate:ApplicationServiceBusinessProcessUse id="3407" from="3295" to="2789"/>
 <ArchiMate:ApplicationServiceBusinessProcessUse id="3335" from="3302" to="2796"/>
 <ArchiMate:ApplicationComponentApplicationServiceRealisation id="3336" from="2452" to="3302"/>
@@ -1525,293 +1804,40 @@
 <ArchiMate:ApplicationComponentApplicationServiceRealisation id="3395" from="2455" to="3290"/>
 <ArchiMate:ApplicationComponentApplicationServiceRealisation id="3396" from="2452" to="3286"/>
 <ArchiMate:ApplicationComponentApplicationServiceRealisation id="3397" from="2452" to="3293"/>
-<ArchiMate:ApplicationComponentApplicationServiceRealisation id="3398" from="2452" to="3294"/>
-<ArchiMate:UseRelation id="2500" from="2455" to="2244"/>
-<ArchiMate:UseRelation id="2501" from="2457" to="2244"/>
-<ArchiMate:UseRelation id="2502" from="2458" to="2244"/>
-<ArchiMate:UseRelation id="2503" from="2452" to="2244"/>
-<ArchiMate:UseRelation id="2504" from="2453" to="2372"/>
-<ArchiMate:UseRelation id="2505" from="2454" to="2373"/>
-<ArchiMate:ApplicationComponentApplicationComponentFlow id="2506" from="2453" to="2421">
-<MM_ProfileValues>
-<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq7\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Case records\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:ApplicationComponentApplicationComponentFlow>
-<ArchiMate:ApplicationComponentApplicationComponentFlow id="2507" from="2421" to="2453">
-<MM_ProfileValues>
-<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq7\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Work orders\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:ApplicationComponentApplicationComponentFlow>
-<ArchiMate:ApplicationComponentApplicationComponentFlow id="2508" from="2453" to="2455"/>
-<ArchiMate:ApplicationComponentApplicationComponentFlow id="2509" from="2422" to="2453"/>
-<ArchiMate:UseRelation id="2424" from="2420" to="2425"/>
-<ArchiMate:UseRelation id="2426" from="2420" to="2422"/>
-<ArchiMate:UseRelation id="2427" from="2422" to="2420"/>
-<ArchiMate:UseRelation id="2459" from="2422" to="2244"/>
-<ArchiMate:UseRelation id="2460" from="2421" to="294"/>
-<ArchiMate:UseRelation id="2461" from="2421" to="283"/>
-<ArchiMate:ApplicationComponentApplicationComponentComposition id="2462" from="2455" to="2457"/>
-<ArchiMate:ApplicationComponentApplicationComponentFlow id="2538" from="2455" to="2452"/>
-<ArchiMate:ApplicationComponentApplicationComponentFlow id="2539" from="2457" to="2452"/>
-<ArchiMate:ApplicationComponentApplicationComponentFlow id="2540" from="2420" to="2452">
-<MM_ProfileValues>
-<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq7\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Webshop creates orders\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:ApplicationComponentApplicationComponentFlow>
-<ArchiMate:ApplicationComponentApplicationComponentFlow id="2541" from="2422" to="2420"/>
-<ArchiMate:ApplicationServiceBusinessProcessUse id="3334" from="3291" to="2791"/>
 </ArchiMate:Relations>
 <Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
 </ArchiMate:ApplicationScheme>
-<ArchiMate:TechnicalInfrastructureScheme id="4265">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Technology layer</MM_Value>
-</MM_ProfileValues>
-<ArchiMate:InfrastructureNetworks name="networks" id="4266">
-<ArchiMate:InfrastructureNetwork id="4267">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Dordrecht LAN</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureNetwork>
-<ArchiMate:InfrastructureNetwork id="4268">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Veghel LAN</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureNetwork>
-<ArchiMate:InfrastructureNetwork id="4269">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Headquarter LAN</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureNetwork>
-<ArchiMate:InfrastructureNetwork id="4270">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Internet</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureNetwork>
-</ArchiMate:InfrastructureNetworks>
-<ArchiMate:InfrastructureNodes name="nodes" id="4271">
-<ArchiMate:InfrastructureDevice id="4272">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">HP Blade Server</MM_Value>
-</MM_ProfileValues>
-<ArchiMate:InfrastructureNodes name="nodes" id="4273">
-<ArchiMate:InfrastructureSystemSoftware id="4274">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Oracle virtual server</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureSystemSoftware>
-</ArchiMate:InfrastructureNodes>
-</ArchiMate:InfrastructureDevice>
-<ArchiMate:InfrastructureDevice id="4275">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Firewall</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureDevice>
-<ArchiMate:InfrastructureDevice id="4276">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Firewall 2</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureDevice>
-<ArchiMate:InfrastructureDevice id="4277">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">AS400 Mainframe</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureDevice>
-<ArchiMate:InfrastructureDevice id="4278">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">UNIX Server clusters</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureDevice>
-<ArchiMate:InfrastructureDevice id="4279">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">DMS Server</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureDevice>
-<ArchiMate:InfrastructureDevice id="4280">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">UNIX Server clusters 2</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureDevice>
-<ArchiMate:InfrastructureDevice id="4281">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Cloud server</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureDevice>
-<ArchiMate:InfrastructureDevice id="4282">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Windows 2000 computer 1</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureDevice>
-<ArchiMate:InfrastructureDevice id="4283">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Windows 2000 computer 2</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureDevice>
-<ArchiMate:InfrastructureDevice id="4284">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">OTOMATIC computer</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureDevice>
-<ArchiMate:InfrastructureDevice id="4285">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">UNIX server</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureDevice>
-<ArchiMate:InfrastructureDevice id="4286">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Hosting server</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureDevice>
-<ArchiMate:InfrastructureDevice id="4287">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">CRM Server</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureDevice>
-<ArchiMate:InfrastructureDevice id="4594">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">VPN device</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureDevice>
-</ArchiMate:InfrastructureNodes>
-<ArchiMate:InfrastructureArtifacts name="artifacts" id="4288">
-<ArchiMate:InfrastructureArtifact id="4289">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Oracle DB</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureArtifact>
-<ArchiMate:InfrastructureArtifact id="4290">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Arocle CRM</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureArtifact>
-<ArchiMate:InfrastructureArtifact id="4291">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">E-Support</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureArtifact>
-<ArchiMate:InfrastructureArtifact id="4292">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">ZAP ERP 2</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureArtifact>
-<ArchiMate:InfrastructureArtifact id="4293">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">QPlus System</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureArtifact>
-<ArchiMate:InfrastructureArtifact id="4294">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">QPlus System</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureArtifact>
-<ArchiMate:InfrastructureArtifact id="4295">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">DB</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureArtifact>
-<ArchiMate:InfrastructureArtifact id="4296">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">DB</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureArtifact>
-<ArchiMate:InfrastructureArtifact id="4297">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">BriteCampaign</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureArtifact>
-<ArchiMate:InfrastructureArtifact id="4298">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">L-Info</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureArtifact>
-<ArchiMate:InfrastructureArtifact id="4299">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">ZAP ERP</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureArtifact>
-<ArchiMate:InfrastructureArtifact id="4300">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">TeilPunkt</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureArtifact>
-<ArchiMate:InfrastructureArtifact id="4301">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Simple DB</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureArtifact>
-<ArchiMate:InfrastructureArtifact id="4302">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">OTOMATIC controller</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureArtifact>
-<ArchiMate:InfrastructureArtifact id="4303">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">MySQL</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureArtifact>
-<ArchiMate:InfrastructureArtifact id="4304">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">OrderPRO</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureArtifact>
-<ArchiMate:InfrastructureArtifact id="4305">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Webshop</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureArtifact>
-<ArchiMate:InfrastructureArtifact id="4595">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">VPN</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureArtifact>
-</ArchiMate:InfrastructureArtifacts>
-<ArchiMate:Relations name="relations" id="4306">
-<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4332" from="4287" to="4289"/>
-<ArchiMate:ElementElementAssociation id="4333" from="4269" to="4275"/>
-<ArchiMate:ElementElementAssociation id="4334" from="4275" to="4270"/>
-<ArchiMate:ElementElementAssociation id="4335" from="4280" to="4276"/>
-<ArchiMate:ElementElementAssociation id="4336" from="4276" to="4270"/>
-<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4337" from="4287" to="4290"/>
-<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4338" from="4281" to="4291"/>
-<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4339" from="4280" to="4292"/>
-<ArchiMate:InfrastructureNodeInfrastructureNetworkAssignment id="4340" from="4284" to="4267"/>
-<ArchiMate:ElementElementAssociation id="4341" from="4284" to="4267"/>
-<ArchiMate:ElementElementAssociation id="4342" from="4267" to="4283"/>
-<ArchiMate:ElementElementAssociation id="4307" from="4269" to="4279"/>
-<ArchiMate:ElementElementAssociation id="4308" from="4269" to="4278"/>
-<ArchiMate:ElementElementAssociation id="4309" from="4269" to="4277"/>
-<ArchiMate:ElementElementAssociation id="4310" from="4269" to="4287"/>
-<ArchiMate:ElementElementAssociation id="4311" from="4269" to="4272"/>
-<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4312" from="4282" to="4293"/>
-<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4313" from="4283" to="4294"/>
-<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4314" from="4283" to="4295"/>
-<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4315" from="4282" to="4296"/>
-<ArchiMate:ElementElementAssociation id="4316" from="4285" to="4268"/>
-<ArchiMate:ElementElementAssociation id="4317" from="4268" to="4282"/>
-<ArchiMate:InfrastructureNodeInfrastructureNodeComposition id="4318" from="4272" to="4274"/>
-<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4319" from="4274" to="4297"/>
-<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4596" from="4594" to="4595"/>
-<ArchiMate:ElementElementAssociation id="4597" from="4269" to="4594"/>
-<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4320" from="4277" to="4298"/>
-<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4321" from="4278" to="4299"/>
-<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4322" from="4279" to="4300"/>
-<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4323" from="4279" to="4301"/>
-<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4324" from="4284" to="4302"/>
-<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4325" from="4284" to="4303"/>
-<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4326" from="4285" to="4304"/>
-<ArchiMate:InfrastructureNodeInfrastructureArtifactAssignment id="4327" from="4286" to="4305"/>
-<ArchiMate:ElementElementAssociation id="4328" from="4270" to="4268"/>
-<ArchiMate:ElementElementAssociation id="4329" from="4270" to="4267"/>
-<ArchiMate:ElementElementAssociation id="4330" from="4281" to="4270"/>
-<ArchiMate:ElementElementAssociation id="4331" from="4286" to="4270"/>
-</ArchiMate:Relations>
-<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
-</ArchiMate:TechnicalInfrastructureScheme>
 <ArchiMate:MotivationScheme id="4704">
 <MM_ProfileValues>
 <MM_Value name="nm" type="string" xml:lang="en">Jochems stakeholders and goals</MM_Value>
 </MM_ProfileValues>
 <ArchiMate:MotivationElements name="motivations" id="5004">
+<ArchiMate:MotivationRequirement id="5126">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Provide sodium-vapor lamps</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:MotivationRequirement>
+<ArchiMate:MotivationRequirement id="5084">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Easily international expandable products &amp; services</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:MotivationRequirement>
+<ArchiMate:MotivationRequirement id="5127">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Cost-efficient production</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:MotivationRequirement>
+<ArchiMate:MotivationRequirement id="5085">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">No incandescent light bulbs</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:MotivationRequirement>
+<ArchiMate:MotivationRequirement id="5108">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Provide LED lamps</MM_Value>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq7\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Downside is that color temperature is cold\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:MotivationRequirement>
 <ArchiMate:MotivationDriver id="4817">
 <MM_ProfileValues>
 <MM_Value name="nm" type="string" xml:lang="en">Make profit</MM_Value>
@@ -1847,32 +1873,15 @@
 <MM_Value name="nm" type="string" xml:lang="en">Switch from national market to international</MM_Value>
 </MM_ProfileValues>
 </ArchiMate:MotivationGoal>
-<ArchiMate:MotivationRequirement id="5108">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Provide LED lamps</MM_Value>
-<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq7\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Downside is that color temperature is cold\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:MotivationRequirement>
 <ArchiMate:MotivationRequirement id="5109">
 <MM_ProfileValues>
 <MM_Value name="nm" type="string" xml:lang="en">Provide halogen lights</MM_Value>
 <MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq7\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Still optional\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
 </MM_ProfileValues>
 </ArchiMate:MotivationRequirement>
-<ArchiMate:MotivationRequirement id="5126">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Provide sodium-vapor lamps</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:MotivationRequirement>
-<ArchiMate:MotivationRequirement id="5127">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Cost-efficient production</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:MotivationRequirement>
 <ArchiMate:MotivationRequirement id="5153">
 <MM_ProfileValues>
 <MM_Value name="nm" type="string" xml:lang="en">High sales</MM_Value>
-<MM_Value name="doc" type="rtf" xml:lang="en"></MM_Value>
 </MM_ProfileValues>
 </ArchiMate:MotivationRequirement>
 <ArchiMate:MotivationGoal id="4921">
@@ -1930,16 +1939,6 @@
 <MM_Value name="nm" type="string" xml:lang="en">Want incandescent light bulbs</MM_Value>
 </MM_ProfileValues>
 </ArchiMate:MotivationGoal>
-<ArchiMate:MotivationRequirement id="5084">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Easily international expandable products &amp; services</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:MotivationRequirement>
-<ArchiMate:MotivationRequirement id="5085">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">No incandescent light bulbs</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:MotivationRequirement>
 </ArchiMate:MotivationElements>
 <ArchiMate:MotivationStakeholders name="stakeholders" id="5005">
 <ArchiMate:MotivationStakeholder id="4699">
@@ -2068,6 +2067,9 @@
 <MM_Value name="nm" type="string" xml:lang="en">Jochems motivation view</MM_Value>
 </MM_ProfileValues>
 <ArchiMate:RefObjects name="refObjects" id="4706">
+<ArchiMate:MotivationStakeholderMotivationElementAssociationRef id="4886" to="4874"/>
+<ArchiMate:MotivationGoalRef id="4887" to="4867"/>
+<ArchiMate:MotivationStakeholderMotivationElementAssociationRef id="4930" to="4925"/>
 <ArchiMate:ElementElementAssociationRef id="4707" to="4702"/>
 <ArchiMate:MotivationStakeholderRef id="4708" to="4699"/>
 <ArchiMate:MotivationStakeholderRef id="4709" to="4700"/>
@@ -2132,9 +2134,6 @@
 <ArchiMate:MotivationGoalRef id="4883" to="4866"/>
 <ArchiMate:MotivationStakeholderMotivationElementAssociationRef id="4884" to="4872"/>
 <ArchiMate:ElementElementAssociationRef id="4885" to="4873"/>
-<ArchiMate:MotivationStakeholderMotivationElementAssociationRef id="4886" to="4874"/>
-<ArchiMate:MotivationGoalRef id="4887" to="4867"/>
-<ArchiMate:MotivationStakeholderMotivationElementAssociationRef id="4930" to="4925"/>
 </ArchiMate:RefObjects>
 </ArchiMate:MotivationView>
 </ArchiMate:AbstractViews>
@@ -2520,31 +2519,6 @@
 <MM_Value name="nm" type="string" xml:lang="en">Business process view</MM_Value>
 </MM_ProfileValues>
 <ArchiMate:RefObjects name="refObjects" id="2250">
-<ArchiMate:BusinessFunctionRef id="3082" to="2372">
-<ArchiMate:MM_RefObjects name="childRefObjects" id="3187">
-<ArchiMate:BusinessProcessRef id="3071" to="3066"/>
-<ArchiMate:BusinessProcessRef id="3072" to="3065"/>
-<ArchiMate:BusinessProcessRef id="3078" to="3059"/>
-<ArchiMate:BusinessProcessRef id="3079" to="3058"/>
-<ArchiMate:BusinessProcessRef id="3080" to="3057"/>
-<ArchiMate:BusinessProcessBusinessProcessSpecializationRef id="3214" to="3204"/>
-<ArchiMate:BusinessProcessBusinessProcessTriggeringRef id="3215" to="3205"/>
-</ArchiMate:MM_RefObjects>
-</ArchiMate:BusinessFunctionRef>
-<ArchiMate:BusinessProcessRef id="3083" to="2425"/>
-<ArchiMate:BusinessActorRef id="3084" to="2157">
-<ArchiMate:MM_RefObjects name="childRefObjects" id="3085">
-<ArchiMate:BusinessActorRef id="3087" to="2160"/>
-<ArchiMate:BusinessActorRef id="3088" to="2161"/>
-<ArchiMate:BusinessRoleRef id="3188" to="3182"/>
-</ArchiMate:MM_RefObjects>
-</ArchiMate:BusinessActorRef>
-<ArchiMate:AssignmentRelationRef id="3093" to="2375"/>
-<ArchiMate:BusinessActorRef id="3216" to="2211">
-<ArchiMate:MM_RefObjects name="childRefObjects" id="3217">
-<ArchiMate:BusinessRoleRef id="3218" to="2156"/>
-</ArchiMate:MM_RefObjects>
-</ArchiMate:BusinessActorRef>
 <ArchiMate:AssignmentRelationRef id="3189" to="3183"/>
 <ArchiMate:AssignmentRelationRef id="3190" to="3184"/>
 <ArchiMate:AssignmentRelationRef id="3219" to="3206"/>
@@ -2661,6 +2635,31 @@
 <ArchiMate:AssignmentRelationRef id="3002" to="2985"/>
 </ArchiMate:MM_RefObjects>
 </ArchiMate:BusinessFunctionRef>
+<ArchiMate:BusinessFunctionRef id="3082" to="2372">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="3187">
+<ArchiMate:BusinessProcessRef id="3071" to="3066"/>
+<ArchiMate:BusinessProcessRef id="3072" to="3065"/>
+<ArchiMate:BusinessProcessRef id="3078" to="3059"/>
+<ArchiMate:BusinessProcessRef id="3079" to="3058"/>
+<ArchiMate:BusinessProcessRef id="3080" to="3057"/>
+<ArchiMate:BusinessProcessBusinessProcessSpecializationRef id="3214" to="3204"/>
+<ArchiMate:BusinessProcessBusinessProcessTriggeringRef id="3215" to="3205"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessFunctionRef>
+<ArchiMate:BusinessProcessRef id="3083" to="2425"/>
+<ArchiMate:BusinessActorRef id="3084" to="2157">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="3085">
+<ArchiMate:BusinessActorRef id="3087" to="2160"/>
+<ArchiMate:BusinessActorRef id="3088" to="2161"/>
+<ArchiMate:BusinessRoleRef id="3188" to="3182"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessActorRef>
+<ArchiMate:AssignmentRelationRef id="3093" to="2375"/>
+<ArchiMate:BusinessActorRef id="3216" to="2211">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="3217">
+<ArchiMate:BusinessRoleRef id="3218" to="2156"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessActorRef>
 <ArchiMate:BusinessActorRef id="2255" to="664">
 <ArchiMate:MM_RefObjects name="childRefObjects" id="2256"/>
 </ArchiMate:BusinessActorRef>
@@ -2690,77 +2689,6 @@
 </ArchiMate:BusinessFunctionRef>
 </ArchiMate:RefObjects>
 </ArchiMate:BusinessProcessView>
-<ArchiMate:InformationStructureView id="3534">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Information structure view</MM_Value>
-</MM_ProfileValues>
-<ArchiMate:ViewGraphics name="viewGraphics" id="3535"/>
-<ArchiMate:ViewEdges name="viewEdges" id="3544"/>
-<ArchiMate:RefObjects name="refObjects" id="3580">
-<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3581" to="3347"/>
-<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3582" to="3348"/>
-<ArchiMate:ApplicationDataObjectRef id="3583" to="3319"/>
-<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3584" to="3349"/>
-<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3585" to="3350"/>
-<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3586" to="3351"/>
-<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3587" to="3352"/>
-<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3588" to="3353"/>
-<ArchiMate:ApplicationDataObjectRef id="3546" to="3328">
-<ArchiMate:MM_RefObjects name="childRefObjects" id="3589"/>
-</ArchiMate:ApplicationDataObjectRef>
-<ArchiMate:ApplicationDataObjectRef id="3548" to="3329"/>
-<ArchiMate:ApplicationDataObjectRef id="3550" to="3315"/>
-<ArchiMate:ApplicationDataObjectRef id="3552" to="3321"/>
-<ArchiMate:ApplicationDataObjectRef id="3554" to="3322">
-<MM_ProfileValues>
-<MM_Value name="formattednm" type="string" xml:lang="en">Quality control information </MM_Value>
-</MM_ProfileValues>
-</ArchiMate:ApplicationDataObjectRef>
-<ArchiMate:ApplicationDataObjectRef id="3556" to="3327">
-<MM_ProfileValues>
-<MM_Value name="formattednm" type="string" xml:lang="en">Delivery status of orders</MM_Value>
-</MM_ProfileValues>
-<ArchiMate:MM_RefObjects name="childRefObjects" id="3590"/>
-</ArchiMate:ApplicationDataObjectRef>
-<ArchiMate:ApplicationDataObjectRef id="3558" to="3323"/>
-<ArchiMate:ApplicationDataObjectRef id="3560" to="3330">
-<ArchiMate:MM_RefObjects name="childRefObjects" id="3591"/>
-</ArchiMate:ApplicationDataObjectRef>
-<ArchiMate:ApplicationDataObjectRef id="3562" to="3305"/>
-<ArchiMate:ApplicationDataObjectRef id="3564" to="3332"/>
-<ArchiMate:ApplicationDataObjectRef id="3566" to="3331"/>
-<ArchiMate:ApplicationDataObjectRef id="3571" to="3306"/>
-<ArchiMate:ApplicationDataObjectRef id="3573" to="3320"/>
-<ArchiMate:ApplicationDataObjectRef id="3575" to="3308"/>
-<ArchiMate:ApplicationDataObjectRef id="3577" to="3307"/>
-<ArchiMate:ApplicationDataObjectRef id="3579" to="3324"/>
-<ArchiMate:ApplicationDataObjectRef id="3592" to="3325"/>
-<ArchiMate:ApplicationDataObjectRef id="3593" to="3326"/>
-<ArchiMate:ApplicationDataObjectRef id="3594" to="3309"/>
-<ArchiMate:ApplicationDataObjectRef id="3595" to="3310"/>
-<ArchiMate:ApplicationDataObjectRef id="3596" to="3311"/>
-<ArchiMate:ApplicationDataObjectRef id="3597" to="3312"/>
-<ArchiMate:ApplicationDataObjectRef id="3598" to="3313">
-<MM_ProfileValues>
-<MM_Value name="formattednm" type="string" xml:lang="en">Intake </MM_Value>
-</MM_ProfileValues>
-</ArchiMate:ApplicationDataObjectRef>
-<ArchiMate:ApplicationDataObjectRef id="3599" to="3314"/>
-<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3600" to="3341"/>
-<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3601" to="3342"/>
-<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3602" to="3343"/>
-<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3603" to="3344"/>
-<ArchiMate:ApplicationDataObjectRef id="3604" to="3316">
-<MM_ProfileValues>
-<MM_Value name="formattednm" type="string" xml:lang="en">Solutions </MM_Value>
-</MM_ProfileValues>
-</ArchiMate:ApplicationDataObjectRef>
-<ArchiMate:ApplicationDataObjectRef id="3605" to="3317"/>
-<ArchiMate:ApplicationDataObjectRef id="3606" to="3318"/>
-<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3607" to="3345"/>
-<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3608" to="3346"/>
-</ArchiMate:RefObjects>
-</ArchiMate:InformationStructureView>
 <ArchiMate:InfrastructureView id="4365">
 <MM_ProfileValues>
 <MM_Value name="nm" type="string" xml:lang="en">Infrastructure view</MM_Value>
@@ -2954,6 +2882,102 @@
 </ArchiMate:BusinessActorRef>
 </ArchiMate:RefObjects>
 </ArchiMate:OrganisationStructureView>
+<ArchiMate:InfrastructureUsageView id="5206">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Infrastructure usage view</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:RefObjects name="refObjects" id="5219">
+<ArchiMate:InfrastructureDeviceRef id="5220" to="4282"/>
+<ArchiMate:InfrastructureDeviceRef id="5221" to="4284"/>
+<ArchiMate:InfrastructureDeviceRef id="5222" to="4283"/>
+<ArchiMate:InfrastructureDeviceRef id="5223" to="4278"/>
+<ArchiMate:InfrastructureDeviceRef id="5224" to="4280"/>
+<ArchiMate:InfrastructureDeviceRef id="5225" to="4281"/>
+<ArchiMate:InfrastructureDeviceRef id="5226" to="4286"/>
+<ArchiMate:ApplicationComponentRef id="5227" to="2421"/>
+<ArchiMate:InfrastructureDeviceRef id="5228" to="4287"/>
+<ArchiMate:InfrastructureDeviceRef id="5229" to="4272">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="5230">
+<ArchiMate:InfrastructureSystemSoftwareRef id="5231" to="4274"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:InfrastructureDeviceRef>
+<ArchiMate:InfrastructureDeviceRef id="5232" to="4277"/>
+<ArchiMate:InfrastructureDeviceRef id="5233" to="4285"/>
+<ArchiMate:InfrastructureDeviceRef id="5234" to="4279"/>
+<ArchiMate:InfrastructureDeviceRef id="5235" to="4285"/>
+</ArchiMate:RefObjects>
+</ArchiMate:InfrastructureUsageView>
+<ArchiMate:InformationStructureView id="3534">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Information structure view</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:ViewGraphics name="viewGraphics" id="3535"/>
+<ArchiMate:ViewEdges name="viewEdges" id="3544"/>
+<ArchiMate:RefObjects name="refObjects" id="3580">
+<ArchiMate:ApplicationDataObjectRef id="3546" to="3328">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="3589"/>
+</ArchiMate:ApplicationDataObjectRef>
+<ArchiMate:ApplicationDataObjectRef id="3548" to="3329"/>
+<ArchiMate:ApplicationDataObjectRef id="3550" to="3315"/>
+<ArchiMate:ApplicationDataObjectRef id="3552" to="3321"/>
+<ArchiMate:ApplicationDataObjectRef id="3554" to="3322">
+<MM_ProfileValues>
+<MM_Value name="formattednm" type="string" xml:lang="en">Quality control information </MM_Value>
+</MM_ProfileValues>
+</ArchiMate:ApplicationDataObjectRef>
+<ArchiMate:ApplicationDataObjectRef id="3556" to="3327">
+<MM_ProfileValues>
+<MM_Value name="formattednm" type="string" xml:lang="en">Delivery status of orders</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:MM_RefObjects name="childRefObjects" id="3590"/>
+</ArchiMate:ApplicationDataObjectRef>
+<ArchiMate:ApplicationDataObjectRef id="3558" to="3323"/>
+<ArchiMate:ApplicationDataObjectRef id="3560" to="3330">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="3591"/>
+</ArchiMate:ApplicationDataObjectRef>
+<ArchiMate:ApplicationDataObjectRef id="3562" to="3305"/>
+<ArchiMate:ApplicationDataObjectRef id="3564" to="3332"/>
+<ArchiMate:ApplicationDataObjectRef id="3566" to="3331"/>
+<ArchiMate:ApplicationDataObjectRef id="3571" to="3306"/>
+<ArchiMate:ApplicationDataObjectRef id="3573" to="3320"/>
+<ArchiMate:ApplicationDataObjectRef id="3575" to="3308"/>
+<ArchiMate:ApplicationDataObjectRef id="3577" to="3307"/>
+<ArchiMate:ApplicationDataObjectRef id="3579" to="3324"/>
+<ArchiMate:ApplicationDataObjectRef id="3592" to="3325"/>
+<ArchiMate:ApplicationDataObjectRef id="3593" to="3326"/>
+<ArchiMate:ApplicationDataObjectRef id="3594" to="3309"/>
+<ArchiMate:ApplicationDataObjectRef id="3595" to="3310"/>
+<ArchiMate:ApplicationDataObjectRef id="3596" to="3311"/>
+<ArchiMate:ApplicationDataObjectRef id="3597" to="3312"/>
+<ArchiMate:ApplicationDataObjectRef id="3598" to="3313">
+<MM_ProfileValues>
+<MM_Value name="formattednm" type="string" xml:lang="en">Intake </MM_Value>
+</MM_ProfileValues>
+</ArchiMate:ApplicationDataObjectRef>
+<ArchiMate:ApplicationDataObjectRef id="3599" to="3314"/>
+<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3600" to="3341"/>
+<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3601" to="3342"/>
+<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3602" to="3343"/>
+<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3603" to="3344"/>
+<ArchiMate:ApplicationDataObjectRef id="3604" to="3316">
+<MM_ProfileValues>
+<MM_Value name="formattednm" type="string" xml:lang="en">Solutions </MM_Value>
+</MM_ProfileValues>
+</ArchiMate:ApplicationDataObjectRef>
+<ArchiMate:ApplicationDataObjectRef id="3605" to="3317"/>
+<ArchiMate:ApplicationDataObjectRef id="3606" to="3318"/>
+<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3607" to="3345"/>
+<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3608" to="3346"/>
+<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3581" to="3347"/>
+<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3582" to="3348"/>
+<ArchiMate:ApplicationDataObjectRef id="3583" to="3319"/>
+<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3584" to="3349"/>
+<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3585" to="3350"/>
+<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3586" to="3351"/>
+<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3587" to="3352"/>
+<ArchiMate:ApplicationDataObjectApplicationDataObjectAggregationRef id="3588" to="3353"/>
+</ArchiMate:RefObjects>
+</ArchiMate:InformationStructureView>
 <ArchiMate:ApplicationUsageView id="3472">
 <MM_ProfileValues>
 <MM_Value name="nm" type="string" xml:lang="en">Application usage view</MM_Value>
@@ -3029,6 +3053,23 @@
 <MM_Value name="nm" type="string" xml:lang="en">Jochems Requirements realization view</MM_Value>
 </MM_ProfileValues>
 <ArchiMate:RefObjects name="refObjects" id="5011">
+<ArchiMate:MotivationRequirementRef id="5091" to="5084"/>
+<ArchiMate:MotivationRequirementMotivationGoalRealisationRef id="5092" to="5087"/>
+<ArchiMate:MotivationRequirementRef id="5093" to="5085"/>
+<ArchiMate:ElementElementAssociationRef id="5094" to="5088"/>
+<ArchiMate:ElementElementAssociationRef id="5095" to="5089"/>
+<ArchiMate:BusinessInterfaceRef id="5166" to="1213"/>
+<ArchiMate:CoreElementMotivationRequirementRealisationRef id="5167" to="5158"/>
+<ArchiMate:BusinessProcessRef id="5190" to="2801"/>
+<ArchiMate:CoreElementMotivationRequirementRealisationRef id="5168" to="5159"/>
+<ArchiMate:BusinessProductRef id="5191" to="1638">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="5192"/>
+</ArchiMate:BusinessProductRef>
+<ArchiMate:CoreElementMotivationRequirementRealisationRef id="5193" to="5186"/>
+<ArchiMate:ElementElementAssociationRef id="5194" to="5187"/>
+<ArchiMate:ElementElementAssociationRef id="5195" to="5188"/>
+<ArchiMate:BusinessProductRef id="5211" to="5210"/>
+<ArchiMate:CoreElementMotivationRequirementRealisationRef id="5217" to="5215"/>
 <ArchiMate:MotivationGoalRef id="5012" to="4867"/>
 <ArchiMate:MotivationGoalRef id="5013" to="4921"/>
 <ArchiMate:MotivationGoalRef id="5014" to="4741"/>
@@ -3063,30 +3104,8 @@
 <ArchiMate:MotivationGoalMotivationGoalSpecializationRef id="5025" to="4756"/>
 <ArchiMate:MotivationGoalRef id="5026" to="4951"/>
 <ArchiMate:MotivationRequirementMotivationGoalRealisationRef id="5090" to="5086"/>
-<ArchiMate:MotivationRequirementRef id="5091" to="5084"/>
-<ArchiMate:MotivationRequirementMotivationGoalRealisationRef id="5092" to="5087"/>
-<ArchiMate:MotivationRequirementRef id="5093" to="5085"/>
-<ArchiMate:ElementElementAssociationRef id="5094" to="5088"/>
-<ArchiMate:ElementElementAssociationRef id="5095" to="5089"/>
-<ArchiMate:BusinessInterfaceRef id="5166" to="1213"/>
-<ArchiMate:CoreElementMotivationRequirementRealisationRef id="5167" to="5158"/>
-<ArchiMate:BusinessProcessRef id="5190" to="2801"/>
-<ArchiMate:CoreElementMotivationRequirementRealisationRef id="5168" to="5159"/>
-<ArchiMate:BusinessProductRef id="5191" to="1638">
-<ArchiMate:MM_RefObjects name="childRefObjects" id="5192"/>
-</ArchiMate:BusinessProductRef>
-<ArchiMate:CoreElementMotivationRequirementRealisationRef id="5193" to="5186"/>
-<ArchiMate:ElementElementAssociationRef id="5194" to="5187"/>
-<ArchiMate:ElementElementAssociationRef id="5195" to="5188"/>
-<ArchiMate:BusinessProductRef id="5211" to="5210"/>
-<ArchiMate:CoreElementMotivationRequirementRealisationRef id="5217" to="5215"/>
 </ArchiMate:RefObjects>
 </ArchiMate:RequirementsRealisationView>
-<ArchiMate:InfrastructureUsageView id="5206">
-<MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Infrastructure usage view</MM_Value>
-</MM_ProfileValues>
-</ArchiMate:InfrastructureUsageView>
 </ArchiMate:AbstractViews>
 <ArchiMate:AbstractFolders name="folders" id="27"/>
 </ArchiMate:AbstractFolder>
@@ -6285,6 +6304,100 @@
 <MM_ModelPackage:MM_Module id="5207" nm="GraphicalModule" metaModel="MM_Diagram">
 <MM_Diagram:MM_Diagram name="root" id="5208">
 <MM_Diagram:MM_Node name="mm_canvas" id="5209" mm_graphicType="5" mm_concept="Canvas" mm_semanticObject="5206">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="5236">
+<MM_Diagram:MM_Node id="5237" mm_graphicType="5" mm_concept="InfrastructureDevice" mm_semanticObject="5228">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="5238">
+<MM_Diagram:MM_Decoration id="5239" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="120" y="2100" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="5240" mm_graphicType="5" mm_concept="InfrastructureDevice" mm_semanticObject="5229">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="5241">
+<MM_Diagram:MM_Node id="5242" mm_graphicType="5" mm_concept="InfrastructureSystemSoftware" mm_semanticObject="5231">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="5243">
+<MM_Diagram:MM_Decoration id="5244" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="5245" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="30" y="81" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Decoration id="5246" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="580" y="2100" w="460" h="320"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="5247" mm_graphicType="5" mm_concept="InfrastructureDevice" mm_semanticObject="5232">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="5248">
+<MM_Diagram:MM_Decoration id="5249" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1100" y="2100" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="5250" mm_graphicType="5" mm_concept="InfrastructureDevice" mm_semanticObject="5233">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="5251">
+<MM_Diagram:MM_Decoration id="5252" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1560" y="2100" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="5253" mm_graphicType="5" mm_concept="InfrastructureDevice" mm_semanticObject="5234">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="5254">
+<MM_Diagram:MM_Decoration id="5255" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="2000" y="2100" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="5256" mm_graphicType="5" mm_concept="InfrastructureDevice" mm_semanticObject="5235">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="5257">
+<MM_Diagram:MM_Decoration id="5258" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="2980" y="2100" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="5259" mm_graphicType="5" mm_concept="InfrastructureDevice" mm_semanticObject="5220">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="5260">
+<MM_Diagram:MM_Decoration id="5261" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="2980" y="2341" w="400" h="182"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="5262" mm_graphicType="5" mm_concept="InfrastructureDevice" mm_semanticObject="5221">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="5263">
+<MM_Diagram:MM_Decoration id="5264" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="3460" y="2100" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="5265" mm_graphicType="5" mm_concept="InfrastructureDevice" mm_semanticObject="5222">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="5266">
+<MM_Diagram:MM_Decoration id="5267" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="3460" y="2341" w="400" h="182"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="5268" mm_graphicType="5" mm_concept="InfrastructureDevice" mm_semanticObject="5223">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="5269">
+<MM_Diagram:MM_Decoration id="5270" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="2500" y="2100" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="5271" mm_graphicType="5" mm_concept="InfrastructureDevice" mm_semanticObject="5224">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="5272">
+<MM_Diagram:MM_Decoration id="5273" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="2500" y="2321" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="5274" mm_graphicType="5" mm_concept="InfrastructureDevice" mm_semanticObject="5225">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="5275">
+<MM_Diagram:MM_Decoration id="5276" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="3960" y="2100" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="5277" mm_graphicType="5" mm_concept="InfrastructureDevice" mm_semanticObject="5226">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="5278">
+<MM_Diagram:MM_Decoration id="5279" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="4440" y="2100" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="5280" mm_graphicType="5" mm_concept="ApplicationComponent" mm_semanticObject="5227">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="5281">
+<MM_Diagram:MM_Decoration id="5282" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="5283" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="280" y="1320" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
 <MM_Rect name="mm_rect" x="0" y="0" w="2147483647" h="2147483647"/>
 </MM_Diagram:MM_Node>
 </MM_Diagram:MM_Diagram>
@@ -6310,10 +6423,10 @@
 </MM_ModelPackage:MM_User>
 <MM_ModelPackage:MM_User id="4609">
 <nm>arif</nm>
-<Any name="taggedValues"><Structure><List name="viewSettings"><Structure><Objectref value="23" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="4365" name="diagObj"/><List name="selectedObjects"/></Structure></List></Structure></Any>
+<Any name="taggedValues"><Structure><List name="viewSettings"><Structure><Objectref value="23" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="4365" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="3416" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="5206" name="diagObj"/><List name="selectedObjects"/></Structure></List></Structure></Any>
 </MM_ModelPackage:MM_User>
 </MM_ModelPackage:MM_Users>
-<Any name="taggedValues"><Structure><Structure name="grid"><Long value="20" name="y"/><Long value="20" name="x"/></Structure><String name="lastSavedWith">Architect 4.5.1 Academic 14-15</String></Structure></Any>
+<Any name="taggedValues"><Structure><Structure name="grid"><Long value="20" name="x"/><Long value="20" name="y"/></Structure><String name="lastSavedWith">Architect 4.5.1 Academic 14-15</String></Structure></Any>
 </MM_ModelPackage:MM_ModelPackage>
 </MM_StorageUnit>
 </MM_Document>
