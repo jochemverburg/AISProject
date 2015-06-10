@@ -1,0 +1,2495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MM_Document version="2.0" format="XML" includeMetaModels="false" xmlns:builtins="http://www.bizzdesign.com/metamodels/builtins" xmlns:Base="http://www.bizzdesign.com/metamodels/Base" xmlns:MM_ModelPackage="http://www.bizzdesign.com/metamodels/MM_ModelPackage" xmlns:Component="http://www.bizzdesign.com/metamodels/Component" xmlns:ArchiMate="http://www.bizzdesign.com/metamodels/ArchiMate2.0" xmlns:MM_Diagram="http://www.bizzdesign.com/metamodels/MM_Diagram" xmlns:Amber="http://www.bizzdesign.com/metamodels/Amber" xmlns:ERD="http://www.bizzdesign.com/metamodels/ERD" xmlns:Lean="http://www.bizzdesign.com/metamodels/Lean" xmlns:BPMN="http://www.bizzdesign.com/metamodels/BPMN" xmlns:BMC="http://www.bizzdesign.com/metamodels/BMC" xmlns:TDM="http://www.bizzdesign.com/metamodels/TDM">
+<MM_StorageUnit fqn="">
+<MM_ModelPackage:MM_ModelPackage id="0">
+<nm>jochem's Model package 2</nm>
+<MM_ModelPackage:MM_Models name="models" id="1">
+<ArchiMate:ArchiMateMM_Model id="2">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Empty model with total view extended</MM_Value>
+</MM_ProfileValues>
+<MM_ModelPackage:MM_Modules name="modules" id="3">
+<MM_ModelPackage:MM_Module id="4" nm="SemanticModule" metaModel="ArchiMate">
+<ArchiMate:ArchiMateComponent name="root" id="5">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Empty model with total view extended</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:DomainDataSet name="domainDataSet" id="6"/>
+<ArchiMate:AbstractCommandContainers name="commandContainers" id="7"/>
+<ArchiMate:AbstractSchemes name="schemes" id="8">
+<ArchiMate:MotivationScheme id="9">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Motivation extension</MM_Value>
+</MM_ProfileValues>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:MotivationScheme>
+<ArchiMate:TechnicalInfrastructureScheme id="10">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Technology layer</MM_Value>
+</MM_ProfileValues>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:TechnicalInfrastructureScheme>
+<ArchiMate:ApplicationScheme id="11">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Application layer</MM_Value>
+</MM_ProfileValues>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:ApplicationScheme>
+<ArchiMate:BusinessScheme id="12">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Business layer</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessLocations name="locations" id="501">
+<ArchiMate:BusinessLocation id="544">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Dordrecht</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessLocation>
+<ArchiMate:BusinessLocation id="545">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Veghel</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessLocation>
+<ArchiMate:BusinessLocation id="502">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Small call center</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessLocation>
+</ArchiMate:BusinessLocations>
+<ArchiMate:BusinessActors name="actors" id="176">
+<ArchiMate:BusinessActor id="179">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Customer</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="576">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Site manager</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="577">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Site manager</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="505">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Arocle Vendor</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="472">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Legal</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="177">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Household user</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="178">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Graphical sector</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="201">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Industrial sector</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="202">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Governmental customer</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="203">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Corporate customer</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="325">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Board of Directors</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="326">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">BriteLite Enterprise</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessActors name="actors" id="346">
+<ArchiMate:BusinessActor id="418">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">BriteLite Engineering Solutions</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessActors name="actors" id="419">
+<ArchiMate:BusinessActor id="420">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">F&amp;A department</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="639">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Secretary</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="640">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Central engineering coordinator</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="641">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Corporate lighting</MM_Value>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq15\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 8 engineers\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="642">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Complex circuitry</MM_Value>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq7\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 5 engineers\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="643">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Industrial and public lighting</MM_Value>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq7\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 9 engineers\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="644">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Modern lighting products</MM_Value>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq7\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 6 engineers\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+</ArchiMate:BusinessActors>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="354">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Sales and Account-management department</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessActors name="actors" id="355">
+<ArchiMate:BusinessActor id="356">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Manager</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="421">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Manager 2</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="422">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Manager 3</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+</ArchiMate:BusinessActors>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="423">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">BriteLite Ideas</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessActors name="actors" id="424">
+<ArchiMate:BusinessActor id="425">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">F&amp;A department</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="713">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Manager</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="714">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Secretary</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="734">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Consultant 1</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+</ArchiMate:BusinessActors>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="347">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Marketing Department</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessActors name="actors" id="348">
+<ArchiMate:BusinessActor id="349">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Marketing manager</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="350">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Marketeer 1</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="351">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Marketeer 2</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="352">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Marketeer 3</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="353">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Marketeer 4</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+</ArchiMate:BusinessActors>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="415">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">BriteLite</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessActors name="actors" id="416">
+<ArchiMate:BusinessActor id="471">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">ICT department</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="504">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Customer support team</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessActors name="actors" id="638"/>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="503">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Production department</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessActors name="actors" id="546">
+<ArchiMate:BusinessActor id="547">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Inventory</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="548">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Distribution</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="574">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Sub-division 1</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="575">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Sub-division 2</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+</ArchiMate:BusinessActors>
+</ArchiMate:BusinessActor>
+<ArchiMate:BusinessActor id="417">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">F&amp;A department</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessActor>
+</ArchiMate:BusinessActors>
+</ArchiMate:BusinessActor>
+</ArchiMate:BusinessActors>
+</ArchiMate:BusinessActor>
+</ArchiMate:BusinessActors>
+<ArchiMate:BusinessRoles name="roles" id="327">
+<ArchiMate:BusinessRole id="328">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Board of directors</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+<ArchiMate:BusinessRole id="357">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Marketeer</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+<ArchiMate:BusinessRole id="358">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Marketing manager</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+<ArchiMate:BusinessRole id="359">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Department Manager</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+<ArchiMate:BusinessRole id="474">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">ICT support</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+<ArchiMate:BusinessRole id="360">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Sales and Account manager</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+<ArchiMate:BusinessRole id="475">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Legal</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+<ArchiMate:BusinessRole id="476">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">R&amp;D</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+<ArchiMate:BusinessRole id="681">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Team manager</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+<ArchiMate:BusinessRole id="682">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Team manager</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+<ArchiMate:BusinessRole id="683">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Team manager</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+<ArchiMate:BusinessRole id="684">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Team manager</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+<ArchiMate:BusinessRole id="608">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Quality controller</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+<ArchiMate:BusinessRole id="609">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Quality controller</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+<ArchiMate:BusinessRole id="715">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Consultant</MM_Value>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq7\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 11 consultants\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+<ArchiMate:BusinessRole id="865">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Production worker</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+<ArchiMate:BusinessRole id="1033">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Business role</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+<ArchiMate:BusinessRole id="1485">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Driver</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+<ArchiMate:BusinessRole id="1608">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Team</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRole>
+</ArchiMate:BusinessRoles>
+<ArchiMate:BusinessFunctions name="functions" id="740">
+<ArchiMate:BusinessFunction id="741">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Production</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessFunctions name="functions" id="1486">
+<ArchiMate:BusinessFunction id="1487">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Distribution</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessFunction>
+<ArchiMate:BusinessFunction id="1557">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Accounting</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessFunction>
+</ArchiMate:BusinessFunctions>
+</ArchiMate:BusinessFunction>
+<ArchiMate:BusinessFunction id="1453">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Inventory</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessFunction>
+<ArchiMate:BusinessFunction id="1602">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Engineering</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessFunction>
+<ArchiMate:BusinessFunction id="1691">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Consulting</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessFunction>
+</ArchiMate:BusinessFunctions>
+<ArchiMate:BusinessObjects name="objects" id="155">
+<ArchiMate:BusinessContract id="156">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">SLA</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessContract>
+<ArchiMate:BusinessObject id="787">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Overview</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessObject>
+<ArchiMate:BusinessObject id="788">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Schedule</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessObject>
+<ArchiMate:BusinessObject id="894">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Production run code</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessObject>
+<ArchiMate:BusinessObject id="895">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Batch number</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessObject>
+<ArchiMate:BusinessObject id="896">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Order number</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessObject>
+</ArchiMate:BusinessObjects>
+<ArchiMate:BusinessRepresentations name="representations" id="897">
+<ArchiMate:BusinessRepresentation id="898">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Label</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRepresentation>
+</ArchiMate:BusinessRepresentations>
+<ArchiMate:BusinessProcesses name="processes" id="742">
+<ArchiMate:BusinessProcess id="1222">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Quality Control</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessProcesses name="processes" id="1263"/>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="963">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Append status</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1012">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Process information</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1041">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Glass bulb/assembly production</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessProcesses name="processes" id="1042"/>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1558">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Billing</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1559">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Payment processing</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1609">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Execute assignment</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1610">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Assign assignment</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1611">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Execute emergency assignment</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1708">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Add relevant information to folder</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1709">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Give advice</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessProcesses name="processes" id="1710">
+<ArchiMate:BusinessProcess id="1711">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Make sketch</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+</ArchiMate:BusinessProcesses>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1712">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Sell solution</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1488">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Distribution</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1489">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Delivery</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1560">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Acquisition</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1561">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Order processing</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1490">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Intake</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1491">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Outtake</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1654">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Handle phone calls</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1655">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Administrative tasks</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1713">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Consulting job</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1783">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Production in Brno</MM_Value>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq7\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 3.4.1 mentions outsourcing: it has a value which is also mentioned there\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="1831">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Sale through webshop</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="803">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Filament and base production</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessProcesses name="processes" id="826"/>
+</ArchiMate:BusinessProcess>
+<ArchiMate:BusinessProcess id="743">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Determine production schedule</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessProcesses name="processes" id="744"/>
+</ArchiMate:BusinessProcess>
+</ArchiMate:BusinessProcesses>
+<ArchiMate:BusinessEvents name="events" id="747">
+<ArchiMate:BusinessEvent id="748">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Start of the day</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessEvent>
+<ArchiMate:BusinessEvent id="1161">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">End of batch</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessEvent>
+<ArchiMate:BusinessEvent id="1223">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Every hour</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessEvent>
+<ArchiMate:BusinessEvent id="964">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">End of the day</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessEvent>
+<ArchiMate:BusinessEvent id="1298">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Within spec</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessEvent>
+<ArchiMate:BusinessEvent id="1299">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Faulty lamp</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessEvent>
+<ArchiMate:BusinessEvent id="1364">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">No other faulty lamps</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessEvent>
+<ArchiMate:BusinessEvent id="1365">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Another faulty lamp</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessEvent>
+<ArchiMate:BusinessEvent id="1714">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Sale made</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessEvent>
+<ArchiMate:BusinessEvent id="1784">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Demand spikes</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessEvent>
+</ArchiMate:BusinessEvents>
+<ArchiMate:BusinessProducts name="products" id="13">
+<ArchiMate:BusinessProduct id="50">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Incandescent light bulbs for corporate and industrial use</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessProducts name="products" id="259">
+<ArchiMate:BusinessProduct id="260">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">ReliaBulb 3500K</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
+<ArchiMate:BusinessProduct id="261">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">ReliaBulb 5000K</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
+</ArchiMate:BusinessProducts>
+</ArchiMate:BusinessProduct>
+<ArchiMate:BusinessProduct id="51">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Sodium-vapor lamps for industrial use</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessProducts name="products" id="262">
+<ArchiMate:BusinessProduct id="263">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Power</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
+<ArchiMate:BusinessProduct id="264">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Extreme</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
+</ArchiMate:BusinessProducts>
+</ArchiMate:BusinessProduct>
+<ArchiMate:BusinessProduct id="73">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Maintenance</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
+<ArchiMate:BusinessProduct id="74">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Maintenance including emergency service</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
+<ArchiMate:BusinessProduct id="86">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Consultancy</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
+<ArchiMate:BusinessProduct id="14">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Lamps</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
+<ArchiMate:BusinessProduct id="15">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Incandescent ligh-bulb for household use</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessProducts name="products" id="204">
+<ArchiMate:BusinessProduct id="206">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Comfort</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
+<ArchiMate:BusinessProduct id="207">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Comfort+</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
+<ArchiMate:BusinessProduct id="205">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Regular</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
+</ArchiMate:BusinessProducts>
+</ArchiMate:BusinessProduct>
+<ArchiMate:BusinessProduct id="39">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Incandescent light-bulb for graphic sector</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessProducts name="products" id="256">
+<ArchiMate:BusinessProduct id="257">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Ultra</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
+<ArchiMate:BusinessProduct id="258">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Ultra+</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProduct>
+</ArchiMate:BusinessProducts>
+</ArchiMate:BusinessProduct>
+</ArchiMate:BusinessProducts>
+<ArchiMate:BusinessServices name="services" id="140">
+<ArchiMate:BusinessService id="141">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Regular service</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:BusinessServices name="services" id="142">
+<ArchiMate:BusinessService id="143">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Repair</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessService>
+<ArchiMate:BusinessService id="144">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Replacement</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessService>
+</ArchiMate:BusinessServices>
+</ArchiMate:BusinessService>
+<ArchiMate:BusinessService id="157">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">24/7 emergency service</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessService>
+<ArchiMate:BusinessService id="902">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Pick-up empty pallet</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessService>
+<ArchiMate:BusinessService id="1300">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Put back into batch</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessService>
+</ArchiMate:BusinessServices>
+<ArchiMate:BusinessValues name="values" id="158">
+<ArchiMate:BusinessValue id="159">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Ergonomics and light quality important</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessValue>
+</ArchiMate:BusinessValues>
+<ArchiMate:Relations name="relations" id="40">
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="1563" from="1557" to="1559"/>
+<ArchiMate:AssignmentRelation id="1564" from="417" to="1557"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="1612" from="1602" to="1609"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="1613" from="1602" to="1610"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="1614" from="1602" to="1611"/>
+<ArchiMate:BusinessProcessBusinessProcessSpecialization id="1615" from="1611" to="1609"/>
+<ArchiMate:BusinessProcessBusinessProcessTriggering id="1616" from="1610" to="1609"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="1715" from="1691" to="1708"/>
+<ArchiMate:BusinessFunctionBusinessEventComposition id="1716" from="1691" to="1714"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="1717" from="1691" to="1709"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="1718" from="1691" to="1712"/>
+<ArchiMate:BusinessProcessBusinessProcessComposition id="1719" from="1709" to="1711"/>
+<ArchiMate:BusinessProcessBusinessProcessTriggering id="1720" from="1709" to="1712"/>
+<ArchiMate:BusinessProcessBusinessProcessTriggering id="1721" from="1712" to="1708"/>
+<ArchiMate:BusinessEventBusinessProcessTriggering id="1722" from="1714" to="1712"/>
+<ArchiMate:AssignmentRelation id="1723" from="423" to="1691"/>
+<ArchiMate:BusinessFunctionBusinessFunctionComposition id="1492" from="741" to="1487"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="1493" from="1487" to="1488"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="1494" from="1487" to="1489"/>
+<ArchiMate:BusinessRoleBusinessProcessAssignment id="1495" from="1485" to="1488"/>
+<ArchiMate:BusinessRoleBusinessProcessAssignment id="1496" from="1485" to="1489"/>
+<ArchiMate:BusinessFunctionBusinessFunctionComposition id="1565" from="741" to="1557"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="1566" from="1557" to="1560"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="1567" from="1557" to="1561"/>
+<ArchiMate:AccessRelation id="1497" from="1491" to="898"/>
+<ArchiMate:AssignmentRelation id="1456" from="503" to="741"/>
+<ArchiMate:AssignmentRelation id="1457" from="547" to="1453"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="1498" from="1453" to="1490"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="1499" from="1453" to="1491"/>
+<ArchiMate:AccessRelation id="1500" from="1490" to="898"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="1501" from="548" to="1485"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="735" from="423" to="734"/>
+<ArchiMate:BusinessProductBusinessProductSpecialization id="52" from="39" to="14"/>
+<ArchiMate:BusinessProductBusinessProductSpecialization id="53" from="50" to="14"/>
+<ArchiMate:BusinessProductBusinessProductSpecialization id="54" from="51" to="14"/>
+<ArchiMate:BusinessProductBusinessProductSpecialization id="75" from="74" to="73"/>
+<ArchiMate:BusinessActorBusinessActorSpecialization id="180" from="177" to="179"/>
+<ArchiMate:BusinessActorBusinessActorSpecialization id="208" from="178" to="203"/>
+<ArchiMate:BusinessActorBusinessActorSpecialization id="209" from="201" to="203"/>
+<ArchiMate:BusinessActorBusinessActorSpecialization id="210" from="203" to="179"/>
+<ArchiMate:BusinessActorBusinessActorSpecialization id="211" from="202" to="203"/>
+<ArchiMate:BusinessProductBusinessProductComposition id="212" from="15" to="205"/>
+<ArchiMate:BusinessProductBusinessProductComposition id="213" from="15" to="206"/>
+<ArchiMate:BusinessProductBusinessProductComposition id="214" from="15" to="207"/>
+<ArchiMate:UseRelation id="265" from="73" to="203"/>
+<ArchiMate:UseRelation id="317" from="86" to="203"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="361" from="326" to="347"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="362" from="347" to="358"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="363" from="347" to="357"/>
+<ArchiMate:BusinessProductBusinessServiceAggregation id="145" from="73" to="141"/>
+<ArchiMate:BusinessProductBusinessContractAggregation id="160" from="73" to="156"/>
+<ArchiMate:BusinessServiceBusinessServiceComposition id="146" from="141" to="141"/>
+<ArchiMate:BusinessServiceBusinessServiceComposition id="147" from="141" to="143"/>
+<ArchiMate:ElementElementAssociation id="181" from="86" to="159"/>
+<ArchiMate:BusinessServiceBusinessServiceComposition id="148" from="141" to="144"/>
+<ArchiMate:BusinessProductBusinessServiceAggregation id="161" from="73" to="157"/>
+<ArchiMate:UseRelation id="215" from="15" to="179"/>
+<ArchiMate:BusinessProductBusinessProductComposition id="266" from="50" to="260"/>
+<ArchiMate:BusinessProductBusinessProductComposition id="267" from="50" to="261"/>
+<ArchiMate:UseRelation id="268" from="50" to="178"/>
+<ArchiMate:BusinessProductBusinessProductComposition id="269" from="39" to="257"/>
+<ArchiMate:BusinessProductBusinessProductComposition id="270" from="39" to="258"/>
+<ArchiMate:UseRelation id="271" from="39" to="203"/>
+<ArchiMate:BusinessProductBusinessProductComposition id="272" from="51" to="263"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="371" from="351" to="357"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="372" from="347" to="352"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="373" from="352" to="357"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="374" from="347" to="353"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="375" from="353" to="357"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="376" from="326" to="354"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="377" from="354" to="360"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="434" from="326" to="423"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="435" from="415" to="417"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="436" from="418" to="420"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="437" from="423" to="425"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="645" from="418" to="639"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="646" from="418" to="640"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="685" from="641" to="681"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="686" from="643" to="682"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="687" from="642" to="683"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="688" from="644" to="684"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="716" from="423" to="713"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="717" from="423" to="714"/>
+<ArchiMate:ElementElementAssociation id="610" from="577" to="548">
+<MM_ProfileValues>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq6\fcharset0 Arial;}{\f1\fnil\fprq6\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Site manager manages distribution\f1\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:ElementElementAssociation>
+<ArchiMate:ElementElementAssociation id="611" from="576" to="547">
+<MM_ProfileValues>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq6\fcharset0 Arial;}{\f1\fnil\fprq6\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Site manager manages 2 people of inventory\f1\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:ElementElementAssociation>
+<ArchiMate:BusinessLocationBusinessActorAssignment id="612" from="544" to="574"/>
+<ArchiMate:BusinessLocationBusinessActorAssignment id="613" from="545" to="575"/>
+<ArchiMate:AssignmentRelation id="614" from="544" to="608"/>
+<ArchiMate:AssignmentRelation id="615" from="545" to="609"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="647" from="418" to="641"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="648" from="418" to="643"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="649" from="418" to="642"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="650" from="418" to="644"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="718" from="423" to="715"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="1562" from="1557" to="1558"/>
+<ArchiMate:UseRelation id="868" from="741" to="865"/>
+<ArchiMate:BusinessRoleBusinessProcessAssignment id="1265" from="609" to="1222"/>
+<ArchiMate:BusinessRoleBusinessProcessAssignment id="1266" from="608" to="1222"/>
+<ArchiMate:AssignmentRelation id="1228" from="544" to="1222"/>
+<ArchiMate:AssignmentRelation id="1229" from="545" to="1222"/>
+<ArchiMate:BusinessEventBusinessProcessTriggering id="1267" from="1223" to="1222"/>
+<ArchiMate:BusinessProcessBusinessEventComposition id="1308" from="1222" to="1298"/>
+<ArchiMate:BusinessProcessBusinessServiceRealisation id="1309" from="1222" to="1300"/>
+<ArchiMate:BusinessProcessBusinessEventComposition id="1310" from="1222" to="1299"/>
+<ArchiMate:BusinessProcessBusinessEventComposition id="1371" from="1222" to="1364"/>
+<ArchiMate:BusinessProcessBusinessEventComposition id="1377" from="1222" to="1365"/>
+<ArchiMate:BusinessProcessBusinessProcessTriggering id="1777" from="743" to="1041"/>
+<ArchiMate:BusinessProcessBusinessProcessTriggering id="1785" from="743" to="1783"/>
+<ArchiMate:BusinessEventBusinessProcessTriggering id="1797" from="1784" to="1783"/>
+<ArchiMate:BusinessProcessBusinessProcessTriggering id="1800" from="803" to="1012"/>
+<ArchiMate:AccessRelation id="1801" from="803" to="898"/>
+<ArchiMate:BusinessProductBusinessProductComposition id="273" from="51" to="264"/>
+<ArchiMate:UseRelation id="274" from="51" to="201"/>
+<ArchiMate:UseRelation id="275" from="51" to="202"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="364" from="354" to="359"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="365" from="354" to="356"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="426" from="356" to="359"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="427" from="356" to="360"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="428" from="354" to="421"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="429" from="421" to="360"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="430" from="354" to="422"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="431" from="422" to="360"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="432" from="326" to="415"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="433" from="326" to="418"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="549" from="503" to="547"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="550" from="503" to="548"/>
+<ArchiMate:ElementElementAssociation id="551" from="503" to="544"/>
+<ArchiMate:ElementElementAssociation id="552" from="503" to="545"/>
+<ArchiMate:BusinessLocationBusinessActorAssignment id="578" from="544" to="576"/>
+<ArchiMate:BusinessLocationBusinessActorAssignment id="579" from="545" to="577"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="580" from="503" to="574"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="581" from="503" to="575"/>
+<ArchiMate:ElementElementAssociation id="582" from="577" to="547">
+<MM_ProfileValues>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq6\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Site manager manages 4 people of inventory\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:ElementElementAssociation>
+<ArchiMate:BusinessActorBusinessActorComposition id="477" from="415" to="471"/>
+<ArchiMate:ElementElementAssociation id="478" from="471" to="474">
+<MM_ProfileValues>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq6\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Coordinates application of support\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:ElementElementAssociation>
+<ArchiMate:ElementElementAssociation id="506" from="347" to="505">
+<MM_ProfileValues>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq6\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Uses CRM-solution of vendor\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:ElementElementAssociation>
+<ArchiMate:ElementElementAssociation id="507" from="354" to="505">
+<MM_ProfileValues>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq6\fcharset0 Arial;}{\f1\fnil\fprq6\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Uses CRM-solution of vendor\f1\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:ElementElementAssociation>
+<ArchiMate:BusinessActorBusinessActorComposition id="509" from="418" to="504"/>
+<ArchiMate:ElementElementAssociation id="510" from="418" to="502"/>
+<ArchiMate:BusinessLocationBusinessActorAssignment id="511" from="502" to="504"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="366" from="347" to="349"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="367" from="349" to="358"/>
+<ArchiMate:AccessRelation id="911" from="741" to="898"/>
+<ArchiMate:UseRelation id="912" from="741" to="894"/>
+<ArchiMate:UseRelation id="913" from="741" to="895"/>
+<ArchiMate:UseRelation id="914" from="741" to="896"/>
+<ArchiMate:BusinessRepresentationBusinessObjectRealisation id="915" from="898" to="895"/>
+<ArchiMate:BusinessRepresentationBusinessObjectRealisation id="916" from="898" to="894"/>
+<ArchiMate:BusinessRepresentationBusinessObjectRealisation id="917" from="898" to="896"/>
+<ArchiMate:BusinessProcessBusinessObjectAccess id="1098" from="1041" to="788"/>
+<ArchiMate:BusinessRoleBusinessProcessAssignment id="1167" from="865" to="1041">
+<MM_ProfileValues>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq6\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Act and monitor\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessRoleBusinessProcessAssignment>
+<ArchiMate:BusinessProcessBusinessEventComposition id="1169" from="1041" to="1161"/>
+<ArchiMate:BusinessFunctionBusinessEventComposition id="1226" from="741" to="1223"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="1227" from="741" to="1222"/>
+<ArchiMate:BusinessProcessBusinessProcessTriggering id="1013" from="963" to="1012"/>
+<ArchiMate:BusinessProductBusinessProductSpecialization id="41" from="15" to="14"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="368" from="347" to="350"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="369" from="350" to="357"/>
+<ArchiMate:BusinessActorBusinessActorComposition id="370" from="347" to="351"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="1656" from="1602" to="1654"/>
+<ArchiMate:BusinessRoleBusinessProcessAssignment id="1657" from="1608" to="1609"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="1658" from="1602" to="1655"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="1617" from="418" to="1608"/>
+<ArchiMate:AssignmentRelation id="1659" from="640" to="1610"/>
+<ArchiMate:AssignmentRelation id="1660" from="418" to="1602"/>
+<ArchiMate:AssignmentRelation id="1661" from="639" to="1654"/>
+<ArchiMate:AssignmentRelation id="1662" from="639" to="1655"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="1724" from="1691" to="1713"/>
+<ArchiMate:BusinessRoleBusinessProcessAssignment id="1765" from="715" to="1713"/>
+<ArchiMate:AssignmentRelation id="1014" from="576" to="1012"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="972" from="741" to="963"/>
+<ArchiMate:BusinessProcessBusinessProcessTriggering id="973" from="803" to="963"/>
+<ArchiMate:BusinessFunctionBusinessEventComposition id="974" from="741" to="964"/>
+<ArchiMate:BusinessEventBusinessProcessTriggering id="975" from="964" to="963"/>
+<ArchiMate:BusinessProcessBusinessObjectAccess id="976" from="963" to="788"/>
+<ArchiMate:AssignmentRelation id="977" from="544" to="963"/>
+<ArchiMate:BusinessRoleBusinessProcessAssignment id="1015" from="865" to="963"/>
+<ArchiMate:AssignmentRelation id="1016" from="544" to="865"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="1017" from="741" to="1012"/>
+<ArchiMate:BusinessActorBusinessRoleAssignment id="1035" from="575" to="1033"/>
+<ArchiMate:AssignmentRelation id="1045" from="545" to="1041"/>
+<ArchiMate:BusinessRoleBusinessProcessAssignment id="1038" from="865" to="803"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="1046" from="741" to="1041"/>
+<ArchiMate:AssignmentRelation id="1047" from="545" to="865"/>
+<ArchiMate:AssignmentRelation id="1048" from="544" to="1041"/>
+<ArchiMate:BusinessEventBusinessProcessTriggering id="752" from="748" to="743"/>
+<ArchiMate:UseRelation id="789" from="741" to="787"/>
+<ArchiMate:BusinessProcessBusinessObjectAccess id="791" from="743" to="787">
+<MM_ProfileValues>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq6\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Read\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcessBusinessObjectAccess>
+<ArchiMate:UseRelation id="792" from="741" to="788"/>
+<ArchiMate:BusinessProcessBusinessObjectAccess id="805" from="743" to="788">
+<MM_ProfileValues>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq6\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Creates\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcessBusinessObjectAccess>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="807" from="741" to="803"/>
+<ArchiMate:AssignmentRelation id="808" from="544" to="803"/>
+<ArchiMate:BusinessProcessBusinessProcessTriggering id="809" from="743" to="803"/>
+<ArchiMate:BusinessProcessBusinessObjectAccess id="830" from="803" to="788">
+<MM_ProfileValues>
+<MM_Value name="doc" type="rtf" xml:lang="en">{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fprq6\fcharset0 Arial;}}&#xd;&#xa;\viewkind4\uc1\pard\f0\fs20 Use production schedule\par&#xd;&#xa;}&#xd;&#xa;</MM_Value>
+</MM_ProfileValues>
+</ArchiMate:BusinessProcessBusinessObjectAccess>
+<ArchiMate:AssignmentRelation id="832" from="576" to="743"/>
+<ArchiMate:AssignmentRelation id="833" from="577" to="743"/>
+<ArchiMate:BusinessFunctionBusinessEventComposition id="753" from="741" to="748"/>
+<ArchiMate:BusinessFunctionBusinessProcessComposition id="754" from="741" to="743"/>
+<ArchiMate:BusinessProcessBusinessServiceRealisation id="907" from="803" to="902"/>
+</ArchiMate:Relations>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:BusinessScheme>
+<ArchiMate:IMScheme id="16">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Implementation and migration extension</MM_Value>
+</MM_ProfileValues>
+<Any name="taggedValues"><Structure><Boolean value="true" name="__defaultObject__"/></Structure></Any>
+</ArchiMate:IMScheme>
+</ArchiMate:AbstractSchemes>
+<ArchiMate:AbstractViews name="views" id="17"/>
+<ArchiMate:AbstractFolders name="folders" id="18">
+<ArchiMate:AbstractFolder id="19">
+<nm>Views</nm>
+<ArchiMate:AbstractSchemes name="schemes" id="20"/>
+<ArchiMate:AbstractViews name="views" id="21">
+<ArchiMate:BusinessProcessView id="736">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Business process view</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:RefObjects name="refObjects" id="755">
+<ArchiMate:BusinessFunctionRef id="756" to="741">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="757">
+<ArchiMate:BusinessLocationRef id="810" to="544"/>
+<ArchiMate:BusinessEventBusinessProcessTriggeringRef id="758" to="752"/>
+<ArchiMate:BusinessObjectRef id="793" to="787"/>
+<ArchiMate:BusinessObjectRef id="794" to="788"/>
+<ArchiMate:BusinessProcessBusinessObjectAccessRef id="795" to="791"/>
+<ArchiMate:BusinessProcessBusinessObjectAccessRef id="811" to="805"/>
+<ArchiMate:BusinessProcessRef id="812" to="803">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="834"/>
+</ArchiMate:BusinessProcessRef>
+<ArchiMate:AssignmentRelationRef id="813" to="808"/>
+<ArchiMate:BusinessProcessBusinessProcessTriggeringRef id="814" to="809"/>
+<ArchiMate:BusinessProcessBusinessObjectAccessRef id="837" to="830"/>
+<ArchiMate:BusinessActorRef id="838" to="576"/>
+<ArchiMate:BusinessLocationBusinessActorAssignmentRef id="839" to="578"/>
+<ArchiMate:AssignmentRelationRef id="840" to="832"/>
+<ArchiMate:BusinessActorRef id="841" to="577"/>
+<ArchiMate:AssignmentRelationRef id="842" to="833"/>
+<ArchiMate:BusinessEventRef id="759" to="748"/>
+<ArchiMate:BusinessProcessRef id="760" to="743">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="761"/>
+</ArchiMate:BusinessProcessRef>
+<ArchiMate:AssignmentRelationRef id="1019" to="1014"/>
+<ArchiMate:AssignmentRelationRef id="1021" to="1016"/>
+<ArchiMate:BusinessProcessRef id="1022" to="1012"/>
+<ArchiMate:BusinessRoleRef id="1051" to="865"/>
+<ArchiMate:AssignmentRelationRef id="1052" to="1045"/>
+<ArchiMate:BusinessProcessRef id="1053" to="1041">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="1054"/>
+</ArchiMate:BusinessProcessRef>
+<ArchiMate:BusinessLocationRef id="1056" to="544"/>
+<ArchiMate:BusinessLocationRef id="1057" to="545"/>
+<ArchiMate:BusinessRoleBusinessProcessAssignmentRef id="1039" to="1038"/>
+<ArchiMate:AssignmentRelationRef id="1058" to="1048"/>
+<ArchiMate:BusinessFunctionRef id="1458" to="1453">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="1459">
+<ArchiMate:BusinessRepresentationRef id="1502" to="898"/>
+<ArchiMate:AccessRelationRef id="1503" to="1497"/>
+<ArchiMate:AccessRelationRef id="1504" to="1500"/>
+<ArchiMate:BusinessProcessRef id="1505" to="1490"/>
+<ArchiMate:BusinessProcessRef id="1506" to="1491"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessFunctionRef>
+<ArchiMate:BusinessRoleRef id="1271" to="608"/>
+<ArchiMate:BusinessRoleBusinessProcessAssignmentRef id="1272" to="1265"/>
+<ArchiMate:BusinessLocationRef id="1235" to="544"/>
+<ArchiMate:BusinessRoleBusinessProcessAssignmentRef id="1273" to="1266"/>
+<ArchiMate:BusinessEventBusinessProcessTriggeringRef id="1274" to="1267"/>
+<ArchiMate:BusinessRoleRef id="1275" to="609"/>
+<ArchiMate:AssignmentRelationRef id="1236" to="1228"/>
+<ArchiMate:AssignmentRelationRef id="1237" to="1229"/>
+<ArchiMate:AssignmentRelationRef id="1276" to="615"/>
+<ArchiMate:AssignmentRelationRef id="1277" to="614"/>
+<ArchiMate:AssignmentRelationRef id="1568" to="1564"/>
+<ArchiMate:BusinessActorRef id="1569" to="417"/>
+<ArchiMate:BusinessRoleBusinessProcessAssignmentRef id="1507" to="1495"/>
+<ArchiMate:BusinessFunctionRef id="1508" to="1487">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="1509">
+<ArchiMate:BusinessProcessRef id="1510" to="1488"/>
+<ArchiMate:BusinessProcessRef id="1511" to="1489"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessFunctionRef>
+<ArchiMate:BusinessRoleBusinessProcessAssignmentRef id="1512" to="1496"/>
+<ArchiMate:BusinessFunctionRef id="1570" to="1557">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="1571">
+<ArchiMate:BusinessProcessRef id="1572" to="1558"/>
+<ArchiMate:BusinessProcessRef id="1573" to="1559"/>
+<ArchiMate:BusinessProcessRef id="1574" to="1560">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="1575"/>
+</ArchiMate:BusinessProcessRef>
+<ArchiMate:BusinessProcessRef id="1576" to="1561"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessFunctionRef>
+<ArchiMate:BusinessActorRef id="1513" to="548">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="1514">
+<ArchiMate:BusinessRoleRef id="1515" to="1485"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessActorRef>
+<ArchiMate:BusinessRepresentationRef id="925" to="898"/>
+<ArchiMate:BusinessObjectRef id="926" to="894"/>
+<ArchiMate:BusinessRoleRef id="875" to="865"/>
+<ArchiMate:BusinessObjectRef id="927" to="895"/>
+<ArchiMate:BusinessObjectRef id="928" to="896"/>
+<ArchiMate:BusinessRepresentationBusinessObjectRealisationRef id="929" to="915"/>
+<ArchiMate:BusinessRepresentationBusinessObjectRealisationRef id="930" to="916"/>
+<ArchiMate:BusinessRepresentationBusinessObjectRealisationRef id="931" to="917"/>
+<ArchiMate:BusinessProcessBusinessObjectAccessRef id="1108" to="1098"/>
+<ArchiMate:AssignmentRelationRef id="1049" to="1016"/>
+<ArchiMate:AssignmentRelationRef id="1050" to="1047"/>
+<ArchiMate:BusinessObjectRef id="1109" to="788"/>
+<ArchiMate:BusinessRoleBusinessProcessAssignmentRef id="1176" to="1167"/>
+<ArchiMate:BusinessLocationRef id="1230" to="545"/>
+<ArchiMate:BusinessEventRef id="1231" to="1223"/>
+<ArchiMate:BusinessProcessRef id="1232" to="1222">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="1269"/>
+</ArchiMate:BusinessProcessRef>
+<ArchiMate:BusinessActorRef id="1460" to="547"/>
+<ArchiMate:AssignmentRelationRef id="1461" to="1457"/>
+<ArchiMate:BusinessProcessBusinessProcessTriggeringRef id="1778" to="1777"/>
+<ArchiMate:BusinessProcessBusinessProcessTriggeringRef id="1802" to="1800"/>
+<ArchiMate:AccessRelationRef id="1803" to="1801"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessFunctionRef>
+<ArchiMate:BusinessActorRef id="1462" to="503">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="1463"/>
+</ArchiMate:BusinessActorRef>
+<ArchiMate:BusinessActorRef id="1618" to="418">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="1619">
+<ArchiMate:BusinessActorRef id="1620" to="640"/>
+<ArchiMate:BusinessActorRef id="1663" to="639"/>
+<ArchiMate:BusinessRoleRef id="1621" to="1608"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessActorRef>
+<ArchiMate:BusinessFunctionRef id="1603" to="1602">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="1622">
+<ArchiMate:BusinessProcessBusinessProcessSpecializationRef id="1623" to="1615"/>
+<ArchiMate:BusinessProcessRef id="1624" to="1609"/>
+<ArchiMate:BusinessProcessRef id="1625" to="1610"/>
+<ArchiMate:BusinessProcessRef id="1626" to="1611"/>
+<ArchiMate:BusinessProcessBusinessProcessTriggeringRef id="1627" to="1616"/>
+<ArchiMate:BusinessProcessRef id="1664" to="1655"/>
+<ArchiMate:BusinessProcessRef id="1665" to="1654"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessFunctionRef>
+<ArchiMate:BusinessFunctionRef id="1692" to="1691">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="1725">
+<ArchiMate:BusinessProcessRef id="1726" to="1713">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="1727">
+<ArchiMate:BusinessProcessBusinessProcessTriggeringRef id="1728" to="1720"/>
+<ArchiMate:BusinessEventRef id="1729" to="1714"/>
+<ArchiMate:BusinessProcessRef id="1730" to="1708"/>
+<ArchiMate:BusinessProcessRef id="1731" to="1709">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="1732">
+<ArchiMate:BusinessProcessRef id="1733" to="1711"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessProcessRef>
+<ArchiMate:BusinessProcessRef id="1734" to="1712"/>
+<ArchiMate:BusinessProcessBusinessProcessTriggeringRef id="1735" to="1721"/>
+<ArchiMate:BusinessEventBusinessProcessTriggeringRef id="1736" to="1722"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessProcessRef>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessFunctionRef>
+<ArchiMate:AssignmentRelationRef id="1737" to="1723"/>
+<ArchiMate:AssignmentRelationRef id="1464" to="1456"/>
+<ArchiMate:BusinessRoleBusinessProcessAssignmentRef id="1666" to="1657"/>
+<ArchiMate:AssignmentRelationRef id="1667" to="1659"/>
+<ArchiMate:AssignmentRelationRef id="1668" to="1660"/>
+<ArchiMate:AssignmentRelationRef id="1669" to="1661"/>
+<ArchiMate:AssignmentRelationRef id="1670" to="1662"/>
+<ArchiMate:BusinessActorRef id="1693" to="423">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="1694">
+<ArchiMate:BusinessRoleRef id="1695" to="715"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessActorRef>
+<ArchiMate:BusinessRoleBusinessProcessAssignmentRef id="1766" to="1765"/>
+<ArchiMate:BusinessProcessBusinessProcessTriggeringRef id="1786" to="1785"/>
+<ArchiMate:BusinessProcessRef id="1787" to="1783"/>
+<ArchiMate:BusinessProcessRef id="1832" to="1831"/>
+</ArchiMate:RefObjects>
+</ArchiMate:BusinessProcessView>
+<ArchiMate:BusinessProductView id="91">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Product view</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:RefObjects name="refObjects" id="92">
+<ArchiMate:BusinessProductBusinessProductSpecializationRef id="98" to="54"/>
+<ArchiMate:BusinessProductRef id="99" to="39">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="280">
+<ArchiMate:BusinessProductRef id="281" to="257"/>
+<ArchiMate:BusinessProductRef id="282" to="258"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessProductRef>
+<ArchiMate:BusinessProductBusinessProductSpecializationRef id="100" to="52"/>
+<ArchiMate:BusinessProductRef id="101" to="50">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="283">
+<ArchiMate:BusinessProductRef id="284" to="260"/>
+<ArchiMate:BusinessProductRef id="285" to="261"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessProductRef>
+<ArchiMate:BusinessProductBusinessProductSpecializationRef id="102" to="53"/>
+<ArchiMate:BusinessProductRef id="103" to="15">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="223">
+<ArchiMate:BusinessProductRef id="224" to="205"/>
+<ArchiMate:BusinessProductRef id="225" to="206"/>
+<ArchiMate:BusinessProductRef id="226" to="207"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessProductRef>
+<ArchiMate:BusinessProductBusinessProductSpecializationRef id="104" to="41"/>
+<ArchiMate:BusinessProductRef id="105" to="86">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="106"/>
+</ArchiMate:BusinessProductRef>
+<ArchiMate:ElementElementAssociationRef id="185" to="181"/>
+<ArchiMate:BusinessProductBusinessContractAggregationRef id="163" to="160"/>
+<ArchiMate:BusinessValueRef id="164" to="159"/>
+<ArchiMate:BusinessContractRef id="165" to="156"/>
+<ArchiMate:BusinessActorRef id="186" to="179"/>
+<ArchiMate:UseRelationRef id="227" to="215"/>
+<ArchiMate:UseRelationRef id="286" to="271"/>
+<ArchiMate:UseRelationRef id="287" to="268"/>
+<ArchiMate:UseRelationRef id="288" to="274"/>
+<ArchiMate:UseRelationRef id="289" to="275"/>
+<ArchiMate:BusinessActorRef id="182" to="177"/>
+<ArchiMate:BusinessActorBusinessActorSpecializationRef id="183" to="180"/>
+<ArchiMate:BusinessActorRef id="184" to="178"/>
+<ArchiMate:BusinessActorRef id="216" to="201"/>
+<ArchiMate:BusinessActorBusinessActorSpecializationRef id="217" to="208"/>
+<ArchiMate:BusinessActorRef id="218" to="202"/>
+<ArchiMate:BusinessActorRef id="219" to="203"/>
+<ArchiMate:BusinessActorBusinessActorSpecializationRef id="220" to="209"/>
+<ArchiMate:BusinessActorBusinessActorSpecializationRef id="221" to="210"/>
+<ArchiMate:BusinessActorBusinessActorSpecializationRef id="222" to="211"/>
+<ArchiMate:UseRelationRef id="276" to="265"/>
+<ArchiMate:UseRelationRef id="318" to="317"/>
+<ArchiMate:BusinessProductRef id="93" to="51">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="277">
+<ArchiMate:BusinessProductRef id="278" to="263"/>
+<ArchiMate:BusinessProductRef id="279" to="264"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessProductRef>
+<ArchiMate:BusinessProductRef id="95" to="73">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="149">
+<ArchiMate:BusinessServiceRef id="150" to="141">
+<MM_ProfileValues>
+<MM_Value name="formattednm" type="string" xml:lang="en">Regula&#xa;r service</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:MM_RefObjects name="childRefObjects" id="151"/>
+</ArchiMate:BusinessServiceRef>
+<ArchiMate:BusinessServiceRef id="162" to="157"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessProductRef>
+<ArchiMate:BusinessProductRef id="97" to="14"/>
+</ArchiMate:RefObjects>
+</ArchiMate:BusinessProductView>
+<ArchiMate:OrganisationStructureView id="329">
+<MM_ProfileValues>
+<MM_Value name="nm" type="string" xml:lang="en">Organization structure view</MM_Value>
+</MM_ProfileValues>
+<ArchiMate:RefObjects name="refObjects" id="330">
+<ArchiMate:BusinessRoleRef id="480" to="474"/>
+<ArchiMate:ElementElementAssociationRef id="481" to="478"/>
+<ArchiMate:ElementElementAssociationRef id="516" to="506"/>
+<ArchiMate:BusinessActorRef id="517" to="505"/>
+<ArchiMate:ElementElementAssociationRef id="518" to="507"/>
+<ArchiMate:BusinessRoleRef id="482" to="475"/>
+<ArchiMate:BusinessRoleRef id="483" to="476"/>
+<ArchiMate:BusinessActorRef id="331" to="326">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="332">
+<ArchiMate:BusinessActorRef id="444" to="423">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="445">
+<ArchiMate:BusinessActorRef id="446" to="425"/>
+<ArchiMate:BusinessActorRef id="719" to="713"/>
+<ArchiMate:BusinessActorRef id="720" to="714"/>
+<ArchiMate:BusinessRoleRef id="721" to="715"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessActorRef>
+<ArchiMate:BusinessActorRef id="382" to="354">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="383">
+<ArchiMate:BusinessRoleRef id="384" to="359"/>
+<ArchiMate:BusinessRoleRef id="386" to="360"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessActorRef>
+<ArchiMate:BusinessActorRef id="333" to="325"/>
+<ArchiMate:BusinessActorRef id="378" to="347">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="379">
+<ArchiMate:BusinessRoleRef id="380" to="357"/>
+<ArchiMate:BusinessRoleRef id="381" to="358"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessActorRef>
+<ArchiMate:BusinessActorRef id="438" to="415">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="439">
+<ArchiMate:BusinessActorRef id="479" to="471"/>
+<ArchiMate:BusinessActorRef id="512" to="503">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="553">
+<ArchiMate:BusinessActorRef id="554" to="547"/>
+<ArchiMate:BusinessActorRef id="555" to="548"/>
+<ArchiMate:BusinessLocationRef id="556" to="544">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="583">
+<ArchiMate:BusinessActorRef id="584" to="576"/>
+<ArchiMate:BusinessRoleRef id="616" to="608"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessLocationRef>
+<ArchiMate:BusinessLocationRef id="557" to="545">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="585">
+<ArchiMate:BusinessActorRef id="586" to="577"/>
+<ArchiMate:BusinessRoleRef id="617" to="609"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessLocationRef>
+<ArchiMate:BusinessActorRef id="587" to="574">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="588"/>
+</ArchiMate:BusinessActorRef>
+<ArchiMate:BusinessActorRef id="589" to="575"/>
+<ArchiMate:ElementElementAssociationRef id="590" to="582"/>
+<ArchiMate:ElementElementAssociationRef id="618" to="610"/>
+<ArchiMate:ElementElementAssociationRef id="619" to="611"/>
+<ArchiMate:BusinessLocationBusinessActorAssignmentRef id="620" to="612"/>
+<ArchiMate:BusinessLocationBusinessActorAssignmentRef id="621" to="613"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessActorRef>
+<ArchiMate:BusinessActorRef id="513" to="504"/>
+<ArchiMate:BusinessLocationBusinessActorAssignmentRef id="514" to="511"/>
+<ArchiMate:BusinessLocationRef id="515" to="502"/>
+<ArchiMate:BusinessActorRef id="440" to="417"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessActorRef>
+<ArchiMate:BusinessActorRef id="441" to="418">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="442">
+<ArchiMate:BusinessActorRef id="652" to="640"/>
+<ArchiMate:BusinessActorRef id="653" to="641">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="689">
+<ArchiMate:BusinessRoleRef id="690" to="681"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessActorRef>
+<ArchiMate:BusinessActorRef id="654" to="642">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="691">
+<ArchiMate:BusinessRoleRef id="692" to="683"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessActorRef>
+<ArchiMate:BusinessActorRef id="655" to="643">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="693">
+<ArchiMate:BusinessRoleRef id="694" to="682"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessActorRef>
+<ArchiMate:BusinessActorRef id="656" to="644">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="695">
+<ArchiMate:BusinessRoleRef id="696" to="684"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessActorRef>
+<ArchiMate:BusinessActorRef id="443" to="420"/>
+<ArchiMate:BusinessActorRef id="651" to="639"/>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessActorRef>
+</ArchiMate:MM_RefObjects>
+</ArchiMate:BusinessActorRef>
+</ArchiMate:RefObjects>
+</ArchiMate:OrganisationStructureView>
+</ArchiMate:AbstractViews>
+<ArchiMate:AbstractFolders name="folders" id="26"/>
+</ArchiMate:AbstractFolder>
+</ArchiMate:AbstractFolders>
+</ArchiMate:ArchiMateComponent>
+</MM_ModelPackage:MM_Module>
+<MM_ModelPackage:MM_Module id="334" nm="GraphicalModule" metaModel="MM_Diagram">
+<MM_Diagram:MM_Diagram name="root" id="335">
+<MM_Diagram:MM_Node name="mm_canvas" id="336" mm_graphicType="5" mm_concept="Canvas" mm_semanticObject="329">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="337">
+<MM_Diagram:MM_Node id="338" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="331">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="339">
+<MM_Diagram:MM_Decoration id="340" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="341" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="342" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="333">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="343">
+<MM_Diagram:MM_Decoration id="344" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="345" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="80" y="100" w="400" h="80"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="387" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="378">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="388">
+<MM_Diagram:MM_Decoration id="389" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="390" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="391" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="381">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="392">
+<MM_Diagram:MM_Decoration id="393" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="394" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="0" y="80" w="280" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="395" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="380">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="396">
+<MM_Diagram:MM_Decoration id="397" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="398" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="320" y="80" w="280" h="100"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="520" y="100" w="600" h="220"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="399" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="382">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="400">
+<MM_Diagram:MM_Decoration id="401" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="402" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="403" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="386">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="404">
+<MM_Diagram:MM_Decoration id="405" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="406" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="0" y="120" w="280" h="140"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="407" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="384">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="408">
+<MM_Diagram:MM_Decoration id="409" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="410" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="320" y="120" w="300" h="100"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1160" y="100" w="620" h="280"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="447" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="438">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="448">
+<MM_Diagram:MM_Decoration id="449" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="450" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="451" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="440">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="452">
+<MM_Diagram:MM_Decoration id="453" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="454" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="60" y="80" w="280" h="120"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="484" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="479">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="485">
+<MM_Diagram:MM_Decoration id="486" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="487" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="60" y="240" w="280" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="519" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="512">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="520">
+<MM_Diagram:MM_Decoration id="521" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="522" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="558" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="554">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="559">
+<MM_Diagram:MM_Decoration id="560" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="561" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="0" y="100" w="240" h="80"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="562" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="555">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="563">
+<MM_Diagram:MM_Decoration id="564" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="565" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="280" y="100" w="280" h="80"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="566" mm_graphicType="5" mm_concept="BusinessLocation" mm_semanticObject="556">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="567">
+<MM_Diagram:MM_Decoration id="568" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="569" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="591" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="584">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="592">
+<MM_Diagram:MM_Decoration id="593" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="594" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="10" y="80" w="240" h="120"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="622" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="616">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="623">
+<MM_Diagram:MM_Decoration id="624" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="625" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="10" y="220" w="240" h="140"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="0" y="220" w="260" h="380"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="570" mm_graphicType="5" mm_concept="BusinessLocation" mm_semanticObject="557">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="571">
+<MM_Diagram:MM_Decoration id="572" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="573" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="595" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="586">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="596">
+<MM_Diagram:MM_Decoration id="597" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="598" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="80" w="240" h="120"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="626" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="617">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="627">
+<MM_Diagram:MM_Decoration id="628" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="629" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="220" w="240" h="140"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="280" y="220" w="280" h="380"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="599" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="587">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="600">
+<MM_Diagram:MM_Decoration id="601" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="602" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="0" y="620" w="260" h="120"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="603" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="589">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="604">
+<MM_Diagram:MM_Decoration id="605" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="606" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="280" y="620" w="280" h="120"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="607" mm_from="595" mm_to="558" mm_fromx="120" mm_fromy="60" mm_tox="180" mm_toy="40" mm_graphicType="7" mm_concept="ElementElementAssociation" mm_semanticObject="590"/>
+<MM_Diagram:MM_DirectedRel id="630" mm_from="595" mm_to="562" mm_fromx="200" mm_fromy="0" mm_tox="220" mm_toy="60" mm_graphicType="7" mm_concept="ElementElementAssociation" mm_semanticObject="618"/>
+<MM_Diagram:MM_DirectedRel id="631" mm_from="591" mm_to="558" mm_fromx="30" mm_fromy="0" mm_tox="40" mm_toy="80" mm_graphicType="7" mm_concept="ElementElementAssociation" mm_semanticObject="619"/>
+<MM_Diagram:MM_DirectedRel id="632" mm_from="566" mm_to="599" mm_fromx="140" mm_fromy="220" mm_tox="140" mm_toy="60" mm_graphicType="7" mm_concept="BusinessLocationBusinessActorAssignment" mm_semanticObject="620"/>
+<MM_Diagram:MM_DirectedRel id="633" mm_from="570" mm_to="603" mm_fromx="140" mm_fromy="220" mm_tox="140" mm_toy="60" mm_graphicType="7" mm_concept="BusinessLocationBusinessActorAssignment" mm_semanticObject="621"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="0" y="580" w="560" h="740"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="527" mm_graphicType="5" mm_concept="BusinessLocation" mm_semanticObject="515">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="528">
+<MM_Diagram:MM_Decoration id="529" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="530" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="10" y="380" w="200" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="523" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="513">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="524">
+<MM_Diagram:MM_Decoration id="525" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="526" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="260" y="380" w="260" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="531" mm_from="527" mm_to="523" mm_fromx="160" mm_fromy="80" mm_tox="140" mm_toy="80" mm_graphicType="7" mm_concept="BusinessLocationBusinessActorAssignment" mm_semanticObject="514"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="80" y="440" w="560" h="1340"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="455" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="441">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="456">
+<MM_Diagram:MM_Decoration id="457" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="458" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="459" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="443">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="460">
+<MM_Diagram:MM_Decoration id="461" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="462" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="30" y="80" w="320" h="120"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="657" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="653">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="658">
+<MM_Diagram:MM_Decoration id="659" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="660" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="697" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="690">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="698">
+<MM_Diagram:MM_Decoration id="699" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="700" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="30" y="120" w="260" h="120"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="30" y="320" w="320" h="240"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="661" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="655">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="662">
+<MM_Diagram:MM_Decoration id="663" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="664" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="701" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="694">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="702">
+<MM_Diagram:MM_Decoration id="703" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="704" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="30" y="120" w="280" h="120"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="380" y="320" w="340" h="240"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="665" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="654">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="666">
+<MM_Diagram:MM_Decoration id="667" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="668" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="705" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="692">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="706">
+<MM_Diagram:MM_Decoration id="707" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="708" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="30" y="120" w="260" h="100"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="30" y="600" w="320" h="220"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="669" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="656">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="670">
+<MM_Diagram:MM_Decoration id="671" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="672" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="709" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="696">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="710">
+<MM_Diagram:MM_Decoration id="711" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="712" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="40" y="120" w="260" h="100"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="380" y="600" w="340" h="220"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="673" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="651">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="674">
+<MM_Diagram:MM_Decoration id="675" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="676" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="380" y="80" w="340" h="120"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="677" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="652">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="678">
+<MM_Diagram:MM_Decoration id="679" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="680" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="30" y="220" w="680" h="80"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="880" y="460" w="740" h="860"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="463" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="444">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="464">
+<MM_Diagram:MM_Decoration id="465" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="466" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="467" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="446">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="468">
+<MM_Diagram:MM_Decoration id="469" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="470" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="60" y="80" w="280" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="722" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="719">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="723">
+<MM_Diagram:MM_Decoration id="724" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="725" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="60" y="200" w="280" h="60"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="726" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="720">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="727">
+<MM_Diagram:MM_Decoration id="728" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="729" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="60" y="300" w="280" h="60"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="730" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="721">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="731">
+<MM_Diagram:MM_Decoration id="732" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="733" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="50" y="410" w="300" h="60"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1640" y="460" w="400" h="500"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="0" w="2100" h="1800"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="488" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="482">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="489">
+<MM_Diagram:MM_Decoration id="490" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="491" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1100" y="1860" w="240" h="80"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="492" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="483">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="493">
+<MM_Diagram:MM_Decoration id="494" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="495" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="400" y="1860" w="200" h="80"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="496" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="480">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="497">
+<MM_Diagram:MM_Decoration id="498" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="499" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="1860" w="340" h="80"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="500" mm_from="484" mm_to="496" mm_fromx="140" mm_fromy="60" mm_tox="40" mm_toy="0" mm_graphicType="7" mm_concept="ElementElementAssociation" mm_semanticObject="481">
+<MM_Diagram:MM_MultiLine name="mm_line" id="634">
+<MM_Diagram:MM_Point id="635" mm_x="60" mm_y="760"/>
+</MM_Diagram:MM_MultiLine>
+</MM_Diagram:MM_DirectedRel>
+<MM_Diagram:MM_Node id="534" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="517">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="535">
+<MM_Diagram:MM_Decoration id="536" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="537" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="660" y="1860" w="360" h="80"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="538" mm_from="387" mm_to="534" mm_fromx="300" mm_fromy="120" mm_tox="180" mm_toy="0" mm_graphicType="7" mm_concept="ElementElementAssociation" mm_semanticObject="516"/>
+<MM_Diagram:MM_DirectedRel id="541" mm_from="399" mm_to="534" mm_fromx="20" mm_fromy="280" mm_tox="220" mm_toy="0" mm_graphicType="7" mm_concept="ElementElementAssociation" mm_semanticObject="518">
+<MM_Diagram:MM_MultiLine name="mm_line" id="636">
+<MM_Diagram:MM_Point id="637" mm_x="880" mm_y="400"/>
+</MM_Diagram:MM_MultiLine>
+</MM_Diagram:MM_DirectedRel>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="0" y="0" w="2147483647" h="2147483647"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Diagram>
+<Any name="tag"><Objectref value="329"/></Any>
+</MM_ModelPackage:MM_Module>
+<MM_ModelPackage:MM_Module id="737" nm="GraphicalModule" metaModel="MM_Diagram">
+<MM_Diagram:MM_Diagram name="root" id="738">
+<MM_Diagram:MM_Node name="mm_canvas" id="739" mm_graphicType="5" mm_concept="Canvas" mm_semanticObject="736">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="765">
+<MM_Diagram:MM_Node id="766" mm_graphicType="5" mm_concept="BusinessFunction" mm_semanticObject="756">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="767">
+<MM_Diagram:MM_Decoration id="768" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="769" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="770" mm_graphicType="5" mm_concept="BusinessEvent" mm_semanticObject="759">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="771">
+<MM_Diagram:MM_Decoration id="772" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="30" y="120" w="300" h="80"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="773" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="760">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="774">
+<MM_Diagram:MM_Decoration id="775" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="776" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="390" y="120" w="860" h="80"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="786" mm_from="770" mm_to="773" mm_fromx="160" mm_fromy="40" mm_tox="0" mm_toy="40" mm_graphicType="7" mm_concept="BusinessEventBusinessProcessTriggering" mm_semanticObject="758"/>
+<MM_Diagram:MM_Node id="796" mm_graphicType="5" mm_concept="BusinessObject" mm_semanticObject="793">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="797">
+<MM_Diagram:MM_Decoration id="798" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="480" y="300" w="200" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="799" mm_from="773" mm_to="796" mm_fromx="220" mm_fromy="240" mm_tox="110" mm_toy="60" mm_graphicType="7" mm_concept="BusinessProcessBusinessObjectAccess" mm_semanticObject="795"/>
+<MM_Diagram:MM_Node id="800" mm_graphicType="5" mm_concept="BusinessObject" mm_semanticObject="794">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="801">
+<MM_Diagram:MM_Decoration id="802" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="900" y="300" w="220" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="815" mm_from="773" mm_to="800" mm_fromx="640" mm_fromy="240" mm_tox="110" mm_toy="60" mm_graphicType="7" mm_concept="BusinessProcessBusinessObjectAccess" mm_semanticObject="811"/>
+<MM_Diagram:MM_Node id="816" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="812">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="817">
+<MM_Diagram:MM_Decoration id="818" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="819" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="30" y="520" w="680" h="80"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="820" mm_graphicType="5" mm_concept="BusinessLocation" mm_semanticObject="810">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="821">
+<MM_Diagram:MM_Decoration id="822" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="823" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="400" y="420" w="280" h="60"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="824" mm_from="820" mm_to="816" mm_fromx="150" mm_fromy="20" mm_tox="520" mm_toy="20" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="813"/>
+<MM_Diagram:MM_DirectedRel id="825" mm_from="773" mm_to="816" mm_fromx="40" mm_fromy="60" mm_tox="60" mm_toy="0" mm_graphicType="7" mm_concept="BusinessProcessBusinessProcessTriggering" mm_semanticObject="814"/>
+<MM_Diagram:MM_DirectedRel id="851" mm_from="816" mm_to="800" mm_fromx="220" mm_fromy="20" mm_tox="30" mm_toy="60" mm_graphicType="7" mm_concept="BusinessProcessBusinessObjectAccess" mm_semanticObject="837">
+<MM_Diagram:MM_MultiLine name="mm_line" id="1819">
+<MM_Diagram:MM_Point id="1820" mm_x="250" mm_y="420"/>
+</MM_Diagram:MM_MultiLine>
+</MM_Diagram:MM_DirectedRel>
+<MM_Diagram:MM_Node id="854" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="838">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="855">
+<MM_Diagram:MM_Decoration id="856" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="857" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1290" y="380" w="240" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="858" mm_from="820" mm_to="854" mm_fromx="270" mm_fromy="10" mm_tox="120" mm_toy="50" mm_graphicType="7" mm_concept="BusinessLocationBusinessActorAssignment" mm_semanticObject="839"/>
+<MM_Diagram:MM_DirectedRel id="859" mm_from="854" mm_to="773" mm_fromx="140" mm_fromy="60" mm_tox="820" mm_toy="220" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="840"/>
+<MM_Diagram:MM_Node id="860" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="841">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="861">
+<MM_Diagram:MM_Decoration id="862" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="863" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1570" y="380" w="240" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="864" mm_from="860" mm_to="773" mm_fromx="120" mm_fromy="60" mm_tox="840" mm_toy="220" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="842"/>
+<MM_Diagram:MM_Node id="886" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="875">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="887">
+<MM_Diagram:MM_Decoration id="888" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="889" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="730" y="440" w="400" h="60"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="944" mm_graphicType="5" mm_concept="BusinessRepresentation" mm_semanticObject="925">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="945">
+<MM_Diagram:MM_Decoration id="946" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="210" y="640" w="160" h="120"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="947" mm_graphicType="5" mm_concept="BusinessObject" mm_semanticObject="926">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="948">
+<MM_Diagram:MM_Decoration id="949" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="40" y="780" w="200" h="140"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="950" mm_graphicType="5" mm_concept="BusinessObject" mm_semanticObject="927">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="951">
+<MM_Diagram:MM_Decoration id="952" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="280" y="780" w="140" h="140"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="953" mm_graphicType="5" mm_concept="BusinessObject" mm_semanticObject="928">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="954">
+<MM_Diagram:MM_Decoration id="955" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="450" y="780" w="160" h="140"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="956" mm_from="944" mm_to="947" mm_tox="160" mm_toy="40" mm_graphicType="7" mm_concept="BusinessRepresentationBusinessObjectRealisation" mm_semanticObject="930"/>
+<MM_Diagram:MM_DirectedRel id="957" mm_from="944" mm_to="950" mm_tox="60" mm_toy="40" mm_graphicType="7" mm_concept="BusinessRepresentationBusinessObjectRealisation" mm_semanticObject="929"/>
+<MM_Diagram:MM_DirectedRel id="958" mm_from="944" mm_to="953" mm_tox="50" mm_toy="20" mm_graphicType="7" mm_concept="BusinessRepresentationBusinessObjectRealisation" mm_semanticObject="931"/>
+<MM_Diagram:MM_DirectedRel id="1024" mm_from="820" mm_to="886" mm_fromx="250" mm_fromy="40" mm_tox="10" mm_toy="20" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="1021"/>
+<MM_Diagram:MM_Node id="1025" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1022">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1026">
+<MM_Diagram:MM_Decoration id="1027" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1028" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="770" y="520" w="440" h="80"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="1030" mm_from="854" mm_to="1025" mm_fromx="200" mm_fromy="60" mm_tox="200" mm_toy="60" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="1019">
+<MM_Diagram:MM_MultiLine name="mm_line" id="1821">
+<MM_Diagram:MM_Point id="1822" mm_x="1490" mm_y="580"/>
+</MM_Diagram:MM_MultiLine>
+</MM_Diagram:MM_DirectedRel>
+<MM_Diagram:MM_DirectedRel id="1040" mm_from="886" mm_to="816" mm_fromx="40" mm_fromy="40" mm_tox="740" mm_toy="40" mm_graphicType="7" mm_concept="BusinessRoleBusinessProcessAssignment" mm_semanticObject="1039"/>
+<MM_Diagram:MM_Node id="1063" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1053">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1064">
+<MM_Diagram:MM_Decoration id="1065" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1066" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="40" y="1140" w="660" h="60"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1071" mm_graphicType="5" mm_concept="BusinessLocation" mm_semanticObject="1057">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1072">
+<MM_Diagram:MM_Decoration id="1073" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1074" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="290" y="960" w="200" h="60"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1075" mm_graphicType="5" mm_concept="BusinessLocation" mm_semanticObject="1056">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1076">
+<MM_Diagram:MM_Decoration id="1077" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1078" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="520" y="960" w="280" h="60"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="1079" mm_from="1071" mm_to="1063" mm_fromx="100" mm_fromy="40" mm_tox="350" mm_toy="20" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="1052"/>
+<MM_Diagram:MM_DirectedRel id="1080" mm_from="1075" mm_to="1063" mm_fromx="150" mm_fromy="40" mm_tox="630" mm_toy="0" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="1058"/>
+<MM_Diagram:MM_Node id="1081" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="1051">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1082">
+<MM_Diagram:MM_Decoration id="1083" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1084" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="870" y="960" w="400" h="60"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="1085" mm_from="1075" mm_to="1081" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="1049"/>
+<MM_Diagram:MM_DirectedRel id="1086" mm_from="1071" mm_to="1081" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="1050">
+<MM_Diagram:MM_MultiLine name="mm_line" id="1823">
+<MM_Diagram:MM_Point id="1824" mm_x="789" mm_y="940"/>
+</MM_Diagram:MM_MultiLine>
+</MM_Diagram:MM_DirectedRel>
+<MM_Diagram:MM_Node id="1155" mm_graphicType="5" mm_concept="BusinessObject" mm_semanticObject="1109">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1156">
+<MM_Diagram:MM_Decoration id="1157" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="70" y="1020" w="200" h="80"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="1158" mm_from="1063" mm_to="1155" mm_fromx="160" mm_fromy="20" mm_tox="120" mm_toy="60" mm_graphicType="7" mm_concept="BusinessProcessBusinessObjectAccess" mm_semanticObject="1108"/>
+<MM_Diagram:MM_DirectedRel id="1221" mm_from="1081" mm_to="1063" mm_fromx="200" mm_fromy="40" mm_tox="1040" mm_toy="20" mm_graphicType="7" mm_concept="BusinessRoleBusinessProcessAssignment" mm_semanticObject="1176"/>
+<MM_Diagram:MM_Node id="1246" mm_graphicType="5" mm_concept="BusinessEvent" mm_semanticObject="1231">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1247">
+<MM_Diagram:MM_Decoration id="1248" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="40" y="1360" w="180" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1249" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1232">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1250">
+<MM_Diagram:MM_Decoration id="1251" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1252" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="340" y="1380" w="360" h="60"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1253" mm_graphicType="5" mm_concept="BusinessLocation" mm_semanticObject="1230">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1254">
+<MM_Diagram:MM_Decoration id="1255" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1256" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="530" y="1500" w="200" h="60"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1257" mm_graphicType="5" mm_concept="BusinessLocation" mm_semanticObject="1235">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1258">
+<MM_Diagram:MM_Decoration id="1259" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1260" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="510" y="1260" w="260" h="60"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="1261" mm_from="1257" mm_to="1249" mm_fromx="130" mm_fromy="40" mm_tox="300" mm_toy="20" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="1236"/>
+<MM_Diagram:MM_DirectedRel id="1262" mm_from="1253" mm_to="1249" mm_fromx="110" mm_fromy="40" mm_tox="300" mm_toy="60" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="1237"/>
+<MM_Diagram:MM_Node id="1282" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="1275">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1283">
+<MM_Diagram:MM_Decoration id="1284" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1285" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="220" y="1480" w="280" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="1286" mm_from="1253" mm_to="1282" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="1276"/>
+<MM_Diagram:MM_DirectedRel id="1287" mm_from="1282" mm_to="1249" mm_fromx="180" mm_fromy="20" mm_tox="60" mm_toy="60" mm_graphicType="7" mm_concept="BusinessRoleBusinessProcessAssignment" mm_semanticObject="1272"/>
+<MM_Diagram:MM_Node id="1288" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="1271">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1289">
+<MM_Diagram:MM_Decoration id="1290" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1291" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="200" y="1240" w="280" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="1292" mm_from="1257" mm_to="1288" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="1277"/>
+<MM_Diagram:MM_DirectedRel id="1293" mm_from="1288" mm_to="1249" mm_fromx="200" mm_fromy="80" mm_tox="60" mm_toy="40" mm_graphicType="7" mm_concept="BusinessRoleBusinessProcessAssignment" mm_semanticObject="1273"/>
+<MM_Diagram:MM_DirectedRel id="1294" mm_from="1246" mm_to="1249" mm_fromx="100" mm_fromy="60" mm_tox="0" mm_toy="40" mm_graphicType="7" mm_concept="BusinessEventBusinessProcessTriggering" mm_semanticObject="1274"/>
+<MM_Diagram:MM_Node id="1471" mm_graphicType="5" mm_concept="BusinessFunction" mm_semanticObject="1458">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1472">
+<MM_Diagram:MM_Decoration id="1473" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1474" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="1522" mm_graphicType="5" mm_concept="BusinessRepresentation" mm_semanticObject="1502">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1523">
+<MM_Diagram:MM_Decoration id="1524" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="180" y="200" w="180" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1525" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1505">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1526">
+<MM_Diagram:MM_Decoration id="1527" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1528" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="30" y="80" w="220" h="80"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1529" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1506">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1530">
+<MM_Diagram:MM_Decoration id="1531" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1532" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="300" y="80" w="260" h="80"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="1533" mm_from="1525" mm_to="1522" mm_fromx="110" mm_fromy="40" mm_graphicType="7" mm_concept="AccessRelation" mm_semanticObject="1504"/>
+<MM_Diagram:MM_DirectedRel id="1534" mm_from="1529" mm_to="1522" mm_fromx="140" mm_fromy="40" mm_graphicType="7" mm_concept="AccessRelation" mm_semanticObject="1503"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="370" y="1620" w="580" h="320"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1475" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="1460">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1476">
+<MM_Diagram:MM_Decoration id="1477" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1478" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="1620" w="240" h="60"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="1479" mm_from="1475" mm_to="1471" mm_fromx="130" mm_fromy="40" mm_tox="60" mm_toy="40" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="1461"/>
+<MM_Diagram:MM_Node id="1535" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="1513">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1536">
+<MM_Diagram:MM_Decoration id="1537" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1538" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="1539" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="1515">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1540">
+<MM_Diagram:MM_Decoration id="1541" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1542" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="60" w="220" h="60"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="1960" w="280" h="140"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1543" mm_graphicType="5" mm_concept="BusinessFunction" mm_semanticObject="1508">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1544">
+<MM_Diagram:MM_Decoration id="1545" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1546" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="1547" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1510">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1548">
+<MM_Diagram:MM_Decoration id="1549" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1550" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="60" w="300" h="60"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1551" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1511">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1552">
+<MM_Diagram:MM_Decoration id="1553" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1554" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="140" w="300" h="60"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="330" y="1960" w="340" h="220"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="1555" mm_from="1539" mm_to="1547" mm_fromx="120" mm_fromy="40" mm_tox="30" mm_toy="40" mm_graphicType="7" mm_concept="BusinessRoleBusinessProcessAssignment" mm_semanticObject="1507"/>
+<MM_Diagram:MM_DirectedRel id="1556" mm_from="1539" mm_to="1551" mm_fromx="200" mm_fromy="0" mm_tox="30" mm_toy="40" mm_graphicType="7" mm_concept="BusinessRoleBusinessProcessAssignment" mm_semanticObject="1512"/>
+<MM_Diagram:MM_Node id="1577" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="1569">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1578">
+<MM_Diagram:MM_Decoration id="1579" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1580" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="900" y="1960" w="280" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1581" mm_graphicType="5" mm_concept="BusinessFunction" mm_semanticObject="1570">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1582">
+<MM_Diagram:MM_Decoration id="1583" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1584" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="1585" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1574">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1586">
+<MM_Diagram:MM_Decoration id="1587" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1588" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="80" w="300" h="60"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1589" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1576">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1590">
+<MM_Diagram:MM_Decoration id="1591" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1592" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="180" w="400" h="60"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1593" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1572">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1594">
+<MM_Diagram:MM_Decoration id="1595" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1596" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="440" y="180" w="220" h="60"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1597" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1573">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1598">
+<MM_Diagram:MM_Decoration id="1599" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1600" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="360" y="60" w="300" h="100"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="700" y="2100" w="680" h="260"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="1601" mm_from="1577" mm_to="1581" mm_fromx="140" mm_fromy="60" mm_tox="340" mm_toy="20" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="1568"/>
+<MM_Diagram:MM_DirectedRel id="1779" mm_from="773" mm_to="1063" mm_fromx="20" mm_fromy="220" mm_tox="20" mm_toy="20" mm_graphicType="7" mm_concept="BusinessProcessBusinessProcessTriggering" mm_semanticObject="1778">
+<MM_Diagram:MM_MultiLine name="mm_line" id="1825">
+<MM_Diagram:MM_Point id="1826" mm_x="30" mm_y="279"/>
+<MM_Diagram:MM_Point id="1827" mm_x="10" mm_y="980"/>
+</MM_Diagram:MM_MultiLine>
+</MM_Diagram:MM_DirectedRel>
+<MM_Diagram:MM_DirectedRel id="1808" mm_from="816" mm_to="1025" mm_fromx="660" mm_fromy="40" mm_tox="20" mm_toy="40" mm_graphicType="7" mm_concept="BusinessProcessBusinessProcessTriggering" mm_semanticObject="1802"/>
+<MM_Diagram:MM_DirectedRel id="1809" mm_from="816" mm_to="944" mm_fromx="260" mm_fromy="280" mm_graphicType="7" mm_concept="AccessRelation" mm_semanticObject="1803"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="20" w="1840" h="2400"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1480" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="1462">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1481">
+<MM_Diagram:MM_Decoration id="1482" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1483" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1900" y="20" w="280" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="1484" mm_from="1480" mm_to="766" mm_fromx="140" mm_fromy="60" mm_tox="2320" mm_toy="60" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="1464"/>
+<MM_Diagram:MM_Node id="1604" mm_graphicType="5" mm_concept="BusinessFunction" mm_semanticObject="1603">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1605">
+<MM_Diagram:MM_Decoration id="1606" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1607" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="1628" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1624">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1629">
+<MM_Diagram:MM_Decoration id="1630" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1631" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="380" y="70" w="300" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1632" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1625">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1633">
+<MM_Diagram:MM_Decoration id="1634" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1635" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="70" w="300" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1636" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1626">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1637">
+<MM_Diagram:MM_Decoration id="1638" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1639" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="270" y="250" w="440" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="1640" mm_from="1636" mm_to="1628" mm_fromx="230" mm_fromy="60" mm_tox="120" mm_toy="80" mm_graphicType="7" mm_concept="BusinessProcessBusinessProcessSpecialization" mm_semanticObject="1623"/>
+<MM_Diagram:MM_DirectedRel id="1641" mm_from="1632" mm_to="1628" mm_fromx="160" mm_fromy="60" mm_tox="40" mm_toy="60" mm_graphicType="7" mm_concept="BusinessProcessBusinessProcessTriggering" mm_semanticObject="1627"/>
+<MM_Diagram:MM_Node id="1671" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1665">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1672">
+<MM_Diagram:MM_Decoration id="1673" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1674" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="380" w="300" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1675" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1664">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1676">
+<MM_Diagram:MM_Decoration id="1677" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1678" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="370" y="380" w="340" h="100"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="530" y="2460" w="740" h="500"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1642" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="1618">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1643">
+<MM_Diagram:MM_Decoration id="1644" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Node id="1645" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="1620">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1646">
+<MM_Diagram:MM_Decoration id="1647" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1648" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="30" y="120" w="400" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Decoration id="1649" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="1650" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="1621">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1651">
+<MM_Diagram:MM_Decoration id="1652" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1653" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="30" y="260" w="400" h="60"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1679" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="1663">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1680">
+<MM_Diagram:MM_Decoration id="1681" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1682" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="30" y="360" w="400" h="60"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="2480" w="460" h="440"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="1683" mm_from="1645" mm_to="1632" mm_fromx="210" mm_fromy="60" mm_tox="10" mm_toy="70" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="1667"/>
+<MM_Diagram:MM_DirectedRel id="1684" mm_from="1650" mm_to="1628" mm_fromx="210" mm_fromy="40" mm_tox="30" mm_toy="90" mm_graphicType="7" mm_concept="BusinessRoleBusinessProcessAssignment" mm_semanticObject="1666"/>
+<MM_Diagram:MM_DirectedRel id="1685" mm_from="1642" mm_to="1604" mm_fromx="420" mm_fromy="20" mm_tox="30" mm_toy="40" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="1668"/>
+<MM_Diagram:MM_DirectedRel id="1686" mm_from="1679" mm_to="1671" mm_fromx="210" mm_fromy="40" mm_tox="30" mm_toy="40" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="1669"/>
+<MM_Diagram:MM_DirectedRel id="1687" mm_from="1679" mm_to="1675" mm_fromx="210" mm_fromy="40" mm_tox="180" mm_toy="20" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="1670">
+<MM_Diagram:MM_MultiLine name="mm_line" id="1828">
+<MM_Diagram:MM_Point id="1829" mm_x="260" mm_y="2820"/>
+<MM_Diagram:MM_Point id="1830" mm_x="1080" mm_y="2820"/>
+</MM_Diagram:MM_MultiLine>
+</MM_Diagram:MM_DirectedRel>
+<MM_Diagram:MM_Node id="1696" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="1693">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1697">
+<MM_Diagram:MM_Decoration id="1698" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1699" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="1700" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="1695">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1701">
+<MM_Diagram:MM_Decoration id="1702" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1703" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="30" y="70" w="300" h="60"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="3000" w="360" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1704" mm_graphicType="5" mm_concept="BusinessFunction" mm_semanticObject="1692">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1705">
+<MM_Diagram:MM_Decoration id="1706" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1707" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="1738" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1726">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1739">
+<MM_Diagram:MM_Decoration id="1740" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1741" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="1742" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1731">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1743">
+<MM_Diagram:MM_Decoration id="1744" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1745" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="1746" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1733">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1747">
+<MM_Diagram:MM_Decoration id="1748" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1749" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="100" w="240" h="160"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="150" w="280" h="280"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="1750" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1734">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1751">
+<MM_Diagram:MM_Decoration id="1752" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1753" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="320" y="150" w="240" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="1754" mm_from="1742" mm_to="1750" mm_fromx="220" mm_fromy="40" mm_tox="40" mm_toy="40" mm_graphicType="7" mm_concept="BusinessProcessBusinessProcessTriggering" mm_semanticObject="1728"/>
+<MM_Diagram:MM_Node id="1755" mm_graphicType="5" mm_concept="BusinessEvent" mm_semanticObject="1729">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1756">
+<MM_Diagram:MM_Decoration id="1757" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="320" y="60" w="240" h="60"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="1758" mm_from="1755" mm_to="1750" mm_fromx="120" mm_fromy="30" mm_tox="120" mm_toy="20" mm_graphicType="7" mm_concept="BusinessEventBusinessProcessTriggering" mm_semanticObject="1736"/>
+<MM_Diagram:MM_Node id="1759" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1730">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1760">
+<MM_Diagram:MM_Decoration id="1761" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1762" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="580" y="150" w="460" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="1763" mm_from="1750" mm_to="1759" mm_fromx="120" mm_fromy="60" mm_tox="20" mm_toy="60" mm_graphicType="7" mm_concept="BusinessProcessBusinessProcessTriggering" mm_semanticObject="1735"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="60" w="1060" h="460"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="460" y="3000" w="1100" h="540"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="1764" mm_from="1696" mm_to="1704" mm_fromx="180" mm_fromy="80" mm_tox="40" mm_toy="80" mm_graphicType="7" mm_concept="AssignmentRelation" mm_semanticObject="1737"/>
+<MM_Diagram:MM_DirectedRel id="1767" mm_from="1700" mm_to="1738" mm_fromx="150" mm_fromy="30" mm_tox="60" mm_toy="40" mm_graphicType="7" mm_concept="BusinessRoleBusinessProcessAssignment" mm_semanticObject="1766"/>
+<MM_Diagram:MM_Node id="1789" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1787">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1790">
+<MM_Diagram:MM_Decoration id="1791" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1792" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1900" y="140" w="400" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="1793" mm_from="773" mm_to="1789" mm_fromx="840" mm_fromy="40" mm_tox="20" mm_toy="40" mm_graphicType="7" mm_concept="BusinessProcessBusinessProcessTriggering" mm_semanticObject="1786"/>
+<MM_Diagram:MM_Node id="1833" mm_graphicType="5" mm_concept="BusinessProcess" mm_semanticObject="1832">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="1834">
+<MM_Diagram:MM_Decoration id="1835" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="1836" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="3240" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="0" y="0" w="2147483647" h="2147483647"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Diagram>
+<Any name="tag"><Objectref value="736"/></Any>
+</MM_ModelPackage:MM_Module>
+<MM_ModelPackage:MM_Module id="107" nm="GraphicalModule" metaModel="MM_Diagram">
+<MM_Diagram:MM_Diagram name="root" id="108">
+<MM_Diagram:MM_Node name="mm_canvas" id="109" mm_graphicType="5" mm_concept="Canvas" mm_semanticObject="91">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="110">
+<MM_Diagram:MM_Node id="114" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="95">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="115">
+<MM_Diagram:MM_Decoration id="116" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="152" mm_graphicType="5" mm_concept="BusinessService" mm_semanticObject="150">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="153">
+<MM_Diagram:MM_Decoration id="154" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="40" y="120" w="200" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="166" mm_graphicType="5" mm_concept="BusinessService" mm_semanticObject="162">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="167">
+<MM_Diagram:MM_Decoration id="168" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="300" y="120" w="400" h="100"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1800" y="100" w="720" h="260"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="118" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="97">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="119">
+<MM_Diagram:MM_Decoration id="120" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="660" y="100" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="121" mm_from="122" mm_to="118" mm_graphicType="7" mm_concept="BusinessProductBusinessProductSpecialization" mm_semanticObject="98"/>
+<MM_Diagram:MM_Node id="123" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="99">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="124">
+<MM_Diagram:MM_Decoration id="125" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="290" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="281">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="291">
+<MM_Diagram:MM_Decoration id="292" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="180" w="160" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="293" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="282">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="294">
+<MM_Diagram:MM_Decoration id="295" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="200" y="180" w="180" h="100"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="920" y="360" w="400" h="320"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="126" mm_from="123" mm_to="118" mm_graphicType="7" mm_concept="BusinessProductBusinessProductSpecialization" mm_semanticObject="100"/>
+<MM_Diagram:MM_Node id="127" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="101">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="128">
+<MM_Diagram:MM_Decoration id="129" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="296" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="284">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="297">
+<MM_Diagram:MM_Decoration id="298" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="40" y="182" w="320" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="299" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="285">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="300">
+<MM_Diagram:MM_Decoration id="301" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="40" y="300" w="320" h="100"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="480" y="360" w="400" h="440"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="130" mm_from="127" mm_to="118" mm_graphicType="7" mm_concept="BusinessProductBusinessProductSpecialization" mm_semanticObject="102"/>
+<MM_Diagram:MM_Node id="131" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="103">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="132">
+<MM_Diagram:MM_Decoration id="133" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="228" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="224">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="229">
+<MM_Diagram:MM_Decoration id="230" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="0" y="170" w="200" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="231" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="225">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="232">
+<MM_Diagram:MM_Decoration id="233" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="240" y="170" w="200" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="234" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="226">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="235">
+<MM_Diagram:MM_Decoration id="236" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="0" y="300" w="200" h="100"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="20" y="360" w="440" h="440"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="134" mm_from="131" mm_to="118" mm_graphicType="7" mm_concept="BusinessProductBusinessProductSpecialization" mm_semanticObject="104"/>
+<MM_Diagram:MM_Node id="135" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="105">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="136">
+<MM_Diagram:MM_Decoration id="137" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="2540" y="100" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="122" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="93">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="138">
+<MM_Diagram:MM_Decoration id="139" mm_graphicType="2" mm_concept="label"/>
+<MM_Diagram:MM_Node id="302" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="278">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="303">
+<MM_Diagram:MM_Decoration id="304" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="0" y="182" w="180" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="305" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="279">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="306">
+<MM_Diagram:MM_Decoration id="307" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="220" y="182" w="180" h="100"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1340" y="360" w="400" h="320"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="169" mm_graphicType="5" mm_concept="BusinessContract" mm_semanticObject="165">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="170">
+<MM_Diagram:MM_Decoration id="171" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1800" y="460" w="240" h="120"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="172" mm_from="114" mm_to="169" mm_fromx="140" mm_fromy="240" mm_tox="140" mm_toy="20" mm_graphicType="7" mm_concept="BusinessProductBusinessContractAggregation" mm_semanticObject="163"/>
+<MM_Diagram:MM_Node id="173" mm_graphicType="5" mm_concept="BusinessValue" mm_semanticObject="164">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="174">
+<MM_Diagram:MM_Decoration id="175" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="2560" y="320" w="360" h="140"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="187" mm_from="135" mm_to="173" mm_fromx="200" mm_fromy="80" mm_graphicType="7" mm_concept="ElementElementAssociation" mm_semanticObject="185"/>
+<MM_Diagram:MM_Node id="188" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="186">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="189">
+<MM_Diagram:MM_Decoration id="190" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="191" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="760" y="1180" w="280" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="192" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="182">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="193">
+<MM_Diagram:MM_Decoration id="194" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="195" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="260" y="820" w="340" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="196" mm_from="192" mm_to="188" mm_fromx="180" mm_fromy="60" mm_tox="100" mm_toy="40" mm_graphicType="7" mm_concept="BusinessActorBusinessActorSpecialization" mm_semanticObject="183"/>
+<MM_Diagram:MM_Node id="197" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="184">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="198">
+<MM_Diagram:MM_Decoration id="199" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="200" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="680" y="820" w="260" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="237" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="216">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="238">
+<MM_Diagram:MM_Decoration id="239" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="240" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1000" y="820" w="240" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="241" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="218">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="242">
+<MM_Diagram:MM_Decoration id="243" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="244" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="1340" y="880" w="340" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="245" mm_graphicType="5" mm_concept="BusinessActor" mm_semanticObject="219">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="246">
+<MM_Diagram:MM_Decoration id="247" mm_graphicType="2" mm_concept="icon"/>
+<MM_Diagram:MM_Decoration id="248" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="880" y="980" w="260" h="100"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_DirectedRel id="249" mm_from="197" mm_to="245" mm_fromx="140" mm_fromy="60" mm_tox="100" mm_toy="20" mm_graphicType="7" mm_concept="BusinessActorBusinessActorSpecialization" mm_semanticObject="217"/>
+<MM_Diagram:MM_DirectedRel id="250" mm_from="237" mm_to="245" mm_fromx="120" mm_fromy="60" mm_tox="140" mm_toy="20" mm_graphicType="7" mm_concept="BusinessActorBusinessActorSpecialization" mm_semanticObject="220"/>
+<MM_Diagram:MM_DirectedRel id="251" mm_from="245" mm_to="188" mm_fromx="140" mm_fromy="60" mm_tox="180" mm_toy="40" mm_graphicType="7" mm_concept="BusinessActorBusinessActorSpecialization" mm_semanticObject="221"/>
+<MM_Diagram:MM_DirectedRel id="252" mm_from="241" mm_to="245" mm_fromx="180" mm_fromy="60" mm_tox="180" mm_toy="60" mm_graphicType="7" mm_concept="BusinessActorBusinessActorSpecialization" mm_semanticObject="222"/>
+<MM_Diagram:MM_DirectedRel id="253" mm_from="131" mm_to="188" mm_fromx="220" mm_fromy="220" mm_tox="40" mm_toy="80" mm_graphicType="7" mm_concept="UseRelation" mm_semanticObject="227">
+<MM_Diagram:MM_MultiLine name="mm_line" id="254">
+<MM_Diagram:MM_Point id="255" mm_x="240" mm_y="1060"/>
+</MM_Diagram:MM_MultiLine>
+</MM_Diagram:MM_DirectedRel>
+<MM_Diagram:MM_DirectedRel id="308" mm_from="127" mm_to="197" mm_fromx="200" mm_fromy="220" mm_tox="120" mm_toy="60" mm_graphicType="7" mm_concept="UseRelation" mm_semanticObject="287"/>
+<MM_Diagram:MM_DirectedRel id="309" mm_from="123" mm_to="245" mm_fromx="200" mm_fromy="160" mm_tox="100" mm_toy="40" mm_graphicType="7" mm_concept="UseRelation" mm_semanticObject="286">
+<MM_Diagram:MM_MultiLine name="mm_line" id="310">
+<MM_Diagram:MM_Point id="311" mm_x="980" mm_y="760"/>
+</MM_Diagram:MM_MultiLine>
+</MM_Diagram:MM_DirectedRel>
+<MM_Diagram:MM_DirectedRel id="312" mm_from="122" mm_to="237" mm_fromx="200" mm_fromy="160" mm_tox="240" mm_toy="20" mm_graphicType="7" mm_concept="UseRelation" mm_semanticObject="288"/>
+<MM_Diagram:MM_DirectedRel id="313" mm_from="122" mm_to="241" mm_fromx="200" mm_fromy="160" mm_tox="200" mm_toy="20" mm_graphicType="7" mm_concept="UseRelation" mm_semanticObject="289"/>
+<MM_Diagram:MM_DirectedRel id="314" mm_from="114" mm_to="245" mm_fromx="360" mm_fromy="140" mm_tox="240" mm_toy="60" mm_graphicType="7" mm_concept="UseRelation" mm_semanticObject="276">
+<MM_Diagram:MM_MultiLine name="mm_line" id="319">
+<MM_Diagram:MM_Point id="320" mm_x="2160" mm_y="1060"/>
+</MM_Diagram:MM_MultiLine>
+</MM_Diagram:MM_DirectedRel>
+<MM_Diagram:MM_DirectedRel id="321" mm_from="135" mm_to="245" mm_fromx="200" mm_fromy="80" mm_tox="220" mm_toy="60" mm_graphicType="7" mm_concept="UseRelation" mm_semanticObject="318">
+<MM_Diagram:MM_MultiLine name="mm_line" id="322">
+<MM_Diagram:MM_Point id="323" mm_x="2540" mm_y="300"/>
+<MM_Diagram:MM_Point id="324" mm_x="2540" mm_y="1120"/>
+</MM_Diagram:MM_MultiLine>
+</MM_Diagram:MM_DirectedRel>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="0" y="0" w="2147483647" h="2147483647"/>
+</MM_Diagram:MM_Node>
+</MM_Diagram:MM_Diagram>
+<Any name="tag"><Objectref value="91"/></Any>
+</MM_ModelPackage:MM_Module>
+</MM_ModelPackage:MM_Modules>
+<Any name="taggedValues"><Structure><String name="createdBy">Architect 4.5.1 Academic 14-15</String></Structure></Any>
+</ArchiMate:ArchiMateMM_Model>
+</MM_ModelPackage:MM_Models>
+<MM_ModelPackage:MM_Languages name="languages" id="37">
+<MM_ModelPackage:MM_Language id="38" isDefault="true">
+<nm>en</nm>
+</MM_ModelPackage:MM_Language>
+</MM_ModelPackage:MM_Languages>
+<MM_ModelPackage:MM_Users name="users" id="71">
+<MM_ModelPackage:MM_User id="72">
+<nm>jochem</nm>
+<Any name="taggedValues"><Structure><List name="viewSettings"/></Structure></Any>
+</MM_ModelPackage:MM_User>
+</MM_ModelPackage:MM_Users>
+<Any name="taggedValues"><Structure><Structure name="grid"><Long value="20" name="x"/><Long value="20" name="y"/></Structure><String name="lastSavedWith">Architect 4.5.1 Academic 14-15</String></Structure></Any>
+</MM_ModelPackage:MM_ModelPackage>
+</MM_StorageUnit>
+</MM_Document>ructure><Objectref value="329" name="diagObj"/><List name="selectedObjects"><Objectref value="382"/></List></Structure><Structure><Objectref value="736" name="diagObj"/><List name="selectedObjects"/></Structure></List></Structure></Any>
+</MM_ModelPackage:MM_User>
+</MM_ModelPackage:MM_Users>
+<Any name="taggedValues"><Structure><Structure name="grid"><Long value="20" name="x"/><Long value="20" name="y"/></Structure><String name="lastSavedWith">Architect 4.5.1 Academic 14-15</String></Structure></Any>
+</MM_ModelPackage:MM_ModelPackage>
+</MM_StorageUnit>
+</MM_Document>
