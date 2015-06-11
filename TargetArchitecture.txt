@@ -1,0 +1,74 @@
+
+
+Gap analysis
+
+Baseline Architecture (by layer):
+
+1- Architecture vision
+
+2- Business Architecture 
+
+3- Data Architecture 
+
+4- Application Architecture 
+
+. OTOMATIC controller software:
+	- Application usage view:
+	. Problems:
+	(?) How is the integration in the "Determine production schedule" process with ZAP (product planning) - probably is made manually or through the usage of the application service provided by the controller.
+	(?) Where it is designed that this controller exposes a "standardized application service" (important for integration)
+
+5- Technology Architecture
+
+. OTOMATIC computer (OS = Unix):
+	- "heart of this type of production line is a computer": 
+	. Problems: 
+	1- If the computer fails or worst is lost (e.g. catch fire), the production of filament and base stops.
+	
+	- "schedule and the production log are maintained in a MySQL database on the same computer"
+	Problems: 
+	1- Same of later; 
+	2- It is a "bad practice" to have both application and DB in the same phisical environment (computer or server) concurring the resources
+
+. Infrastructure view:
+	- Issue: BriteLite production folder is separated from Dordrecht site, is it right? Some servers are located in the HQ, so it is important to know where it is. If it is far away (e.g. Brazil) then we may experience data propagation problems. 
+
+----------------------------------------------------------------------------------------
+
+Target Architecture (by layer):
+
+1- Architecture vision
+
+2- Business Architecture 
+
+3- Data Architecture 
+
+4- Application Architecture 
+
+. OTOMATIC controller software:
+	- Exposes the app services (check whether they are included in the baseline model: "controls the behavior of the machine", "provides an interface at which the production schedule can be entered", "keeps track of the throughput time per batch and documents this in the production log", "schedule and the production log are maintained in a MySQL database", "External applications can read this information by making use of a standardized application service provided by the OTOMATIC controller") through the ESB.
+
+5- Technology Architecture
+
+. Include: ESB (Target - Infrastructure view)
+. Organize servers by infrastructure services: access (hosting server), integrator (one server only for ESB), application, DB. Important: respect the OS requirements for each server (e.g. ZAP app needs UNIX server).
+
+. OTOMATIC computer (OS = Unix):
+	- Move OTOMATIC controller software to the app server (UNIX)
+	- Move MySQL to the DB server (UNIX)
+	- Reconfigure the software to access the DB and the production machine
+	- Eliminate computer
+
+. Infrastructure view:
+	- Issue: BriteLite production folder is separated from Dordrecht site, is it right? Some servers are located in the HQ, so it is important to know where it is. If it is far away (e.g. Brazil) then we may experience data propagation problems. 
+
+
+
+----------------------------------------------------------------------------------------
+TODO:
+
+- (Cleanup) Check each object if it is duplicated, then delete one and fix whether it is used (e.g. Application -> OTOMATIC controller)
+- (Cleanup) Check objects not used anywhere - e.g. added accidently, test, etc - and remove it
+
+
+
