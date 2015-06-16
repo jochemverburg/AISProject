@@ -2491,7 +2491,7 @@
 </ArchiMate:MotivationView>
 <ArchiMate:RequirementsRealisationView id="5010">
 <MM_ProfileValues>
-<MM_Value name="nm" type="string" xml:lang="en">Jochems Requirements realization view</MM_Value>
+<MM_Value name="nm" type="string" xml:lang="en">Requirements realization view</MM_Value>
 </MM_ProfileValues>
 <ArchiMate:RefObjects name="refObjects" id="5011">
 <ArchiMate:MotivationGoalRef id="5015" to="4863"/>
@@ -9500,7 +9500,7 @@
 </MM_ModelPackage:MM_User>
 <MM_ModelPackage:MM_User id="2243">
 <nm>jochem</nm>
-<Any name="taggedValues"><Structure><List name="viewSettings"><Structure><Objectref value="4365" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="7382" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="6756" name="diagObj"/><List name="selectedObjects"><Objectref value="7096"/></List></Structure><Structure><Objectref value="5663" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="5752" name="diagObj"/><List name="selectedObjects"/></Structure></List></Structure></Any>
+<Any name="taggedValues"><Structure><List name="viewSettings"><Structure><Objectref value="5752" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="5663" name="diagObj"/><List name="selectedObjects"><Objectref value="7793"/></List></Structure><Structure><Objectref value="6263" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="5641" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="4705" name="diagObj"/><List name="selectedObjects"><Objectref value="4708"/><Objectref value="4709"/><Objectref value="4707"/><Objectref value="4710"/><Objectref value="4712"/><Objectref value="4713"/><Objectref value="4711"/><Objectref value="4767"/><Objectref value="4768"/><Objectref value="4770"/><Objectref value="4769"/><Objectref value="4772"/><Objectref value="4771"/><Objectref value="4773"/><Objectref value="4774"/><Objectref value="4775"/><Objectref value="4759"/><Objectref value="4760"/><Objectref value="4761"/><Objectref value="4762"/><Objectref value="4764"/><Objectref value="4828"/><Objectref value="4832"/><Objectref value="4833"/><Objectref value="4834"/><Objectref value="4835"/><Objectref value="4827"/><Objectref value="4829"/><Objectref value="4831"/><Objectref value="4830"/><Objectref value="4836"/><Objectref value="4875"/><Objectref value="4877"/><Objectref value="4876"/><Objectref value="4878"/><Objectref value="4879"/><Objectref value="4881"/><Objectref value="4882"/><Objectref value="4883"/><Objectref value="4880"/><Objectref value="4884"/><Objectref value="4885"/><Objectref value="4886"/><Objectref value="4887"/><Objectref value="4930"/><Objectref value="4926"/><Objectref value="4927"/><Objectref value="4928"/><Objectref value="4929"/><Objectref value="4962"/><Objectref value="4964"/><Objectref value="4963"/><Objectref value="4966"/><Objectref value="4967"/><Objectref value="4965"/><Objectref value="4968"/><Objectref value="4970"/><Objectref value="4961"/><Objectref value="4969"/><Objectref value="4971"/><Objectref value="4960"/><Objectref value="4997"/><Objectref value="5111"/></List></Structure><Structure><Objectref value="5010" name="diagObj"/><List name="selectedObjects"/></Structure></List></Structure></Any>
 </MM_ModelPackage:MM_User>
 <MM_ModelPackage:MM_User id="4609">
 <nm>arif</nm>
