@@ -3073,7 +3073,9 @@
 </ArchiMate:BusinessProductRef>
 <ArchiMate:BusinessProductRef id="6076" to="1728">
 <ArchiMate:MM_RefObjects name="childRefObjects" id="6077">
-<ArchiMate:BusinessServiceRef id="6078" to="977"/>
+<ArchiMate:BusinessServiceRef id="6078" to="977">
+<ArchiMate:MM_RefObjects name="childRefObjects" id="7983"/>
+</ArchiMate:BusinessServiceRef>
 <ArchiMate:BusinessServiceRef id="6079" to="1767"/>
 </ArchiMate:MM_RefObjects>
 </ArchiMate:BusinessProductRef>
@@ -6915,7 +6917,7 @@
 <MM_Diagram:MM_Colors name="mm_fillColors" id="6122">
 <MM_Diagram:MM_Color id="6123" mm_r="225" mm_g="225" mm_b="225"/>
 </MM_Diagram:MM_Colors>
-<MM_Rect name="mm_rect" x="480" y="740" w="760" h="500"/>
+<MM_Rect name="mm_rect" x="80" y="730" w="760" h="500"/>
 </MM_Diagram:MM_Node>
 <MM_Diagram:MM_Node id="6124" mm_graphicType="5" mm_concept="ViewGraphic" mm_symbolName="group" mm_lineStyle="0" mm_semanticObject="6069">
 <MM_Diagram:MM_Graphics name="mm_graphics" id="6125">
@@ -6927,41 +6929,41 @@
 <MM_Diagram:MM_Graphics name="mm_graphics" id="6131">
 <MM_Diagram:MM_Decoration id="6132" mm_graphicType="2" mm_concept="label"/>
 </MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="10" y="100" w="400" h="100"/>
+<MM_Rect name="mm_rect" x="40" y="110" w="400" h="100"/>
 </MM_Diagram:MM_Node>
 <MM_Diagram:MM_Node id="6133" mm_graphicType="5" mm_concept="BusinessService" mm_semanticObject="6075">
 <MM_Diagram:MM_Graphics name="mm_graphics" id="6134">
 <MM_Diagram:MM_Decoration id="6135" mm_graphicType="2" mm_concept="label"/>
 </MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="440" y="100" w="400" h="100"/>
+<MM_Rect name="mm_rect" x="40" y="230" w="400" h="100"/>
 </MM_Diagram:MM_Node>
 </MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="40" y="100" w="860" h="240"/>
+<MM_Rect name="mm_rect" x="40" y="100" w="480" h="380"/>
 </MM_Diagram:MM_Node>
 <MM_Diagram:MM_Node id="6136" mm_graphicType="5" mm_concept="BusinessProduct" mm_semanticObject="6076">
 <MM_Diagram:MM_Graphics name="mm_graphics" id="6137">
 <MM_Diagram:MM_Decoration id="6138" mm_graphicType="2" mm_concept="label"/>
-<MM_Diagram:MM_Node id="6139" mm_graphicType="5" mm_concept="BusinessService" mm_semanticObject="6079">
-<MM_Diagram:MM_Graphics name="mm_graphics" id="6140">
-<MM_Diagram:MM_Decoration id="6141" mm_graphicType="2" mm_concept="label"/>
-</MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="70" y="120" w="400" h="160"/>
-</MM_Diagram:MM_Node>
 <MM_Diagram:MM_Node id="6142" mm_graphicType="5" mm_concept="BusinessService" mm_semanticObject="6078">
 <MM_Diagram:MM_Graphics name="mm_graphics" id="6143">
 <MM_Diagram:MM_Decoration id="6144" mm_graphicType="2" mm_concept="label"/>
 </MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="70" y="320" w="400" h="160"/>
+<MM_Rect name="mm_rect" x="40" y="110" w="400" h="160"/>
+</MM_Diagram:MM_Node>
+<MM_Diagram:MM_Node id="6139" mm_graphicType="5" mm_concept="BusinessService" mm_semanticObject="6079">
+<MM_Diagram:MM_Graphics name="mm_graphics" id="6140">
+<MM_Diagram:MM_Decoration id="6141" mm_graphicType="2" mm_concept="label"/>
+</MM_Diagram:MM_Graphics>
+<MM_Rect name="mm_rect" x="40" y="330" w="320" h="100"/>
 </MM_Diagram:MM_Node>
 </MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="940" y="100" w="540" h="520"/>
+<MM_Rect name="mm_rect" x="560" y="100" w="500" h="480"/>
 </MM_Diagram:MM_Node>
 </MM_Diagram:MM_Graphics>
 <MM_Diagram:MM_Color name="mm_lineColor" id="6145" mm_r="128" mm_g="128" mm_b="128"/>
 <MM_Diagram:MM_Colors name="mm_fillColors" id="6146">
 <MM_Diagram:MM_Color id="6147" mm_r="225" mm_g="225" mm_b="225"/>
 </MM_Diagram:MM_Colors>
-<MM_Rect name="mm_rect" x="2140" y="740" w="1540" h="720"/>
+<MM_Rect name="mm_rect" x="880" y="200" w="1080" h="620"/>
 </MM_Diagram:MM_Node>
 <MM_Diagram:MM_Node id="6148" mm_graphicType="5" mm_concept="BusinessRole" mm_semanticObject="6096">
 <MM_Diagram:MM_Graphics name="mm_graphics" id="6149">
@@ -7006,30 +7008,33 @@
 <MM_Diagram:MM_Decoration id="6173" mm_graphicType="2" mm_concept="icon"/>
 <MM_Diagram:MM_Decoration id="6174" mm_graphicType="2" mm_concept="label"/>
 </MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="360" y="1900" w="400" h="160"/>
+<MM_Rect name="mm_rect" x="360" y="1600" w="400" h="160"/>
 </MM_Diagram:MM_Node>
 <MM_Diagram:MM_DirectedRel id="6175" mm_from="6148" mm_to="6171" mm_fromx="200" mm_fromy="80" mm_graphicType="7" mm_concept="BusinessRoleBusinessRoleSpecialization" mm_semanticObject="6086"/>
 <MM_Diagram:MM_DirectedRel id="6176" mm_from="6156" mm_to="6171" mm_fromx="200" mm_fromy="80" mm_tox="80" mm_toy="60" mm_graphicType="7" mm_concept="BusinessRoleBusinessRoleSpecialization" mm_semanticObject="6087"/>
 <MM_Diagram:MM_DirectedRel id="6177" mm_from="6117" mm_to="6164" mm_fromx="260" mm_fromy="320" mm_tox="220" mm_toy="60" mm_graphicType="7" mm_concept="UseRelation" mm_semanticObject="6088"/>
-<MM_Diagram:MM_DirectedRel id="6186" mm_from="6136" mm_to="6148" mm_fromx="280" mm_fromy="160" mm_tox="400" mm_toy="140" mm_graphicType="7" mm_concept="UseRelation" mm_semanticObject="6091">
-<MM_Diagram:MM_MultiLine name="mm_line" id="6238">
-<MM_Diagram:MM_Point id="6239" mm_x="3080" mm_y="1619"/>
-<MM_Diagram:MM_Point id="6240" mm_x="2940" mm_y="1880"/>
-<MM_Diagram:MM_Point id="6241" mm_x="2240" mm_y="1880"/>
+<MM_Diagram:MM_DirectedRel id="6186" mm_from="6136" mm_to="6148" mm_fromx="280" mm_fromy="160" mm_tox="340" mm_toy="60" mm_graphicType="7" mm_concept="UseRelation" mm_semanticObject="6091">
+<MM_Diagram:MM_MultiLine name="mm_line" id="7984">
+<MM_Diagram:MM_Point id="7985" mm_x="2000" mm_y="1300"/>
+<MM_Diagram:MM_Point id="7986" mm_x="2000" mm_y="1600"/>
 </MM_Diagram:MM_MultiLine>
 </MM_Diagram:MM_DirectedRel>
 <MM_Diagram:MM_Node id="6191" mm_graphicType="5" mm_concept="BusinessContract" mm_semanticObject="6092">
 <MM_Diagram:MM_Graphics name="mm_graphics" id="6192">
 <MM_Diagram:MM_Decoration id="6193" mm_graphicType="2" mm_concept="label"/>
 </MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="2300" y="1540" w="620" h="320"/>
+<MM_Rect name="mm_rect" x="2040" y="210" w="620" h="320"/>
 </MM_Diagram:MM_Node>
-<MM_Diagram:MM_DirectedRel id="6194" mm_from="6127" mm_to="6191" mm_fromx="440" mm_fromy="120" mm_tox="320" mm_toy="80" mm_graphicType="7" mm_concept="ElementElementAssociation" mm_semanticObject="6093"/>
+<MM_Diagram:MM_DirectedRel id="6194" mm_from="6127" mm_to="6191" mm_fromx="440" mm_fromy="120" mm_tox="320" mm_toy="80" mm_graphicType="7" mm_concept="ElementElementAssociation" mm_semanticObject="6093">
+<MM_Diagram:MM_MultiLine name="mm_line" id="7987">
+<MM_Diagram:MM_Point id="7988" mm_x="1680" mm_y="240"/>
+</MM_Diagram:MM_MultiLine>
+</MM_Diagram:MM_DirectedRel>
 <MM_Diagram:MM_Node id="6195" mm_graphicType="5" mm_concept="BusinessValue" mm_semanticObject="6094">
 <MM_Diagram:MM_Graphics name="mm_graphics" id="6196">
 <MM_Diagram:MM_Decoration id="6197" mm_graphicType="2" mm_concept="label"/>
 </MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="3220" y="1649.5" w="400" h="160"/>
+<MM_Rect name="mm_rect" x="2060" y="570" w="400" h="160"/>
 </MM_Diagram:MM_Node>
 <MM_Diagram:MM_DirectedRel id="6198" mm_from="6142" mm_to="6195" mm_fromx="210" mm_fromy="87" mm_graphicType="7" mm_concept="ElementElementAssociation" mm_semanticObject="6095"/>
 <MM_Diagram:MM_DirectedRel id="6199" mm_from="6139" mm_to="6114" mm_fromx="10" mm_fromy="80" mm_tox="360" mm_toy="100" mm_graphicType="7" mm_concept="AccessRelation" mm_semanticObject="6102"/>
@@ -7048,7 +7053,7 @@
 <MM_Diagram:MM_Colors name="mm_fillColors" id="6211">
 <MM_Diagram:MM_Color id="6212" mm_r="225" mm_g="225" mm_b="225"/>
 </MM_Diagram:MM_Colors>
-<MM_Rect name="mm_rect" x="580" y="200" w="440" h="300"/>
+<MM_Rect name="mm_rect" x="180" y="190" w="440" h="300"/>
 </MM_Diagram:MM_Node>
 <MM_Diagram:MM_DirectedRel id="6242" mm_from="6117" mm_to="6152" mm_fromx="180" mm_fromy="60" mm_tox="160" mm_toy="60" mm_graphicType="7" mm_concept="UseRelation" mm_semanticObject="6235"/>
 <MM_Diagram:MM_DirectedRel id="6243" mm_from="6229" mm_to="6171" mm_fromx="120" mm_fromy="60" mm_tox="140" mm_toy="40" mm_graphicType="7" mm_concept="UseRelation" mm_semanticObject="6236">
@@ -7056,16 +7061,18 @@
 <MM_Diagram:MM_Point id="6245" mm_x="500" mm_y="1280"/>
 </MM_Diagram:MM_MultiLine>
 </MM_Diagram:MM_DirectedRel>
-<MM_Diagram:MM_DirectedRel id="6246" mm_from="6127" mm_to="6148" mm_fromx="440" mm_fromy="120" mm_tox="380" mm_toy="80" mm_graphicType="7" mm_concept="UseRelation" mm_semanticObject="6237">
-<MM_Diagram:MM_MultiLine name="mm_line" id="6247">
-<MM_Diagram:MM_Point id="6248" mm_x="1940" mm_y="1540"/>
+<MM_Diagram:MM_DirectedRel id="6246" mm_from="6127" mm_to="6148" mm_fromx="440" mm_fromy="120" mm_tox="380" mm_toy="60" mm_graphicType="7" mm_concept="UseRelation" mm_semanticObject="6237">
+<MM_Diagram:MM_MultiLine name="mm_line" id="7989">
+<MM_Diagram:MM_Point id="7990" mm_x="1940" mm_y="1300"/>
+<MM_Diagram:MM_Point id="7991" mm_x="1940" mm_y="1540"/>
+<MM_Diagram:MM_Point id="7992" mm_x="1940" mm_y="1560"/>
 </MM_Diagram:MM_MultiLine>
 </MM_Diagram:MM_DirectedRel>
 <MM_Diagram:MM_Node id="6255" mm_graphicType="5" mm_concept="BusinessService" mm_semanticObject="6252">
 <MM_Diagram:MM_Graphics name="mm_graphics" id="6256">
 <MM_Diagram:MM_Decoration id="6257" mm_graphicType="2" mm_concept="label"/>
 </MM_Diagram:MM_Graphics>
-<MM_Rect name="mm_rect" x="620" y="540" w="400" h="160"/>
+<MM_Rect name="mm_rect" x="220" y="530" w="400" h="160"/>
 </MM_Diagram:MM_Node>
 <MM_Diagram:MM_DirectedRel id="6258" mm_from="6206" mm_to="6255" mm_fromx="220" mm_fromy="130" mm_tox="200" mm_toy="80" mm_graphicType="7" mm_concept="BusinessInterfaceBusinessServiceAssignment" mm_semanticObject="6253"/>
 <MM_Diagram:MM_DirectedRel id="6259" mm_from="6255" mm_to="6114" mm_fromx="200" mm_fromy="80" mm_tox="200" mm_toy="60" mm_graphicType="7" mm_concept="AccessRelation" mm_semanticObject="6254"/>
@@ -9500,7 +9507,7 @@
 </MM_ModelPackage:MM_User>
 <MM_ModelPackage:MM_User id="2243">
 <nm>jochem</nm>
-<Any name="taggedValues"><Structure><List name="viewSettings"><Structure><Objectref value="5752" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="5663" name="diagObj"/><List name="selectedObjects"><Objectref value="7793"/></List></Structure><Structure><Objectref value="6263" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="5641" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="4705" name="diagObj"/><List name="selectedObjects"><Objectref value="4708"/><Objectref value="4709"/><Objectref value="4707"/><Objectref value="4710"/><Objectref value="4712"/><Objectref value="4713"/><Objectref value="4711"/><Objectref value="4767"/><Objectref value="4768"/><Objectref value="4770"/><Objectref value="4769"/><Objectref value="4772"/><Objectref value="4771"/><Objectref value="4773"/><Objectref value="4774"/><Objectref value="4775"/><Objectref value="4759"/><Objectref value="4760"/><Objectref value="4761"/><Objectref value="4762"/><Objectref value="4764"/><Objectref value="4828"/><Objectref value="4832"/><Objectref value="4833"/><Objectref value="4834"/><Objectref value="4835"/><Objectref value="4827"/><Objectref value="4829"/><Objectref value="4831"/><Objectref value="4830"/><Objectref value="4836"/><Objectref value="4875"/><Objectref value="4877"/><Objectref value="4876"/><Objectref value="4878"/><Objectref value="4879"/><Objectref value="4881"/><Objectref value="4882"/><Objectref value="4883"/><Objectref value="4880"/><Objectref value="4884"/><Objectref value="4885"/><Objectref value="4886"/><Objectref value="4887"/><Objectref value="4930"/><Objectref value="4926"/><Objectref value="4927"/><Objectref value="4928"/><Objectref value="4929"/><Objectref value="4962"/><Objectref value="4964"/><Objectref value="4963"/><Objectref value="4966"/><Objectref value="4967"/><Objectref value="4965"/><Objectref value="4968"/><Objectref value="4970"/><Objectref value="4961"/><Objectref value="4969"/><Objectref value="4971"/><Objectref value="4960"/><Objectref value="4997"/><Objectref value="5111"/></List></Structure><Structure><Objectref value="5010" name="diagObj"/><List name="selectedObjects"/></Structure></List></Structure></Any>
+<Any name="taggedValues"><Structure><List name="viewSettings"><Structure><Objectref value="5752" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="5663" name="diagObj"/><List name="selectedObjects"><Objectref value="7793"/></List></Structure><Structure><Objectref value="6263" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="5641" name="diagObj"/><List name="selectedObjects"/></Structure><Structure><Objectref value="4705" name="diagObj"/><List name="selectedObjects"><Objectref value="4708"/><Objectref value="4709"/><Objectref value="4707"/><Objectref value="4710"/><Objectref value="4712"/><Objectref value="4713"/><Objectref value="4711"/><Objectref value="4767"/><Objectref value="4768"/><Objectref value="4770"/><Objectref value="4769"/><Objectref value="4772"/><Objectref value="4771"/><Objectref value="4773"/><Objectref value="4774"/><Objectref value="4775"/><Objectref value="4759"/><Objectref value="4760"/><Objectref value="4761"/><Objectref value="4762"/><Objectref value="4764"/><Objectref value="4828"/><Objectref value="4832"/><Objectref value="4833"/><Objectref value="4834"/><Objectref value="4835"/><Objectref value="4827"/><Objectref value="4829"/><Objectref value="4831"/><Objectref value="4830"/><Objectref value="4836"/><Objectref value="4875"/><Objectref value="4877"/><Objectref value="4876"/><Objectref value="4878"/><Objectref value="4879"/><Objectref value="4881"/><Objectref value="4882"/><Objectref value="4883"/><Objectref value="4880"/><Objectref value="4884"/><Objectref value="4885"/><Objectref value="4886"/><Objectref value="4887"/><Objectref value="4930"/><Objectref value="4926"/><Objectref value="4927"/><Objectref value="4928"/><Objectref value="4929"/><Objectref value="4962"/><Objectref value="4964"/><Objectref value="4963"/><Objectref value="4966"/><Objectref value="4967"/><Objectref value="4965"/><Objectref value="4968"/><Objectref value="4970"/><Objectref value="4961"/><Objectref value="4969"/><Objectref value="4971"/><Objectref value="4960"/><Objectref value="4997"/><Objectref value="5111"/></List></Structure><Structure><Objectref value="5010" name="diagObj"/><List name="selectedObjects"><Objectref value="5012"/><Objectref value="5013"/><Objectref value="5014"/><Objectref value="5015"/><Objectref value="5016"/><Objectref value="5018"/><Objectref value="5019"/><Objectref value="5021"/><Objectref value="5022"/><Objectref value="5023"/><Objectref value="5024"/><Objectref value="5025"/><Objectref value="5026"/><Objectref value="5017"/><Objectref value="5091"/><Objectref value="5090"/><Objectref value="5093"/><Objectref value="5092"/><Objectref value="5094"/><Objectref value="5095"/><Objectref value="5112"/><Objectref value="5113"/><Objectref value="5133"/><Objectref value="5134"/><Objectref value="5135"/><Objectref value="5137"/><Objectref value="5136"/><Objectref value="5138"/><Objectref value="5139"/><Objectref value="5161"/><Objectref value="5163"/><Objectref value="5162"/><Objectref value="5164"/><Objectref value="5165"/><Objectref value="5160"/><Objectref value="5167"/><Objectref value="5166"/><Objectref value="5168"/><Objectref value="5191"/><Objectref value="5194"/><Objectref value="5195"/><Objectref value="5211"/><Objectref value="5217"/><Objectref value="6746"/><Objectref value="6745"/><Objectref value="6753"/></List></Structure><Structure><Objectref value="6060" name="diagObj"/><List name="selectedObjects"><Objectref value="6062"/><Objectref value="6068"/><Objectref value="6065"/><Objectref value="6067"/><Objectref value="6215"/><Objectref value="6216"/><Objectref value="6069"/><Objectref value="6072"/><Objectref value="6074"/><Objectref value="6075"/><Objectref value="6076"/><Objectref value="6078"/><Objectref value="6079"/><Objectref value="6096"/><Objectref value="6098"/><Objectref value="6099"/><Objectref value="6100"/><Objectref value="6101"/><Objectref value="6105"/><Objectref value="6106"/><Objectref value="6084"/><Objectref value="6085"/><Objectref value="6086"/><Objectref value="6087"/><Objectref value="6088"/><Objectref value="6091"/><Objectref value="6092"/><Objectref value="6093"/><Objectref value="6094"/><Objectref value="6095"/><Objectref value="6102"/><Objectref value="6080"/><Objectref value="6082"/><Objectref value="6235"/><Objectref value="6236"/><Objectref value="6237"/><Objectref value="6252"/><Objectref value="6253"/><Objectref value="6254"/></List></Structure></List></Structure></Any>
 </MM_ModelPackage:MM_User>
 <MM_ModelPackage:MM_User id="4609">
 <nm>arif</nm>
