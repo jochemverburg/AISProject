@@ -1,26 +1,37 @@
 Group 6:
-- Dordrecht more space in 1.5 year?
-- Include timeframes
-- Green development?
-- Consultancy department not working well?
+- Dordrecht more space in 1.5 year? V
+- Include timeframes 
+- Green development? V
+- Consultancy department not working well? X
 
 Group 5:
-- Consultancy dept, as well
-- Substitute QPlus?
+- Consultancy dept, as well X
+- Substitute QPlus? X
 
 
 Group 3 (our group);
 - Lease machines
 - Migration plan
 - Include sensing enterprise
-- What to do with languages? (call centre)
+- What to do with languages? (call centre) V
 
 Group 2:
-- Also green lights
-- Central storage, mapping to new system
+- Also green lights V
+- Central storage, mapping to new system X
 - Smartphone application (schedules and bar code scanning)
 - Logistics provider can also easily connect interface to system
 
 Group 1:
 - No security-roles
-- 
+
+
+Business to-do:
+- Include timeframes 
+- Have a look whether someone should be in charge of security
+
+Technology to-do:
+- Mention possibility for lease machines
+- Sketch some ideas on the migration plan
+- Include the possibility for sensing enterprise
+- Look at a smartphone application?
+- Mention that also partners (e.g. outsourcing parties, distributors, etc.) can also easily be connected their interface to our ESB, due to the use of services
