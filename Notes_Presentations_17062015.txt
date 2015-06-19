@@ -26,7 +26,6 @@ Group 1:
 
 
 Business to-do:
-- Include timeframes 
 - Have a look whether someone should be in charge of security
 
 Technology to-do:
@@ -35,3 +34,4 @@ Technology to-do:
 - Include the possibility for sensing enterprise
 - Look at a smartphone application?
 - Mention that also partners (e.g. outsourcing parties, distributors, etc.) can also easily be connected their interface to our ESB, due to the use of services
+- Include timeframes for changes (impact assessment)
